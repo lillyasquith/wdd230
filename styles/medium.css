@@ -1,0 +1,17 @@
+@media only screen and (min-with: 32.5em) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    header,
+    footer {
+        border-radius: 10px;
+    }
+    .portrait {
+        /* grid-column: 1/2; */
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px indigo;
+    }
+}

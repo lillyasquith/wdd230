@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); use link tag in HTML so no need to put this link here*/ 
 :root {
     --font: 'Roboto', sans-serif;
 }
@@ -29,7 +29,7 @@ header {
 .portrait {
     width: 300px;
     grid-column: 1/2;
-    box-shadow: 5px 5px 10px darkgrey;
+    box-shadow: 5px 5px 10px indigo;
 }
 
 h1 {

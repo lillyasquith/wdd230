@@ -11,8 +11,9 @@
     #oldnavy{
         grid-column: 2/3;
     }
-    #adobe{
+    #adobe{ 
         grid-column: 1/3;
-    } 
+    }
+    /* adobe did not work properly  */
 
 } 

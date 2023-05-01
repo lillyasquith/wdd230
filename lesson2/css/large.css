@@ -14,10 +14,10 @@
         grid-column: 3/4;
     } 
     header, footer{
-        width: 100%;
+        width: auto;
     }
     #amazon, #oldnavy,#adobe{
-        width: 80%;
+        width: auto;
     }
 
 }

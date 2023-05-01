@@ -1,5 +1,18 @@
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-    
-}
+/* Tablet Views ***************************** */
 
+@media only screen and (min-width: 37.5em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #amazon{
+        grid-column: 1/2;
+    }
+    #oldnavy{
+        grid-column: 2/3;
+    }
+    #adobe{
+        grid-column: 1/3;
+    } 
+
+} 

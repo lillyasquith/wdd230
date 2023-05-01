@@ -1,26 +1,25 @@
 :root{
     --font: 'Dosis', sans-serif;
 }
-header{
+
+header, footer{
+    width: 300px;
     font-family: var(--font);
     text-align: center;
     background: #1f2421;
     color: whitesmoke;
     font-size: 16px;
     padding: 5px 5px;
-    margin: .1em auto;
-    max-width: 300px;
+    margin: 1em auto;
 }
 
-body {
+body{
 	font-size: 16px;
 	font-family: var(--font);
+    text-align: center;
 }
 
 main section{
-    max-width: 280px;
-    display: grid;
-	grid-template-columns: 1fr;
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	background-color: #eee;
@@ -29,26 +28,17 @@ main section{
     padding: 10px 10px;
     margin: .5em auto;
 }
-main section h2 {
+
+main section h2{
 	color: whitesmoke;
     background-color: #536878;
 }
-img {
+
+img{
     max-width: 100%;
     margin-top: 1em;
 }
 
-footer{
-    font-family: var(--font);
-    font-size: 15px;
-    text-align: center;
-    background-color: #1f2421;
-    color: whitesmoke;
-    margin: 1em auto;
-    max-width: 300px;
-    padding: 5px 5px;
+#amazon, #oldnavy,#adobe{
+    width: 280px;
 }
-
-
-
-

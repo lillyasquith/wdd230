@@ -1,6 +1,23 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+	main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #amazon{
+        grid-column: 1/2;
+    }
+    #oldnavy{
+        grid-column: 2/3;
+    }
+    #adobe{
+        grid-column: 3/4;
+    } 
+    header, footer{
+        width: 100%;
+    }
+    #amazon, #oldnavy,#adobe{
+        width: 80%;
+    }
+
 }

@@ -14,10 +14,6 @@
         grid-column: 3/4;
     } 
     header, footer{
-        width: auto;
+        max-width: 100%;
     }
-    #amazon, #oldnavy,#adobe{
-        width: auto;
-    }
-
 }

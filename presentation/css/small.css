@@ -8,12 +8,20 @@
 	--accent1-color: #F5F5F5;
 	--accent2-color:#FCD135;
 }
+
 html {
 	font-size: calc(0.75rem + 1.5vw);
 }
 
 h1, h3, h5{
 	font-family: var(--heading-font);
+}
+
+h2{
+	text-decoration-line: underline;
+  	text-decoration-style: none;
+  	text-decoration-color:#100E39;
+	margin: 20px 5px 50px 5px;
 }
 
 header, footer{
@@ -26,11 +34,11 @@ header, footer{
     margin: 1em auto;
 }
 header{
-	background-color: #F5F5F5;
-	color: #100E39;
+	background-color: #4b496f;
+	color: #F5F5F5;
 }
 footer{
-	background-color: #100E39;
+	background-color: #4b496f;
 	color: #F5F5F5;
 }
 
@@ -55,7 +63,7 @@ nav a {
 	display: block;
 	color: #F5F5F5;
 	text-align: center;
-	padding: 15px;
+	padding: 10px;
 	text-decoration: none;
 	font-size: 1em;
 }
@@ -67,47 +75,4 @@ main{
 	font-family: var(--paragrap-font);
 }
 
-/* target-audience css */
 
-/* design css */
-#picture{
-	width: 100%;
-}
-
-.colors {
-	width: 100%;
-	min-width: 350px;
-	margin: 50px auto;
-	text-align: center;
-	color: #F5F5F5;
-}
-
-.colors th {
-	background-color: grey;
-	height: 2.5em;
-}
-
-.colors td{
-	height: 5em;
-}
-
-.primary {
-	background-color: var(--primary-color);
-}
-
-.secondary {
-	background-color: var(--secondary-color);
-}
-
-.accent1 {
-	background-color: var(--accent1-color);
-	color: #100E39;
-}
-.accent2{
-	background-color: var(--accent2-color);
-	color: #100E39;
-}
-
-h5{
-	color: #100E39;
-}

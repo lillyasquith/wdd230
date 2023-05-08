@@ -20,13 +20,121 @@
       <h1>WDD 230 - Student Presentations - W04</h1>
     </header>
     <nav>
-      <div class="nav"><a href="index.html"></a>Video</div>
+      <div class="nav"><a href="index.html">Video</a></div>
       <div class="nav"><a href="cssselectors.html">CSS Selectors</a></div>
       <div class="nav"><a href="id.html">ID Selector</a></div>
       <div class="nav"><a href="class.html">Class Selector</a></div>
-      <div class="nav"><a href="idvsclass.html"></a>ID vs. Class</div>
+      <div class="nav"><a href="idvsclass.html">ID vs. Class</a></div>
     </nav>
-    <main></main>
+    <main>
+      <h2 id="types">Types of Selectors</h2>
+      <p>
+        There are a few different groupings of selectors, we can put them into
+        five categories:
+      </p>
+      <ol class="categories">
+        <li>Simple selectors</li>
+        <li>Combinator selectors</li>
+        <li>Pseudo-class selectors</li>
+        <li>Pseudo-elements selectors</li>
+        <li>Attribute selectors</li>
+      </ol>
+
+      <!-- Simple selectors -->
+      <h3 class="selectors">Simple selectors</h3>
+      <p>The elements are selected based on name, id, class.</p>
+      <h4 class="example">Example</h4>
+      <p class="codingTextTitle">Select (h1) element</p>
+      <p class="codingText">h1 {</p>
+      <p class="codingText">}</p>
+
+      <p class="codingTextTitle">Select the element with id="video"</p>
+      <p class="codingText">#video {</p>
+      <p class="codingText">}</p>
+
+      <p class="codingTextTitle">Select the element with class="nav"</p>
+      <p class="codingText">.nav {</p>
+      <p class="codingText">}</p>
+
+      <p class="codingTextTitle">
+        Select all elements (universal/global selector).
+      </p>
+      <p class="codingText">* {</p>
+      <p class="codingText">}</p>
+
+      <!-- <p class="codingTextTitle">
+        Selects all (div) elements and all (p) elements
+      </p>
+      <p class="codingText">div, p {</p>
+      <p class="codingText">}</p>
+
+      <p class="codingTextTitle">
+        Selects only (p) elements with class="intro"
+      </p>
+      <p class="codingText">p.intro {</p>
+      <p class="codingText">}</p> -->
+
+      <!-- Combinator selectors -->
+      <h3 class="selectors">Combinator selectors</h3>
+      <p>
+        The elements are selected based on a specific relationship between them.
+      </p>
+      <p>There are four different combinators in CSS:</p>
+      <ul class="categories">
+        <li>Descendant selector (space)</li>
+        <li>Child selector (>)</li>
+        <li>Adjacent sibling selector (+)</li>
+        <li>General sibling selector (~)</li>
+      </ul>
+      <h4 class="example">Example</h4>
+      <p class="codingTextTitle">
+        Selects all (p) elements where the parent is a (div) element
+      </p>
+      <p class="codingText">div > p {</p>
+      <p class="codingText">}</p>
+
+      <!-- Pseudo-class selectors -->
+      <h3 class="selectors">Pseudo-class selectors</h3>
+      <p>The elements are selected based on a certain state.</p>
+      <p>We can use Pseudo-class selectors to:</p>
+      <ul class="categories">
+        <li>Style an element when a user mouses over it.</li>
+        <li>Style visited and unvisited links differently.</li>
+        <li>Style an element when it gets focus.</li>
+      </ul>
+      <h4 class="example">Example</h4>
+      <p class="codingTextTitle">
+        Use the :hover pseudo-class on a (div) element
+      </p>
+      <p class="codingText">div:hover {</p>
+      <p class="codingText">}</p>
+
+      <!-- Pseudo-elements selectors -->
+      <h3 class="selectors">Pseudo-elements selectors</h3>
+      <p>We select and style a part of an element.</p>
+      <p>It can be used to:</p>
+      <ul class="categories">
+        <li>Style the first letter, or line, of an element.</li>
+        <li>Insert content before, or after, the content of an element.</li>
+      </ul>
+      <h4 class="example">Example</h4>
+      <p class="codingTextTitle">
+        The ::first-line pseudo-element is used to add a special style to the
+        first line of a text in all (p) elements.
+      </p>
+      <p class="codingText">p::first-line {</p>
+      <p class="codingText">}</p>
+
+      <!-- Attribute selectors -->
+      <h3 class="selectors">Attribute selectors</h3>
+      <p>The elements are selected based on an attribute or attribute value.</p>
+      <h4 class="example">Example</h4>
+      <p class="codingTextTitle">
+        This example selects all (a) elements with a target attribute
+      </p>
+      <p class="codingText">a[target] {</p>
+      <p class="codingText">}</p>
+    </main>
     <footer>
       <p class="copyright">
         &copy; <span id="year"></span> | Ly T. Dang | Utah

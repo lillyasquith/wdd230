@@ -20,13 +20,62 @@
       <h1>WDD 230 - Student Presentations - W04</h1>
     </header>
     <nav>
-      <div class="nav"><a href="index.html"></a>Video</div>
+      <div class="nav"><a href="index.html">Video</a></div>
       <div class="nav"><a href="cssselectors.html">CSS Selectors</a></div>
       <div class="nav"><a href="id.html">ID Selector</a></div>
       <div class="nav"><a href="class.html">Class Selector</a></div>
-      <div class="nav"><a href="idvsclass.html"></a>ID vs. Class</div>
+      <div class="nav"><a href="idvsclass.html">ID vs. Class</a></div>
     </nav>
-    <main></main>
+    <main>
+      <h2>Difference Between ID vs. Class Selectors</h2>
+      <table>
+        <tr>
+          <td>Class</td>
+          <td>ID</td>
+        </tr>
+        <tr>
+          <td>
+            <ul class="categories">
+              <li>Select a group of elements</li>
+              <li>Is written with a (.) followed by the class name</li>
+              <li>Select multiple elements with that class.</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="categories">
+              <li>Select a single element</li>
+              <li>Is written with a (#) symbol followed by the ID name</li>
+              <li>Select a single element that id.</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+
+      <h4 class="example">Example</h4>
+      <style>
+        .box {
+          margin: 20px;
+          width: 30%;
+          height: 200px;
+          background-color: darkorange;
+          color: aliceblue;
+          text-align: center;
+        }
+        #title {
+          color: indigo;
+          width: 100%;
+          text-decoration-line: underline;
+          text-decoration-style: double;
+          text-decoration-color: #4b496f;
+        }
+      </style>
+      <body>
+        <h1 id="title">This is an ID example!</h1>
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+      </body>
+    </main>
     <footer>
       <p class="copyright">
         &copy; <span id="year"></span> | Ly T. Dang | Utah

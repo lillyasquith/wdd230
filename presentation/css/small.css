@@ -10,14 +10,19 @@
 }
 
 html {
-	font-size: calc(0.75rem + 1.5vw);
+	font-size: calc(0.5rem + 1.5vw);
+}
+
+*{
+	margin: auto;
+	padding: 10px;
 }
 
 h1, h3, h5{
 	font-family: var(--heading-font);
 }
 
-h2{
+#topic{
 	text-decoration-line: underline;
   	text-decoration-style: none;
   	text-decoration-color:#100E39;
@@ -30,7 +35,7 @@ header, footer{
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
+	padding: 5px;
     margin: 1em auto;
 }
 header{
@@ -42,8 +47,8 @@ footer{
 	color: #F5F5F5;
 }
 
-.logo{
-	width: 30%;
+#video{
+	width: 50%;
 }
 
 nav {
@@ -75,4 +80,45 @@ main{
 	font-family: var(--paragrap-font);
 }
 
+/* CSS Selectors  */
+.categories{
+	margin-left: 100px;
+	padding: 30px auto;
+	margin-bottom: 50px;
+}
+#types{
+	margin-top: 50px;
+}
+.simple{
+	width: 50%;
+}
+.codingTextTitle{
+	background-color: #4b496f;
+	align-items: center;
+	color: #F5F5F5;
+}
+.codingText{
+	display: block;
+	background-color: whitesmoke;
+}
+.selectors{
+	color: darkorange;
+	padding: 5px;
+	margin-top: 60px;
+}
+.example{
+	color: darkblue;
+	margin-bottom: 10px;
+	text-decoration-line: underline;
+  	text-decoration-style:none;
+}
+.codingImplication{
+	margin-left: 1%;
+	background-color: whitesmoke;	
+}
 
+table, th, td {
+	border:solid black;
+	width:auto;
+	margin: 50px;
+  }

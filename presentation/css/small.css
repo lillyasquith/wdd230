@@ -118,7 +118,7 @@ main{
 }
 
 table, th, td {
-	border:solid black;
+	border:5px solid black;
 	width:auto;
-	margin: 50px;
+	margin: 10px;
   }

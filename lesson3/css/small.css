@@ -9,7 +9,7 @@
 	--accent2-color:#FCD135;
 }
 html {
-	font-size: calc(0.75rem + 1.5vw);
+	font-size: calc(0.6rem + 1.5vw);
 }
 *{
 	padding: 10px;

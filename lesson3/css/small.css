@@ -9,10 +9,10 @@
 	--accent2-color:#FCD135;
 }
 html {
-	font-size: calc(0.6rem + 1.5vw);
+	font-size: calc(0.5rem + 1.5vw);
 }
 *{
-	padding: 10px;
+	padding: .5em;
 }
 
 h1, h3, h5{
@@ -38,10 +38,14 @@ footer{
 }
 
 .logo{
-	width: 30%;
+	width: 50%;
 }
-.point{
-	padding: 30px;
+#point {
+	padding: 1em;
+}
+
+#case{
+	padding: 1em;
 }
 nav {
 	background-color:#100E39 ;
@@ -74,30 +78,33 @@ main{
 
 /* target-audience css */
 
+.title{
+	color: #100E39;
+}
+#person1, #person2{
+	color: #FCD135;
+}
 /* design css */
-#picture{
+.palette{
 	width: 100%;
 }
 
-.colors {
+.table{
 	width: 100%;
-	min-width: 350px;
-	margin: 50px auto;
-	text-align: center;
-	color: #F5F5F5;
 }
 
-.colors th {
+.table th {
 	background-color: grey;
-	height: 2.5em;
+	height: 1em;
 }
 
-.colors td{
-	height: 5em;
+#colors td{
+	height: 2em;
 }
 
 .primary {
 	background-color: var(--primary-color);
+	color: #F5F5F5;
 }
 
 .secondary {

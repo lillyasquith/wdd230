@@ -11,6 +11,9 @@
 html {
 	font-size: calc(0.75rem + 1.5vw);
 }
+*{
+	padding: 10px;
+}
 
 h1, h3, h5{
 	font-family: var(--heading-font);
@@ -37,7 +40,9 @@ footer{
 .logo{
 	width: 30%;
 }
-
+.point{
+	padding: 30px;
+}
 nav {
 	background-color:#100E39 ;
 	text-align: center;

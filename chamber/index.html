@@ -13,20 +13,20 @@
       href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
       rel="stylesheet"
     />
+    <link href="styles/normalize.css" rel="stylesheet" />
     <link href="styles/small.css" rel="stylesheet" />
     <link href="styles/medium.css" rel="stylesheet" />
     <link href="styles/large.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <img class="logo" src="images/logo.png" alt="logo image" />
-      <nav>
-        <div class="nav"><a href="index.html">Discover</a></div>
-        CH
-        <div class="nav"><a href="directory.html">Directory</a></div>
-        <div class="nav"><a href="join.html">Join</a></div>
-        <div class="nav"><a href="contact.html">Contact</a></div>
-      </nav>
+      <div class="logo">
+        <picture><img src="images/logo.png" alt="logo image" /></picture>
+        <section class="headings">
+          <h1>Tooele County</h1>
+          <h5>Chamber of Commerce</h5>
+        </section>
+      </div>
       <div class="social">
         <a href="https://facebook.com" target="_blank">
           <img src="images/icon-facebook.png" alt="fb icon" />
@@ -35,23 +35,36 @@
           <img src="images/icon-linkedin.png" alt="linkedin icon" />
         </a>
       </div>
-      <time datetime="2013-04-06T13:53">now</time>
+      <!-- NAVIGATION HERE -->
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date">
+        <time datetime="2013-04-06T13:53">now</time>
+      </div>
     </header>
 
+    <!-- MAIN HERE-->
     <main>
-      <section>
+      <section id="event">
         <h5>Event</h5>
       </section>
-      <section>
+      <section id="weather">
         <h5>Weather</h5>
       </section>
-      <section>
+      <section id="join">
         <h5>Join</h5>
       </section>
-      <section>
+      <section id="hero">
         <h5>Hero with site name and call to action</h5>
       </section>
-      <section>
+      <section id="news">
         <h5>News Release</h5>
       </section>
       <section class="spotlight">
@@ -60,8 +73,10 @@
         <h5>Spotlight 3</h5>
       </section>
     </main>
+
+    <!-- FOOTER HERE-->
     <footer>
-      <img class="logo" src="images/logo.png" alt="logo image" />
+      <img class="logoBottom" src="images/logo.png" alt="logo image" />
       <p>123 Main Street</p>
       <p>Tooele, UT 84074</p>
       <p>info@tooelecc.org</p>
@@ -76,8 +91,9 @@
       >
       <hr />
       <p class="copyright">
-        &copy; <span id="year"></span>Tooele Chamber | Ly T. Dang | WDD 230
-        Project | Last Modification: <span id="currentdate"></span>
+        &copy; <span id="year"></span>Tooele Chamber |
+        <span id="myName">Ly T. Dang</span> | WDD 230 Project | Last
+        Modification: <span id="currentdate"></span>
       </p>
     </footer>
     <script src="script/script.js"></script>

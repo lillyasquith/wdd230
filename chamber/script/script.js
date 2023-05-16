@@ -1,3 +1,4 @@
+//Datetime for footer
 const options = {
   weekday: "long",
   day: "numeric",
@@ -18,3 +19,11 @@ const fulldate = new Intl.DateTimeFormat("en-UK", {
   dateStyle: "full",
 }).format(now);
 datefield.textContent = fulldate;
+
+//Hambuger menu
+function toggleMenu() {
+  document.getElementById("primaryNav").classList.toggle("open");
+  document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu;

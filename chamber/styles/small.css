@@ -9,8 +9,9 @@
 	--accent2-color:#FCD135;
 }
 html {
-	font-size: calc(0.2rem + 1.5vw);
+	font-size: calc(0.7rem + 1.5vw);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -26,23 +27,30 @@ h1, h3, h5, header, footer{
 }
 
 header{
-	padding: 5px 0;
-	display: flex;
-    color: #100E39;
-    background-color: orchid;
-    flex-wrap: wrap;
+    display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: orchid;  
+   
 }
 .logo{
+    grid-column: 1/2;
+    grid-row: 1/2;
     display: flex;
 	align-items: center;
 	margin-left: 1rem; 
 }
 .logo img{
-    width: 100px;
+    width: 50px;
 	height: auto;
 }
+.social{
+    width: 5em;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 .headings {
-	display: flex;
+    width: 11em;
 	flex-direction: column;
 	margin-left: .5rem;
     background-color: aqua;
@@ -52,19 +60,21 @@ header{
  
 }
 .social img {
-    width: 1.5em;
-    margin: .1em;
+    width: 1em;
     background-color: #FCD135;
 }
 nav button{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    color: #F5F5F5;
     background-color: transparent;
-    border: none; 
-    color: #100E39;
+    border: none;
 }
 
 nav ul{
     list-style-type: none;
     background-color: bisque;
+    flex-wrap: wrap;
 }
 nav ul li a{
     display: block;
@@ -87,13 +97,18 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-.date time{
+.date{
+    grid-column: 1/4;
+    grid-row: 2/3;
     background-color: aquamarine;
 	color: #100E39;
-    align-items: center;
-    display: block;
+    display: flex;
     padding: .8rem 2vw;
     border: 2px solid#100E39;
+    justify-content: center;
+    order: 5;
+    flex: 1 0;
+    max-width: 900px;
 }
 
 main{

@@ -5,28 +5,9 @@
 	
 	nav ul#primaryNav{
 		display: flex;
-        /* margin-left: 2vw;
-        border-left: 1px solid rgba(0, 0, 0, 0.3); */
-	}
+    }
     nav ul li a{
         margin-left: 2vw;
-        /* border: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3); */
+        
     }
-    /* #spotlight{
-        display: grid;
-        grid-template-columns: repeat(2);
-        grid-gap: 10px;
-    }
-    .sp1{
-        height: 100px;
-        grid-column: 1/2;
-        border: 2px solid #bbb;
-    
-    }
-    .sp2{
-        height: 100px;
-        grid-column: 2/3;
-        border: 2px solid #bbb;
-    } */
 }

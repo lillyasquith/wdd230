@@ -19,7 +19,9 @@
     <link href="styles/large.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- HEADER HERE! -->
     <header>
+      <!-- logo -->
       <div class="logo">
         <picture><img src="images/logo.png" alt="logo image" /></picture>
         <section class="headings">
@@ -27,6 +29,7 @@
           <h5>Chamber of Commerce</h5>
         </section>
       </div>
+      <!-- social -->
       <div class="social">
         <a href="https://facebook.com" target="_blank">
           <img src="images/icon-facebook.png" alt="fb icon" />
@@ -35,23 +38,27 @@
           <img src="images/icon-linkedin.png" alt="linkedin icon" />
         </a>
       </div>
-      <!-- NAVIGATION HERE -->
-      <nav>
-        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-          <li><a href="index.html">Discover</a></li>
-          <li><a href="directory.html">Directory</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <span class="date">
-        <time datetime="2013-04-06T13:53">now</time>
-      </span>
+      <!-- navigation -->
+      <div>
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- time -->
+      <div class="date"><time datetime="2013-04-06T13:53">now</time></div>
     </header>
 
     <!-- MAIN HERE-->
     <main>
+      <section id="hero">
+        <h5>Hero with site name and call to action</h5>
+      </section>
       <section id="event">
         <h5>Event</h5>
       </section>
@@ -61,16 +68,12 @@
       <section id="join">
         <h5>Join</h5>
       </section>
-      <section id="hero">
-        <h5>Hero with site name and call to action</h5>
-      </section>
       <section id="news">
         <h5>News Release</h5>
       </section>
-      <section class="spotlight">
-        <h5>Spotlight 1</h5>
-        <h5>Spotlight 2</h5>
-        <h5>Spotlight 3</h5>
+      <section id="spotlight">
+        <h5 class="sp1">Spotlight 1</h5>
+        <h5 class="sp2">Spotlight 2</h5>
       </section>
     </main>
 
@@ -90,11 +93,12 @@
         Location Map</a
       >
       <hr />
-      <p class="copyright">
-        &copy; <span id="year"></span>Tooele Chamber |
-        <span id="myName">Ly T. Dang</span> | WDD 230 Project | Last
-        Modification: <span id="currentdate"></span>
+      <p class="copyright">&copy; <span id="year"></span>Tooele Chamber</p>
+      <p>
+        <span id="myName">Ly T. Dang</span>
       </p>
+      <p>WDD 230 Project</p>
+      <p>Last Modification: <span id="currentdate"></span></p>
     </footer>
     <script src="script/script.js"></script>
   </body>

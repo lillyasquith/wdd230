@@ -2,9 +2,5 @@
     nav ul li a{
         padding: .5rem 1rem;
     }
-    .social{
-        width:80px;
-        grid-column: 3/4;
-        grid-row: 1/2;
-    }
+    
 }

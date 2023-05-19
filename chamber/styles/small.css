@@ -1,5 +1,5 @@
 :root{
-	/*Font*/
+	/*Fonts*/
 	--heading-font: 'Inter', sans-serif;
 	--paragrap-font: 'PT Sans', sans-serif;
 	/*Color scheme*/
@@ -8,14 +8,16 @@
 	--accent1-color: #F5F5F5;
 	--accent2-color:#FCD135;
 }
+html {
+	font-size: calc(0.7rem + 1.2vw);
+}
 *{
     margin: 0;
     padding: 0;
 }
 main, header, footer{
-    max-width: 1000px;
+    max-width: 1300px;
     text-align: center;
-    font-size: 20px;
     margin: 20px auto;
 }
 
@@ -24,7 +26,7 @@ header{
 	grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #FCD135;  
-    font: var(--heading-font); 
+    font-family: var(--heading-font); 
     padding: 20px;
 }
 .logo{
@@ -41,6 +43,7 @@ header{
     width:60px;
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-left: 50px;
 }
 .social img{
     width: 25px;
@@ -48,6 +51,7 @@ header{
 .headings {
     width: 150px;
     color: #100E39;
+    margin-right: 50px;
     margin-bottom: 10px;
 }
 nav{
@@ -59,7 +63,7 @@ button{
     grid-row: 1/2;
     color: #100E39;
     background-color: transparent;
-    border:1px solid #4B496F; 
+    border:1.5px solid #4B496F; 
 
 }
 nav ul{
@@ -90,8 +94,9 @@ nav ul.open {
     grid-column: 1/5;
     grid-row: 2/3;
     background-color:#100E39;
-    color: #FCD135;
-    padding-top: 10px;
+    color: #F5F5F5;
+    padding-top: 15px;
+
 }
 /* MAIN */
 
@@ -101,10 +106,9 @@ main section{
 	border: .5px solid ;
     text-align: left;
     padding: 20px;
-    margin: 1em;
     background-color: #F5F5F5;
     color: #100E39;
-    font: var(--heading-font);
+    font-family: var(--paragrap-font);
 }
 #spotlight{
     display: block;
@@ -116,7 +120,7 @@ main section{
     border: 1.5px solid #4b496f;
 
 }
-#special, #join{
+.large, .medium{
     display: none;
 }
 
@@ -134,7 +138,7 @@ footer{
 	background-color: #FCD135;
 	color: #100E39;
     text-align: center;
-    font: var(--heading-font);
+    font-family: var(--heading-font);
     padding: 30px;
     
 }
@@ -150,8 +154,14 @@ footer hr{
 #myName{
     font-weight: bolder;
 }
-.author{
+.author-small{
     background-color: #100E39;
     padding-bottom: 1em;
     color: #FCD135;
+}
+#bar{
+    border: 3px solid #4b496f;
+}
+.author-medium-large{
+    display: none;
 }

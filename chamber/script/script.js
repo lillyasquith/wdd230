@@ -5,9 +5,13 @@ const options = {
   month: "long",
   year: "numeric",
 };
-const currentYear = new Date();
-document.getElementById("currentdate").textContent =
+
+document.getElementById("currentdate1").textContent =
   new Date().toLocaleTimeString("en-US", options);
+
+document.getElementById("currentdate2").textContent =
+  new Date().toLocaleTimeString("en-US", options);
+const currentYear = new Date();
 document.querySelector("#year").textContent = currentYear.getFullYear();
 
 // Datetime for header

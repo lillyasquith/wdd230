@@ -10,7 +10,7 @@
       content="Chamber Home Page Build for Ly Dang in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=PT+Sans&display=swap"
       rel="stylesheet"
     />
     <link href="styles/normalize.css" rel="stylesheet" />
@@ -25,7 +25,7 @@
       <div class="logo">
         <picture><img src="images/logo.png" alt="logo image" /></picture>
         <section class="headings">
-          <h2>Tooele County</h2>
+          <h2>Tooele</h2>
           <h5>Chamber of Commerce</h5>
         </section>
       </div>
@@ -53,35 +53,36 @@
     </header>
 
     <!-- MAIN HERE-->
-    <main>
+    <main class="home-grid">
       <section id="hero">
-        <h6>Hero with site name and call to action</h6>
+        <h5>Hero with site name and call to action</h5>
       </section>
       <section id="event">
-        <h6>Event</h6>
+        <h5>Event</h5>
       </section>
       <section id="weather">
-        <h6>Weather</h6>
+        <h5>Weather</h5>
       </section>
       <section id="news">
-        <h6>News Release</h6>
+        <h5>News Release</h5>
       </section>
       <section id="spotlight">
-        <h6 class="sp">Spotlight 1</h6>
-        <h6 class="sp">Spotlight 2</h6>
+        <h5 class="sp1">Spotlight 1</h5>
+        <h5 class="sp2">Spotlight 2</h5>
         <!-- This spotlight 3 only shows on large screen -->
-        <h6 id="special">Spotlight 3</h6>
+        <h5 id="sp3" class="large">Spotlight 3</h5>
       </section>
       <!-- This join section is not on small screen -->
-      <section id="join">
-        <h6>Join</h6>
+      <section id="join" class="medium">
+        <h5>Join</h5>
       </section>
     </main>
 
     <!-- FOOTER HERE-->
     <footer>
+      <img class="logoBottom" src="images/logo.png" alt="logo image" />
       <section class="address">
-        <img class="logoBottom" src="images/logo.png" alt="logo image" />
+        <h3>Tooele Chamber of Commerce</h3>
         <p>123 Main Street</p>
         <p>Tooele, UT 84074</p>
       </section>
@@ -97,14 +98,24 @@
           Location Map</a
         >
       </section>
-      <section class="author">
-        <hr />
+      <section class="author-small">
+        <hr id="bar" />
         <p class="copyright">&copy; <span id="year"></span> Tooele Chamber</p>
         <p>
           <span id="myName">Ly T. Dang</span>
         </p>
         <p>WDD 230 Project</p>
-        <p>Last Modification: <span id="currentdate"></span></p>
+        <p>Last Modification: <span id="currentdate1"></span></p>
+      </section>
+      <section class="author-medium-large">
+        <hr id="bar" />
+        <p class="copyright">
+          &copy; <span id="year"></span> Tooele Chamber |<span id="myName"
+            >Ly T. Dang</span
+          >
+          |WDD 230 Project |
+        </p>
+        <p>Last Modification: <span id="currentdate2"></span></p>
       </section>
     </footer>
     <script src="script/script.js"></script>

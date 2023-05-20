@@ -11,8 +11,11 @@ document.getElementById("currentdate1").textContent =
 
 document.getElementById("currentdate2").textContent =
   new Date().toLocaleTimeString("en-US", options);
-const currentYear = new Date();
-document.querySelector("#year").textContent = currentYear.getFullYear();
+
+const currentYear1 = new Date();
+document.querySelector("#year1").textContent = currentYear1.getFullYear();
+const currentYear2 = new Date();
+document.querySelector("#year2").textContent = currentYear2.getFullYear();
 
 // Datetime for header
 // Select the DOM elements to manipulate

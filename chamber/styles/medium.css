@@ -1,18 +1,17 @@
-@media only screen and (min-width: 37.5em) {
-	nav button {
-		display: none;
-	}
-	
-	nav ul#primaryNav{
-		display: flex;
-    }
+@media only screen and (min-width: 40rem) {
+
     nav ul li a{
         margin-left: 2vw;    
     }
     .social{
-        width:80px;
-        grid-column: 3/4;
-        grid-row: 1/2;
+        width: 70px;
+        margin-left: 150px;
+    }
+    .social img{
+        width: 30px;
+    }
+    .headings{
+        width: auto;
     }
 
     /* FOOTER */
@@ -26,7 +25,7 @@
     .logoBottom{
         grid-column: 1/2;
         grid-row: 1/2;
-        width: 80%;
+        width: 10em;
     }
     .address{
         grid-column: 2/3;
@@ -54,6 +53,12 @@
     }
     .author-small{
         display: none;
+    }
+    #myName2{
+        font-weight: bolder;
+    }
+    #bar2{
+        border: 3px solid #4b496f;
     }
 
     /* MAIN */

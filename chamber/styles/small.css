@@ -117,18 +117,14 @@ main section{
     color: #100E39;
     font-family: var(--paragrap-font);
 }
-#spotlight{
-    display: block;
-    border: 1px solid #100E39;
-    padding: 20px;
-}
-.sp1, .sp2{
-    padding: 20px;
-    height: 30%;
-    border: 1.5px solid #4b496f;
 
+.sp1, .sp2{
+    display: block;
+    padding: 20px;
+    height: 60px;
+    border: 1px solid #4b496f;
 }
-.large, .medium{
+.sp3, #join{
     display: none;
 }
 

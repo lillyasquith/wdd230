@@ -12,18 +12,16 @@
     margin: 0;
     padding: 0;
 }
-
-body {
+header, footer, main{
     font-size: calc(0.5rem + 0.8vw);
     max-width: 1500px;
-    min-width: 420px;
     text-align: center;
     margin: 0 auto;
 }
 
 header{
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #FCD135; 
     padding: 20px;
@@ -41,19 +39,20 @@ header{
 	height: auto;
 }
 .social{
-    width: 60px;
+    width: 70px;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-left: 80px;
     margin-top: 5px;
 }
 .social img{
-    width: 25px;
+    width: 30px;
 }
 .headings {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: left;
     color: #100E39;
-    margin-right: 50px;
-    margin-bottom: 10px;
     font-family: var(--paragrap-font); 
 }
 nav{
@@ -61,24 +60,29 @@ nav{
     margin-left: 1em;
     font-weight:600;
 }
-button{
+nav button{
     grid-column: 3/4;
     grid-row: 1/2;
     color: #100E39;
     background-color: transparent;
-    border:1.5px solid #4B496F; 
     font-size: 1.3em;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #6f7364;
 }
 nav ul{
     list-style-type: none;
+    padding: 10px;
 }
 nav ul li a{
     display: block;
     text-decoration: none;
-    color: #100E39;
+    color: #F5F5F5;
+    padding: .5rem 1vw;
+    box-shadow: 1px 1px 5px #6f7364;
+    background-color: #100E39;
 }
 nav a:hover {
-	background-color:orange;
+	background-color: #4B496F;
 }
 nav ul{
     display: none;
@@ -94,17 +98,17 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 #date{
+    height: 50px;
     grid-column: 1/5;
     grid-row: 2/3;
-    background-color:#100E39;
+    background-color: #100E39;
     color: #F5F5F5;
     padding-top: 20px;
-
 }
 /* MAIN */
 
 main section{
-    height: 300px;
+    height: 200px;
     margin: 0.5rem;
 	border: .5px solid ;
     text-align: left;
@@ -116,10 +120,11 @@ main section{
 #spotlight{
     display: block;
     border: 1px solid #100E39;
-    padding: 10px;
+    padding: 20px;
 }
 .sp1, .sp2{
-    height: 50%;
+    padding: 20px;
+    height: 30%;
     border: 1.5px solid #4b496f;
 
 }
@@ -156,14 +161,14 @@ footer hr{
 #myName1{
     font-weight: bolder;
 }
-.author-small{
-    background-color: #100E39;
-    padding-bottom: 1em;
-    color: #FCD135;
-}
 #bar1{
-    border: 3px solid #4b496f;
+    border: px solid #F5F5F5;
 }
 .author-medium-large{
     display: none;
+}
+.author-small{
+    color: #F5F5F5;
+    background-color: #100E39;
+    padding-bottom: 10px;
 }

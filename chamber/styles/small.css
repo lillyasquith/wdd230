@@ -48,6 +48,9 @@ header{
 .social img{
     width: 30px;
 }
+.social a{
+    text-decoration: none;
+}
 .headings {
     grid-column: 2/3;
     grid-row: 1/2;

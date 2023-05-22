@@ -14,7 +14,7 @@
 }
 header, footer, main{
     font-size: calc(0.5rem + 0.8vw);
-    max-width: 1700px;
+    max-width: 900px;
     text-align: center;
     margin: 0 auto;
 }

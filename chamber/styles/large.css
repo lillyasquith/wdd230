@@ -8,23 +8,27 @@
     }
     nav{
         grid-column: 2/3;
+        font-size: 20px;
+        padding-top: 20px;
     }
     #date{
         grid-column: 1/4;
+        margin-bottom: 50px;
+        /* margin-right: -50px;
+        margin-left: 250px; */
     }
     .headings {
         width: 100%;
+        margin-bottom: 10px;
     }
     .headings p{
         font-size: 20px;
+        padding-bottom: 10px;
     }
     header, footer, main{
         width: 100%;
         max-width: 1700px;
-        font-size: 30px;
-    }
-    #date{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     nav button {
@@ -34,15 +38,16 @@
 		display: flex;
     }
     nav ul li a{
-        padding: .5rem 2.5rem;
+        padding: .5rem 1.5rem;
     }
     .social{
-        margin-left: 0;
-        width: 100px;
         grid-column: 3/4;
         grid-row: 1/2;
+        padding-top: 20px;
     }
-    
+    .social img{
+        width: 1.2em;
+    }
     /* MAIN */
     main{
         grid-column: repeat(4, 1fr);
@@ -74,7 +79,7 @@
     }
     .sp1, .sp2, .sp3{
         height: 287px;
-        width: 85%;
+        width: 80%;
         padding: 22px;
     }
     .sp3{

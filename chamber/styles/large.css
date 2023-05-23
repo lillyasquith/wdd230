@@ -21,6 +21,10 @@
     header, footer, main{
         width: 100%;
         max-width: 1700px;
+        font-size: 30px;
+    }
+    #date{
+        font-size: 20px;
     }
 
     nav button {
@@ -69,8 +73,8 @@
         display: grid;
     }
     .sp1, .sp2, .sp3{
-        height: 300px;
-        width: 80%;
+        height: 287px;
+        width: 85%;
         padding: 22px;
     }
     .sp3{

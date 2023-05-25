@@ -34,3 +34,12 @@ function toggleMenu() {
 }
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+//Banner displays only on Mondays or Tuesdays
+let weekDay = now.getDay();
+let message;
+if (weekDay == 1 || weekDay == 2) {
+  message = document.getElementById("banner").innerHTML;
+} else {
+  message = document.getElementById("banner").remove();
+}

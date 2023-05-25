@@ -12,18 +12,21 @@
     margin: 0;
     padding: 0;
 }
-header, footer, main{
+
+header, footer, main, #banner{
     text-align: center;
     margin: 0 auto;
+  
 }
 
 header{
+    height: auto;
     display: grid;
 	grid-template-columns: 3fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     background-color: #FCD135; 
     padding: 10px;
-    font-family: var(--paragrap-font);
+    font-family: var(--heading-font);
 }
 .logo{
     grid-column: 1/2;
@@ -53,18 +56,17 @@ header{
     grid-row: 1/2;
     text-align: left;
     color: #100E39;
-    font-family: var(--paragrap-font); 
 }
 
 nav button{
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 1/4;
     color: #100E39;
     margin-top: 5px;
     background-color: transparent;
     font-size: 1.3em;
     padding: 5px;
-    box-shadow: 1px 1px 5px #6f7364;
+    box-shadow: 1px 1px 10px #6f7364;
     margin-left: -10px;
 }
 nav ul{
@@ -81,6 +83,7 @@ nav ul li a{
 }
 nav a:hover {
 	background-color: #4B496F;
+    color: #FCD135;
 }
 nav ul{
     display: none;
@@ -99,40 +102,22 @@ nav ul.open {
     grid-column: 1/5;
     grid-row: 2/3;
     font-size: 15px;
-    background-color: #100E39;
-    color: #F5F5F5;
+    background-color:#100E39;
+    color:#F5F5F5;
     padding-top: 10px;
-    margin-bottom: 25px;
 }
 /* MAIN */
 
 main section{
-    height: 100px;
     margin: 0.5rem;
     text-align: left;
     padding: 10px;
-    background-color: #F5F5F5;
-    color: #100E39;
+    color: #F5F5F5;
     font-family: var(--paragrap-font);
-    border: 1px solid #4b496f;
-}
-
-.sp1, .sp2{
-    display: block;
-    padding: 20px;
-    height: 10px;
-    border: 1px solid #4b496f;
 }
 .sp3, #join{
     display: none;
 }
-
-/* .hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  } */
-  
 
 /* FOOTER */
 
@@ -172,4 +157,142 @@ footer hr{
     color: #F5F5F5;
     background-color: #100E39;
     padding-bottom: 10px;
+}
+
+/* W05 Assignment: Chamber Home Page Continued */
+header{
+    display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+}
+nav button{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.logo{
+    grid-column: 2/3;
+    margin-left: -50px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: -10px;
+}
+.headings{
+    grid-column: 3/4;
+}
+.social{
+    grid-column: 4/5;
+}
+#banner{
+   background-color:#4B496F;
+   text-align: center;
+   padding: 20px;
+   text-decoration:wavy;
+   color: #FCD135;
+   text-decoration:overline;
+}
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+#hero{
+    position: relative;
+}
+.overlay{
+    width: auto;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+	font-size: 2rem;
+	text-shadow: .25rem .25rem .75rem #4B496F;
+	margin-bottom: 1rem;
+}
+.overlayBtn{
+    position: absolute;
+    background-color: #FCD135;
+    color: #100E39;
+    font-family: var(--heading-font);
+    text-align: center;
+	font-size: 1rem;
+    top:150px;
+    right: 100px;
+    left: 100px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.overlayBtn:hover{
+    background-color:orange;
+    transform: scale(1.1);
+}
+#event, #weather, #news, #spotlight{
+    background-color: #100E39;
+    text-align: center;
+    height: auto;
+}
+.title1{
+    padding-top: 10px;
+    color: #FCD135;
+    text-shadow: 1px 1px 10px #FCD135 ;
+    text-align: center;
+}
+.title2{
+    padding-top: 20px;
+    color: #F5F5F5;
+    text-shadow: 1px 1px 10px #FCD135 ;
+}
+.diamond{
+    width: 1em;
+
+}
+#event p{
+    color: #F5F5F5;
+    padding: 20px;
+    
+}
+.info{
+    color: #FCD135;
+}
+
+#weather hr{
+    margin: 10px;
+}
+.weather-img{
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+.cel{
+    text-align: right;
+    margin-right: 60px;
+    margin-top: -60px;
+    padding-bottom: 50px;
+}
+.descr1{
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -30px;
+}
+.result{
+    margin-left: 100px;
+    text-align: center;
+}
+#news p{
+    padding-top: 10px;
+}
+.sp-img{
+    width: 30%;
+}
+.sp{
+    height: auto;
+    padding-top: 10px;
+    color: #F5F5F5;
+    text-align: center;
+    background-color:#090556;
+    box-shadow: 1px 1px 10px #6f7364;
+}
+.sp-text{
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.sp-contact{
+    font-size:x-small;
 }

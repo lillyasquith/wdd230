@@ -22,10 +22,10 @@ header, footer, main, #banner{
 header{
     height: auto;
     display: grid;
+    padding: 5px;
 	grid-template-columns: 3fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
     background-color: #FCD135; 
-    padding: 10px;
     font-family: var(--heading-font);
 }
 .logo{
@@ -33,17 +33,16 @@ header{
     grid-row: 1/2;
     display: flex;
 	align-items: center;
+    padding: 10px;
 }
 .logo img{
-    width: 80px;
+    width:80px;
 	height: auto;
 }
 .social{
     width: 70px;
     grid-column: 2/3;
-    grid-row: 1/2;
-    margin-left: -10px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .social img{
     width: 30px;
@@ -53,21 +52,20 @@ header{
 }
 .headings {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 1/3;
     text-align: left;
     color: #100E39;
 }
 
 nav button{
     grid-column: 3/4;
-    grid-row: 1/4;
+    grid-row: 1/3;
     color: #100E39;
     margin-top: 5px;
     background-color: transparent;
     font-size: 1.3em;
     padding: 5px;
     box-shadow: 1px 1px 10px #6f7364;
-    margin-left: -10px;
 }
 nav ul{
     list-style-type: none;
@@ -104,19 +102,7 @@ nav ul.open {
     font-size: 15px;
     background-color:#100E39;
     color:#F5F5F5;
-    padding-top: 10px;
-}
-/* MAIN */
-
-main section{
-    margin: 0.5rem;
-    text-align: left;
-    padding: 10px;
-    color: #F5F5F5;
-    font-family: var(--paragrap-font);
-}
-.sp3, #join{
-    display: none;
+    padding: 5px 5px;
 }
 
 /* FOOTER */
@@ -159,6 +145,21 @@ footer hr{
     padding-bottom: 10px;
 }
 
+/* MAIN */
+
+main section{
+    margin: 0.5rem;
+    text-align: left;
+    padding: 10px;
+    color: #F5F5F5;
+    font-family: var(--paragrap-font);
+    box-shadow: 1px 1px 10px #100E39;
+}
+.sp3, #join{
+    display: none;
+}
+
+
 /* W05 Assignment: Chamber Home Page Continued */
 header{
     display: grid;
@@ -167,6 +168,7 @@ header{
 nav button{
     grid-column: 1/2;
     grid-row: 1/4;
+    margin-top: 25px;
 }
 .logo{
     grid-column: 2/3;
@@ -199,12 +201,11 @@ nav button{
 }
 .overlay{
     width: auto;
-    padding: 20px;
+    padding: 10px;
     position: absolute;
     text-align: center;
 	font-size: 2rem;
 	text-shadow: .25rem .25rem .75rem #4B496F;
-	margin-bottom: 1rem;
 }
 .overlayBtn{
     position: absolute;
@@ -212,12 +213,12 @@ nav button{
     color: #100E39;
     font-family: var(--heading-font);
     text-align: center;
-	font-size: 1rem;
-    top:150px;
-    right: 100px;
-    left: 100px;
+    top:80px;
+    right: 150px;
+    left: 150px;
     padding: 10px;
     border-radius: 15px;
+    border: none;
 }
 .overlayBtn:hover{
     background-color:orange;
@@ -230,18 +231,17 @@ nav button{
 }
 .title1{
     padding-top: 10px;
-    color: #FCD135;
-    text-shadow: 1px 1px 10px #FCD135 ;
+    color: yellow;
+    text-shadow: 1px 1px 10px yellow;
     text-align: center;
+    padding: 10px;
 }
 .title2{
     padding-top: 20px;
     color: #F5F5F5;
-    text-shadow: 1px 1px 10px #FCD135 ;
 }
 .diamond{
     width: 1em;
-
 }
 #event p{
     color: #F5F5F5;
@@ -256,20 +256,21 @@ nav button{
     margin: 10px;
 }
 .weather-img{
-    width: 20%;
+    width: 30%;
     margin-top: 20px;
-    margin-right: 150px;
+    margin-right: 200px;
 }
 .cel{
     text-align: right;
-    margin-right: 60px;
-    margin-top: -60px;
+    margin-right: 50px;
+    margin-top: -50px;
     padding-bottom: 50px;
 }
 .descr1{
     text-align: right;
-    padding-right: 20px;
+    padding-right: 50px;
     margin-top: -30px;
+    
 }
 .result{
     margin-left: 100px;
@@ -287,12 +288,12 @@ nav button{
     color: #F5F5F5;
     text-align: center;
     background-color:#090556;
-    box-shadow: 1px 1px 10px #6f7364;
+    box-shadow: 1px 1px 10px #FCD135;
 }
 .sp-text{
     font-style: italic;
     padding-bottom: 10px;
 }
 .sp-contact{
-    font-size:x-small;
+    font-size:small;
 }

@@ -24,7 +24,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: repeat(5, 1fr);
-        height: 1500px;
+        height: 1700px;
         padding: 10px;
     }
     #hero{
@@ -80,6 +80,12 @@
         left: 150px;
         padding: 10px;
         border-radius: 15px;
+    }
+    .descr2{
+        text-align: left;
+    }
+    .result{
+        text-align: right;
     }
       
     /* FOOTER */

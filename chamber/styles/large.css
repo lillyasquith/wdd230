@@ -64,21 +64,38 @@
     }
     /* MAIN */
     main{
-        grid-column: 1fr 5fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        width: 100%;
-        height: 1000px;
     }
     #hero{
         grid-column: 2/4;
         grid-row: 1/3;
-        width: 800px;
-        height: auto;
     }
-    .hero-img {
-        width: 800px;
-        height: 650px;
-        object-fit: cover;
+    .hero-img{
+        width: 100%;
+        height: 100%;
+    }
+    .overlay{
+        width: auto;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        font-size: 2rem;
+        text-shadow: .25rem .25rem .75rem #4B496F;
+    }
+    .overlayBtn{
+        position: absolute;
+        background-color: #FCD135;
+        color: #100E39;
+        font-family: var(--heading-font);
+        text-align: center;
+        top:100px;
+        right: 100px;
+        left: 100px;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
     }
     .overlay{
         width: 100%;
@@ -94,6 +111,7 @@
     #event{
         grid-column: 1/2;
         grid-row: 1/2;
+        
     }
     #weather{
         grid-column: 1/2;
@@ -107,11 +125,12 @@
         grid-column: 2/4;
         grid-row: 3/4;
     }
+
     #spotlight{
         grid-column: 4/5;
         grid-row: 1/4;
         display: grid;
-        width:400px;
+        width:300px;
     }
     .sp, .sp3{
         width: auto;

@@ -199,11 +199,11 @@ nav button{
     position: relative;
 }
 .overlay{
-    width: auto;
+    width: 100%;
     padding: 10px;
     position: absolute;
     text-align: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-shadow: .25rem .25rem .75rem #4B496F;
 }
 .overlayBtn{

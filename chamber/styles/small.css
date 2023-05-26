@@ -212,9 +212,9 @@ nav button{
     color: #100E39;
     font-family: var(--heading-font);
     text-align: center;
-    top:80px;
-    right: 150px;
-    left: 150px;
+    top:100px;
+    right: 100px;
+    left: 100px;
     padding: 10px;
     border-radius: 15px;
     border: none;
@@ -249,7 +249,7 @@ nav button{
     
 }
 .info{
-    color: #FCD135;
+    color: yellow;
 }
 
 #weather hr{

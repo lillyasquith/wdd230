@@ -1,14 +1,15 @@
-:root{
+:root {
 	/*Fonts*/
 	--heading-font: 'Inter', sans-serif;
 	--paragrap-font: 'PT Sans', sans-serif;
 	/*Color scheme*/
 	--primary-color:#100E39;
 	--secondary-color:#4B496F;
-	--accent1-color: #F5F5F5;
+	--accent1-color: aliceblue;
 	--accent2-color:#FCD135;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -19,7 +20,7 @@ header, footer, main, #banner{
   
 }
 
-header{
+header {
     height: auto;
     display: grid;
     padding: 5px;
@@ -28,26 +29,26 @@ header{
     background-color: #FCD135; 
     font-family: var(--heading-font);
 }
-.logo{
+.logo {
     grid-column: 1/2;
     grid-row: 1/2;
     display: flex;
 	align-items: center;
     padding: 10px;
 }
-.logo img{
+.logo img {
     width:80px;
 	height: auto;
 }
-.social{
+.social {
     width: 70px;
     grid-column: 2/3;
     margin-top: 10px;
 }
-.social img{
+.social img {
     width: 30px;
 }
-.social a{
+.social a {
     text-decoration: none;
 }
 .headings {
@@ -57,7 +58,7 @@ header{
     color: #100E39;
 }
 
-nav button{
+nav button {
     grid-column: 3/4;
     grid-row: 1/3;
     color: #100E39;
@@ -67,14 +68,14 @@ nav button{
     padding: 5px;
     box-shadow: 1px 1px 10px #6f7364;
 }
-nav ul{
+nav ul {
     list-style-type: none;
     padding: 5px;
 }
-nav ul li a{
+nav ul li a {
     display: block;
     text-decoration: none;
-    color: #F5F5F5;
+    color: aliceblue;
     padding: .5rem 1vw;
     box-shadow: 1px 1px 5px #6f7364;
     background-color: #100E39;
@@ -83,7 +84,7 @@ nav a:hover {
 	background-color: #4B496F;
     color: #FCD135;
 }
-nav ul{
+nav ul {
     display: none;
     color: #100E39;
 }
@@ -96,18 +97,18 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-#date{
+#date {
     grid-column: 1/5;
     grid-row: 2/3;
     font-size: 15px;
     background-color:#100E39;
-    color:#F5F5F5;
+    color:aliceblue;
     padding: 5px 5px;
 }
 
 /* FOOTER */
 
-.maps{
+.maps {
     color: #100E39;
     text-decoration: none;
 }
@@ -115,78 +116,77 @@ nav ul.open {
     width: 1em;
 }
 
-footer{
+footer {
 	background-color: #FCD135;
 	color: #100E39;
     text-align: center;
     font-family: var(--heading-font);
 }
-.logoBottom{
+.logoBottom {
     width: 30%;
 }
-footer p{
+footer p {
     padding: .3em;
 }
-footer hr{
+footer hr {
     margin: 1em;
 }
-#myName1{
+#myName1 {
     font-weight: bolder;
 }
-#bar1{
-    border: px solid #F5F5F5;
+#bar1 {
+    border: 2px solid aliceblue;
 }
-.author-medium-large{
+.author-medium-large {
     display: none;
 }
-.author-small{
-    color: #F5F5F5;
+.author-small {
+    color: aliceblue;
     background-color: #100E39;
     padding-bottom: 10px;
 }
 
 /* MAIN */
 
-main section{
+main div{
     margin: 0.5rem;
     text-align: left;
     padding: 10px;
-    color: #F5F5F5;
+    color: aliceblue;
     font-family: var(--paragrap-font);
     box-shadow: 1px 1px 10px #100E39;
 }
-.sp3, #join{
+.sp3, #join {
     display: none;
 }
 
 
 /* W05 Assignment: Chamber Home Page Continued */
-header{
+header {
     display: grid;
 	grid-template-columns: 1fr 4fr 1fr;
 }
-nav button{
+nav button {
     grid-column: 1/2;
     margin-top: 25px;
 }
-.logo{
+.logo {
     grid-column: 2/3;
     margin-left: -50px;
     width: 100%;
     margin-left: auto;
     margin-top: -10px;
 }
-.headings{
+.headings {
     grid-column: 3/4;
 }
-.social{
+.social {
     grid-column: 4/5;
 }
-#banner{
+#banner {
    background-color:#4B496F;
    text-align: center;
    padding: 20px;
-   text-decoration:wavy;
    color: #FCD135;
    text-decoration:overline;
 }
@@ -195,105 +195,106 @@ nav button{
     height: auto;
     object-fit: cover;
   }
-#hero{
+#hero {
     position: relative;
 }
-.overlay{
+.overlay {
     width: 100%;
     padding: 10px;
     position: absolute;
     text-align: center;
 	font-size: 1.5rem;
 	text-shadow: .25rem .25rem .75rem #4B496F;
+    color: #FCD135;
 }
-.overlayBtn{
+.overlayBtn {
     position: absolute;
     background-color: #FCD135;
     color: #100E39;
     font-family: var(--heading-font);
     text-align: center;
-    top:100px;
-    right: 100px;
-    left: 100px;
+    top:60%;
+    right: 25%;
+    left: 25%;
     padding: 10px;
     border-radius: 15px;
     border: none;
 }
-.overlayBtn:hover{
+.overlayBtn:hover {
     background-color:orange;
     transform: scale(1.1);
 }
-#event, #weather, #news, #spotlight{
+#event, #weather, #news, #spotlight {
     background-color: #100E39;
     text-align: center;
     height: auto;
     padding-top: 20px;
 }
-.title1{
+.title1 {
     padding-top: 10px;
     color: yellow;
     text-shadow: 1px 1px 10px yellow;
     text-align: center;
     padding: 10px;
 }
-.title2{
+.title2 {
     padding-top: 20px;
-    color: #F5F5F5;
+    color:aliceblue;
 }
-.diamond{
+.diamond {
     width: 1em;
 }
-#event p{
-    color: #F5F5F5;
+#event p {
+    color: aliceblue;
     padding: 20px;
     
 }
-.info{
+.info {
     color: yellow;
 }
 
-#weather hr{
+#weather hr {
     margin: 10px;
 }
-.weather-img{
+.weather-img {
     width: 30%;
     margin-top: 20px;
     margin-right: 200px;
 }
-.cel{
+.cel {
     text-align: right;
     margin-right: 50px;
     margin-top: -50px;
     padding-bottom: 50px;
 }
-.descr1{
+.descr1 {
     text-align: right;
     padding-right: 50px;
     margin-top: -30px;
     
 }
-.result{
+.result {
     margin-left: 100px;
     text-align: center;
 }
-#news p{
+#news p {
     padding-top: 10px;
 }
-.sp-img{
+.sp-img {
     width: 30%;
 }
-.sp{
+.sp {
     height: auto;
     padding-top: 10px;
-    color: #F5F5F5;
+    color: aliceblue;
     text-align: center;
     background-color:#090556;
     box-shadow: 1px 1px 10px #FCD135;
 }
-.sp-text{
+.sp-text {
     font-style: italic;
     padding-bottom: 10px;
 }
-.sp-contact{
+.sp-contact {
     font-size:small;
 }

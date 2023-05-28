@@ -39,6 +39,7 @@
         grid-column: 1/4;
         grid-row: 3/4;
         display: flex;
+        gap: 10px;
     }
     .sp{
         width: 50%;
@@ -55,7 +56,7 @@
     .joinBtn{
         background-color: #FCD135;
         color: #100E39;
-        width: 100%;
+        width: 90%;
         font-family: var(--heading-font);
         text-align: center;
         padding: 15px;
@@ -64,6 +65,7 @@
         margin-bottom: 30px;
         font-size: 1.8rem;
         font-weight: bolder;
+        margin-top: 20px;
     }
     #event{
         grid-column: 1/2;
@@ -72,6 +74,9 @@
     #weather{
         grid-column: 2/3;
         grid-row: 5/6;
+    }
+    .overlay{
+        font-size: 2rem;
     }
     .overlayBtn{
         top:80px;
@@ -116,7 +121,7 @@
         /* need to "display" it so that it will appear to the screen */
         display: inline;
         grid-column: 1/4;
-        color: #F5F5F5;
+        color: aliceblue;
         background-color: #100E39;
         padding: 20px;
     }

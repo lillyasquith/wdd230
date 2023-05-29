@@ -26,7 +26,7 @@
     <header>
       <!-- logo -->
       <div class="logo">
-        <picture><img src="images/logo.png" alt="logo image" /></picture>
+        <picture><img src="images/logo.webp" alt="logo image" /></picture>
         <section class="headings">
           <h2>Tooele County</h2>
           <p>Chamber of Commerce</p>
@@ -61,7 +61,12 @@
         <!-- <h5>Hero with site name and call to action</h5> -->
         <h3 class="overlay">Welcome to Tooele County</h3>
         <button class="overlayBtn">Join the Chamber</button>
-        <img class="hero-img" src="images/hero.jpg" alt="hero image" />
+        <picture>
+          <source srcset="images/small.jpg" media="(min-width:500px)" />
+          <source srcset="images/medium.jpg" media="(min-width:700px)" />
+          <source srcset="images/large.jpg" media="(min-width: 1000px)" />
+          <img class="hero-img" src="images/small.jpg" alt="hero image" />
+        </picture>
       </div>
       <div id="event">
         <!-- <h5>Event</h5> -->
@@ -78,8 +83,8 @@
         <h2 class="cel">33°C</h2>
         <h3 class="descr1">Partly Cloudy</h3>
         <hr />
-        <p class="descr2">Wind Speed: <span class="result">2.km/h</span></p>
-        <p class="descr2">Wind Chill: <span class="result">N/A</span></p>
+        <p class="descr2">Wind Speed: <span id="result1"></span></p>
+        <p class="descr2">Wind Chill: <span id="result2"></span></p>
       </div>
       <div id="news">
         <h3 class="title1">News Release</h3>

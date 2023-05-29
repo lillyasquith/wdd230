@@ -62,10 +62,16 @@
         <h3 class="overlay">Welcome to Tooele County</h3>
         <button class="overlayBtn">Join the Chamber</button>
         <picture>
-          <source srcset="images/small.jpg" media="(min-width:500px)" />
-          <source srcset="images/medium.jpg" media="(min-width:700px)" />
-          <source srcset="images/large.jpg" media="(min-width: 1000px)" />
-          <img class="hero-img" src="images/small.jpg" alt="hero image" />
+          <source
+            media="(min-width:300px) and (max-width:700px)"
+            srcset="images/small418w.jpg"
+          />
+          <source
+            media="(min-width:701px) and (max-width:1000px)"
+            srcset="images/medium802w.jpg"
+          />
+          <source media="(min-width:1001px)" srcset="images/large1390w.jpg" />
+          <img class="hero-img" src="images/large1390w.jpg" alt="hero image" />
         </picture>
       </div>
       <div id="event">

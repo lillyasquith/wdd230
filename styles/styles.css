@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); use link tag in HTML so no need to put this link here*/ 
+:root {
+    --font: 'Roboto', sans-serif;
+}
+body {
+    font-family: var(--font);
+    font-size: 30px;
+    line-height: 1.5;
+    margin: auto;
+}
+
+header,
+main,
+footer {
+    margin: 1em auto;
+    max-width: 1000px;
+    transform: scale(1.1);
+    padding: 30px 30px;
+    border-radius: 1em;
+}
+
+header {
+    box-shadow: 30px 30px 30px darkgrey;
+    background-color: midnightblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portrait {
+    width: 300px;
+    grid-column: 1/2;
+    box-shadow: 5px 5px 10px indigo;
+}
+
+h1 {
+    width: 300px;
+    grid-column: 2/3;
+    font-size: 60px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    margin-right: 5em;
+    text-align: left;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: left;
+    color: midnightblue;
+    text-shadow: 1px 1px 30px #6f7364;
+
+}
+
+.notes {
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 80px;
+
+}
+
+footer {
+    background-color: midnightblue;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    transform: scale(1.1);
+    box-shadow: 30px 30px 30px darkgrey;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+.update {
+    color: yellow;
+}

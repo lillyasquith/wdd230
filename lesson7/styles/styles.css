@@ -2,13 +2,16 @@ h1{
     text-align: center;
 }
 
-img[data-src] {
+[data-src] {
     display: block;
     margin: 50px auto;
     align-items: center;
     min-width: 50px;
     min-height: 50px; 
+    border: 1px solid yellow;
+    box-shadow: 1px 1px 10px grey;
 }
 img:hover {
     transform: scale(1.2);
+    border: 1px solid yellowgreen;
 }

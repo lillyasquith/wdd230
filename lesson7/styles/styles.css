@@ -2,8 +2,16 @@ h1{
     text-align: center;
 }
 
-main img{
+img[data-src] {
     display: block;
     margin: 50px auto;
     align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+    filter: blur(0.1em);
+    
+}
+img {
+    filter: blur(0em);
+    transition: filter 1s;
 }

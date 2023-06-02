@@ -7,5 +7,8 @@ img[data-src] {
     margin: 50px auto;
     align-items: center;
     min-width: 50px;
-    min-height: 50px;   
+    min-height: 50px; 
+}
+img:hover {
+    transform: scale(1.2);
 }

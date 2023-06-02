@@ -3,7 +3,7 @@ const images = document.querySelectorAll("[data-src");
 
 //optional parameters being set for the IntersectionObserver
 const imgOptions = {
-  threshold: 0,
+  threshold: 1,
   rootMargin: "0px 0px 50px 0px",
 };
 

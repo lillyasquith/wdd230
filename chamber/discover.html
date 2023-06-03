@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W07 Assignment: The Discover Page - Image Section</title>
+    <meta
+      name="description"
+      content="Chamber Home Page Build for Ly Dang in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link rel="icon" href="images/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&amp;family=PT+Sans&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <link href="styles/small.css" rel="stylesheet" />
+    <link href="styles/medium.css" rel="stylesheet" />
+    <link href="styles/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <p id="banner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </p>
+    <!-- HEADER HERE! -->
+    <header>
+      <!-- logo -->
+      <div class="logo">
+        <picture><img src="images/logo.webp" alt="logo image" /></picture>
+        <section class="headings">
+          <h2>Tooele County</h2>
+          <p>Chamber of Commerce</p>
+        </section>
+      </div>
+      <!-- navigation -->
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- social -->
+      <div class="social">
+        <a href="https://facebook.com" target="_blank">
+          <img src="images/icon-facebook.png" alt="fb icon" />
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+          <img src="images/icon-linkedin.png" alt="linkedin icon" />
+        </a>
+      </div>
+      <!-- time -->
+      <time id="date" datetime="2013-04-06T13:53">now</time>
+    </header>
+  </body>
+  <!-- MAIN HERE-->
+
+  <main></main>
+
+  <!-- FOOTER HERE-->
+  <footer>
+    <img class="logoBottom" src="images/logo.webp" alt="logo image" />
+    <div class="address">
+      <h3>Tooele Chamber of Commerce</h3>
+      <p>123 Main Street</p>
+      <p>Tooele, UT 84074</p>
+    </div>
+
+    <div class="contact">
+      <p>info@tooelecc.org</p>
+      <p>+1 (385) 2345-2345</p>
+      <a
+        class="maps"
+        href="https://goo.gl/maps/z85ciZsUAtwtWvV1A"
+        target="blank"
+      >
+        <img class="pin" src="images/icon-map-pin.png" alt="location" />
+        Location Map</a
+      >
+    </div>
+
+    <div class="author-small">
+      <hr id="bar1" />
+      <p class="copyright">&copy; <span id="year1"></span> Tooele Chamber</p>
+      <p>
+        <span id="myName1">Ly T. Dang</span>
+      </p>
+      <p>WDD 230 Project</p>
+      <p>Last Modification: <span id="currentdate1"></span></p>
+    </div>
+
+    <!--This footer is for Medium and Large screen-->
+    <div class="author-medium-large">
+      <hr id="bar2" />
+      <p class="copyright">
+        &copy; <span id="year2"></span> Tooele Chamber |
+        <span id="myName2">Ly T. Dang</span>
+        | WDD 230 Project | Last Modification: <span id="currentdate2"></span>
+      </p>
+    </div>
+  </footer>
+  <script src="script/script.js"></script>
+  <script src="script/windchill.js"></script>
+</html>

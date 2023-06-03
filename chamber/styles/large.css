@@ -6,14 +6,13 @@
         margin: 0 auto;
     }
     header{
-        grid-template-columns: 3fr 4fr 1fr;
-        margin:10px;
+        grid-template-columns: 4fr 6fr 1fr;
     }
     .logo{
         grid-column: 1/2;
     }
     .logo img{
-        width: 3.5em;
+        width: 4em;
     }
     .headings{
         grid-column: 1/2;
@@ -42,18 +41,17 @@
 		display: flex;
     }
     nav ul li a{
-        padding: .5rem 1.5rem;
+        padding: .8rem .6rem;
         border-radius: 10px;
     }
     .social{
         grid-column: 4/5;
-        margin-top: 100px;
+        margin-top: 150px;
         width: auto;
         margin-right: 50px;
     }
     .social img{
-        margin-top: 50px;
-        width:60px;
+        width:50px;
         
     }
     #date{

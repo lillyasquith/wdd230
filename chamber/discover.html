@@ -7,7 +7,7 @@
     <title>W07 Assignment: The Discover Page - Image Section</title>
     <meta
       name="description"
-      content="Chamber Home Page Build for Ly Dang in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+      content=" The Discover Page Build for Ly Dang in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
     <link rel="icon" href="images/favicon.ico" />
 
@@ -57,115 +57,160 @@
       <!-- time -->
       <time id="date" datetime="2013-04-06T13:53">now</time>
     </header>
+
+    <!-- MAIN HERE-->
+
+    <main id="discover">
+      <div class="lazyload">
+        <h2>Tooele Arts Festival</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/festivalrz.jpg"
+            alt="festival"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          Tooele Arts Festival is an annual event. This festival takes place
+          over three days toward the end of June in the Tooele City Park. The
+          festival offers free kid's crafts, free entrance, cuisine vendors,
+          amazing stage performers, and various works of art from local vendors
+          and artists including paintings, jewelry, photographs, sculptures and
+          more.
+        </p>
+      </div>
+      <div class="museum">
+        <h2>Tooele Valley Railroad Museum and Historical Park</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/trainrz.jpg"
+            alt="train"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          Tooele Valley Railroad Complex was listed on the National Register of
+          Historic Places in 1984. by visiting Tooele Valley Railroad Museum, we
+          can learn more about the regions industries of smelting and mining,
+          and the military history of Tooele County.
+        </p>
+      </div>
+      <div class="golf">
+        <h2>Overlake Golf Course</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/golfrz.jpg"
+            alt="golf"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          This is a great place for golf lovers. We can play a few rounds and
+          enjoy the wonderful views of mountains, nature, green fields and more.
+        </p>
+      </div>
+      <div class="mill">
+        <h2>Benson Grist Mill</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/millrz.jpg"
+            alt="mill"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          Benson Grist Mill was placed on the National Register of Historic
+          Sites in 1972. We can enter the building to see how a gristmill
+          functioned and attend events here including farmers markets and art
+          exhibits.
+        </p>
+      </div>
+      <div class="lake">
+        <h2>Great Salt Lake State Park</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/lakerz.jpg"
+            alt="lake"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          Great Salt Lake is an important landmark in Utahs scenery. The lake is
+          far saltier than the ocean and a popular spot for migratory birds. We
+          can rent a sailboat or motorboat to go on a water adventure, go
+          camping, and learn about the local ecology in the visitor center.
+        </p>
+      </div>
+      <div class="demographic">
+        <h2>Tooele County Demographics</h2>
+        <picture>
+          <img
+            src="images/placeholder600x500.jpg"
+            data-src="images/population.JPG"
+            alt="lake"
+            loading="lazy"
+          />
+        </picture>
+        <p>
+          There are 72,054 residents in Tooele County, with a median age of
+          40.5. Of this, 50.76% are males and 49.24% are females. US-born
+          citizens make up 95.45% of the resident pool in Tooele County, while
+          non-US-born citizens account for 2.67%. Additionally, 1.88% of the
+          population is represented by non-citizens. A total of 62,292 people in
+          Tooele County currently live in the same house as they did last year.
+        </p>
+      </div>
+    </main>
+
+    <!-- FOOTER HERE-->
+    <footer>
+      <img class="logoBottom" src="images/logo.webp" alt="logo image" />
+      <div class="address">
+        <h3>Tooele Chamber of Commerce</h3>
+        <p>123 Main Street</p>
+        <p>Tooele, UT 84074</p>
+      </div>
+
+      <div class="contact">
+        <p>info@tooelecc.org</p>
+        <p>+1 (385) 2345-2345</p>
+        <a
+          class="maps"
+          href="https://goo.gl/maps/z85ciZsUAtwtWvV1A"
+          target="blank"
+        >
+          <img class="pin" src="images/icon-map-pin.png" alt="location" />
+          Location Map</a
+        >
+      </div>
+
+      <div class="author-small">
+        <hr id="bar1" />
+        <p class="copyright">&copy; <span id="year1"></span> Tooele Chamber</p>
+        <p>
+          <span id="myName1">Ly T. Dang</span>
+        </p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="currentdate1"></span></p>
+      </div>
+
+      <!--This footer is for Medium and Large screen-->
+      <div class="author-medium-large">
+        <hr id="bar2" />
+        <p class="copyright">
+          &copy; <span id="year2"></span> Tooele Chamber |
+          <span id="myName2">Ly T. Dang</span>
+          | WDD 230 Project | Last Modification: <span id="currentdate2"></span>
+        </p>
+      </div>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/windchill.js"></script>
+    <script src="script/lazy.js" defer></script>
   </body>
-  <!-- MAIN HERE-->
-
-  <main id="discover">
-    <div class="lazyload">
-      <h2>Tooele Arts Festival</h2>
-      <picture>
-        <img
-          src="images/placeholder600x500.jpg"
-          data-src="images/festivalrz.jpg"
-          alt="festival"
-          loading="lazy"
-        />
-      </picture>
-      <p></p>
-    </div>
-    <div class="museum">
-      <h2>Tooele Valley Railroad Museum</h2>
-      <picture>
-        <img
-          src="images/placeholder600x500.jpg"
-          data-src="images/trainrz.jpg"
-          alt="train"
-          loading="lazy"
-        />
-      </picture>
-      <p></p>
-    </div>
-    <div class="golf">
-      <h2>Overlake Golf Course</h2>
-      <picture>
-        <img
-          src="images/placeholder600x500.jpg"
-          data-src="images/golfrz.jpg"
-          alt="golf"
-          loading="lazy"
-        />
-      </picture>
-      <p></p>
-    </div>
-    <div class="mill">
-      <h2>Benson Grist Mill</h2>
-      <picture>
-        <img
-          src="images/placeholder600x500.jpg"
-          data-src="images/millrz.jpg"
-          alt="mill"
-          loading="lazy"
-        />
-      </picture>
-      <p></p>
-    </div>
-    <div class="lake">
-      <h2>Great Salt Lake</h2>
-      <picture>
-        <img
-          src="images/placeholder600x500.jpg"
-          data-src="images/lakerz.jpg"
-          alt="lake"
-          loading="lazy"
-        />
-      </picture>
-      <p></p>
-    </div>
-  </main>
-
-  <!-- FOOTER HERE-->
-  <footer>
-    <img class="logoBottom" src="images/logo.webp" alt="logo image" />
-    <div class="address">
-      <h3>Tooele Chamber of Commerce</h3>
-      <p>123 Main Street</p>
-      <p>Tooele, UT 84074</p>
-    </div>
-
-    <div class="contact">
-      <p>info@tooelecc.org</p>
-      <p>+1 (385) 2345-2345</p>
-      <a
-        class="maps"
-        href="https://goo.gl/maps/z85ciZsUAtwtWvV1A"
-        target="blank"
-      >
-        <img class="pin" src="images/icon-map-pin.png" alt="location" />
-        Location Map</a
-      >
-    </div>
-
-    <div class="author-small">
-      <hr id="bar1" />
-      <p class="copyright">&copy; <span id="year1"></span> Tooele Chamber</p>
-      <p>
-        <span id="myName1">Ly T. Dang</span>
-      </p>
-      <p>WDD 230 Project</p>
-      <p>Last Modification: <span id="currentdate1"></span></p>
-    </div>
-
-    <!--This footer is for Medium and Large screen-->
-    <div class="author-medium-large">
-      <hr id="bar2" />
-      <p class="copyright">
-        &copy; <span id="year2"></span> Tooele Chamber |
-        <span id="myName2">Ly T. Dang</span>
-        | WDD 230 Project | Last Modification: <span id="currentdate2"></span>
-      </p>
-    </div>
-  </footer>
-  <script src="script/script.js"></script>
-  <script src="script/windchill.js"></script>
-  <script src="script/lazy.js" defer></script>
 </html>

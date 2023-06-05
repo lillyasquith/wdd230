@@ -131,5 +131,12 @@
     #myName2{
         font-weight: bolder;
     }
+
+    #discover h1{
+        font-size: 40px;
+    }
+    #discover div{
+        margin: 30px;
+    }
     
 }

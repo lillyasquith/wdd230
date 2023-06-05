@@ -303,3 +303,33 @@ nav button {
 .sp-contact {
     font-size:small;
 }
+
+/* DISCOVER */
+#discover{
+    display: block;
+}
+#discover h2{
+    color: #100E39;
+    text-align: center;
+}
+
+#discover picture {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+#discover img:hover {
+    transform: scale(1.2);
+    border: 1px solid #4B496F;
+}
+/* #discover img[data-src] {
+    filter: blur(0.1em);
+} */
+
+#discover img{ 
+    filter: blur(0em);
+    transition: filter 3s;
+    border: 1px solid #FCD135;
+    box-shadow: 0px 0px 50px #4B496F;
+  }

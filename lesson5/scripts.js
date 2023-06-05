@@ -17,6 +17,10 @@ const list = document.querySelector("ul");
 
 button.addEventListener("click", () => {
   const myScripture = input.value;
+  //if the value is empty, we cannot add to the list.
+  if (myScripture == "") {
+    return;
+  }
   //change the input value to nothing or the empty string to clean up the interface for the user
   input.value = "";
 

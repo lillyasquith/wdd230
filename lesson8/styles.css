@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+  
+th {
+    padding: 8px;
+    color: beige;
+    text-align: center;
+    background-color: darkslategray;
+}
+td {
+    border: 1px solid gray;
+    padding: 8px;
+    font-weight: 900;
+}
+tr:nth-child(even) {
+    background-color:beige;
+}
+
+.empty{
+    background-color: darkslategray;
+}
+.service{
+    color: darkslategray;
+}
+
+

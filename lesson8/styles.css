@@ -6,7 +6,7 @@ table {
   
 th {
     padding: 8px;
-    color: beige;
+    color:aliceblue;
     text-align: center;
     background-color: darkslategray;
 }
@@ -23,7 +23,8 @@ tr:nth-child(even) {
     background-color: darkslategray;
 }
 .service{
-    color: darkslategray;
+    color:aliceblue;
+    background-color:cadetblue;
 }
 
 

@@ -5,10 +5,7 @@
     .headings h2{
         font-size: 30px;
     }
-    nav ul li a{
-        margin-left: 2vw;    
-    }
-   
+
     /* MAIN */
     main{
         display: grid;

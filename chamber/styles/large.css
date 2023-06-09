@@ -6,13 +6,15 @@
         margin: 0 auto;
     }
     header{
-        grid-template-columns: 4fr 6fr 1fr;
+        grid-template-columns: 3fr 3fr 1fr;
+        align-items: center;
     }
     .logo{
         grid-column: 1/2;
+    
     }
     .logo img{
-        width: 4em;
+        width: 5em;
     }
     .headings{
         grid-column: 1/2;
@@ -25,9 +27,6 @@
     }
     nav{
         grid-column:2/3;
-        width: fit-content;
-        margin-bottom: 100px;
-        margin-top: 150px;
     }
     nav a:hover{
         background-color:#4b496f;
@@ -41,23 +40,19 @@
 		display: flex;
     }
     nav ul li a{
-        padding: .8rem .6rem;
+        padding: .8rem .8rem;
         border-radius: 10px;
     }
     .social{
         grid-column: 4/5;
-        margin-top: 150px;
         width: auto;
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .social img{
-        width:50px;
-        
+        width:50px;    
     }
     #date{
         grid-column: 1/5;
-        margin-bottom: 50px;
-        font-size: 20px;
         padding: 20px;
     }
     /* MAIN */

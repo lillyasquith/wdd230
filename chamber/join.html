@@ -109,27 +109,27 @@
         </fieldset>
         <fieldset>
           <legend>Membership Level</legend>
+          <p>
+            (NP Membership is for non profit organizations and there is no fee)
+          </p>
           <label>
-            <input input type="radio" name="option" value="nonProfit" /> NP
-            Membership
-            <p>(This is for non profit organizations and there is no fee)</p>
+            <input type="radio" name="option" value="nonProfit" /> NP Membership
           </label>
           <label>
-            <input input type="radio" name="option" value="bronze" /> Bronze
-            Membership
-          </label>
-          <label>
-            <input input type="radio" name="option" value="bronze" /> Silver
+            <input type="radio" name="option" value="bronze" /> Bronze
             Membership
           </label>
           <label>
-            <input input type="radio" name="option" value="bronze" /> Gold
+            <input type="radio" name="option" value="bronze" /> Silver
             Membership
+          </label>
+          <label>
+            <input type="radio" name="option" value="bronze" /> Gold Membership
           </label>
         </fieldset>
         <!-- A hidden field that contains the current date and time that the form was loaded by the user -->
-        <input type="hidden" id="date" name="date" value="CurrentTime" />
-        <input type="hidden" id="time" name="time" value="CurrentDate" />
+        <input type="hidden" id="datenow" name="datenow" value="CurrentTime" />
+        <input type="hidden" id="timenow" name="timenow" value="CurrentDate" />
 
         <!-- A form submission button using input of type submit that is properly labeled. -->
         <input type="submit" value="Purchase My Membership" />

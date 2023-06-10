@@ -66,10 +66,25 @@
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-          <label>First Name* <input type="text" name="fname" required /></label>
-          <label>Last Name* <input type="text" name="lname" required /></label>
           <label
-            >Phone <input type="tel" name="phone" placeholder="123-2345-5678"
+            >First Name*
+            <input type="text" name="fname" placeholder="Joe" required
+          /></label>
+          <label
+            >Last Name*
+            <input type="text" name="lname" placeholder="Smith" required
+          /></label>
+          <label
+            >Position Title
+            <input
+              type="text"
+              name="lname"
+              placeholder="CEO"
+              pattern="[A-Za-z0-9_]{7}"
+              title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"
+          /></label>
+          <label
+            >Phone <input type="tel" name="phone" placeholder="0123456789"
           /></label>
           <label
             >Email*
@@ -84,8 +99,40 @@
           /></label>
         </fieldset>
         <fieldset>
-          <legend>/course info</legend>
+          <legend>Business Information</legend>
+          <label>
+            Business Name/Title* <input type="text" name="bname" required
+          /></label>
+          <label>
+            Business Description <input type="text" name="description"
+          /></label>
         </fieldset>
+        <fieldset>
+          <legend>Membership Level</legend>
+          <label>
+            <input input type="radio" name="option" value="nonProfit" /> NP
+            Membership
+            <p>(This is for non profit organizations and there is no fee)</p>
+          </label>
+          <label>
+            <input input type="radio" name="option" value="bronze" /> Bronze
+            Membership
+          </label>
+          <label>
+            <input input type="radio" name="option" value="bronze" /> Silver
+            Membership
+          </label>
+          <label>
+            <input input type="radio" name="option" value="bronze" /> Gold
+            Membership
+          </label>
+        </fieldset>
+        <!-- A hidden field that contains the current date and time that the form was loaded by the user -->
+        <input type="hidden" id="date" name="date" value="CurrentTime" />
+        <input type="hidden" id="time" name="time" value="CurrentDate" />
+
+        <!-- A form submission button using input of type submit that is properly labeled. -->
+        <input type="submit" value="Purchase My Membership" />
       </form>
     </main>
 
@@ -132,5 +179,6 @@
       </div>
     </footer>
     <script src="script/script.js"></script>
+    <script src="script/hiddentime.js"></script>
   </body>
 </html>

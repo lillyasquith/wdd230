@@ -345,6 +345,15 @@ main div{
 #timecount{
     text-align: center;
 }
-
+.thanks{
+    padding: 50px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.thanksTitle
+{
+    padding: 20px;
+    color: #100E39;
+}
 
 

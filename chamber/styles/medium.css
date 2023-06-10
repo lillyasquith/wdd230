@@ -86,7 +86,7 @@
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         text-align: center;     
     }
     .logoBottom{
@@ -128,5 +128,13 @@
     #discover div{
         margin: 30px;
     }
-    
+    .thanks{
+     display: block;
+     padding: 100px;
+
+    }
+    .thanksTitle{
+    padding: 20px;
+    }
+   
 }

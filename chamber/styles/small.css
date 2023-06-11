@@ -361,19 +361,23 @@ main div{
     display: block;
     font-family: var(--paragrap-font);
     font-size: 30px;
-   
+    width: fit-content;
 }
+
 .formTitle {
     text-align: center;
     padding: 50px;
+    color: #4B496F;
 
 }
+
 form fieldset {
     text-align: left;
     margin: 2rem;
     border: 1px solid #100E39;
     border-radius: 10px;
     padding: 20px;
+    width:auto;
 }
 
 form legend {
@@ -389,7 +393,7 @@ form label.top, form label.middle,form label.bottom {
     color: #4B496F;
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, form label.middle input, form label.middle select {
     display: block;
     border: 1px solid #4B496F ;
     border-radius: 5px;
@@ -401,7 +405,32 @@ form label.top input, form label.top select {
     color: #100E39;
 }
 
-/* form label.middle{
+input[type="radio"] {
+    transform: scale(1.5);
+}
+  
+form input.submitBtn {
+    border: none;
+    background-color: #4B496F;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+    max-width: 20rem;
+}
 
+form input.submitBtn:hover {
+    color: #FCD135;
+    transform: scale(1.2);
+}
+
+/* form label.top input:required {
+    border-left:  6px solid crimson;
+}
+
+form label.top input:required:valid {
+    border-left:  6px solid green;
 } */
+
 

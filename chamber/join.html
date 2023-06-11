@@ -61,20 +61,22 @@
 
     <!-- MAIN HERE-->
 
-    <main>
-      <h2>Become a Member of the Tooele County Chamber of Commerce</h2>
+    <main id="formFied">
+      <h2 class="formTitle">
+        Become a Member of the Tooele County Chamber of Commerce
+      </h2>
       <form method="get" action="thanks.html">
         <fieldset>
           <legend>Applicant Information</legend>
-          <label
+          <label class="top"
             >First Name*
             <input type="text" name="fname" placeholder="Joe" required
           /></label>
-          <label
+          <label class="top"
             >Last Name*
             <input type="text" name="lname" placeholder="Smith" required
           /></label>
-          <label
+          <label class="top"
             >Position Title
             <input
               type="text"
@@ -83,10 +85,10 @@
               pattern="[A-Za-z0-9_]{7}"
               title="only accepts alpha characters, hyphens, and spaces with a minimum of seven characters"
           /></label>
-          <label
+          <label class="top"
             >Phone <input type="tel" name="phone" placeholder="0123456789"
           /></label>
-          <label
+          <label class="top"
             >Email*
             <input
               type="email"
@@ -94,36 +96,33 @@
               placeholder="someone@gmail.com"
               required
           /></label>
-          <label
+          <label class="top"
             >Website <input type="url" name="url" placeholder="http://"
           /></label>
         </fieldset>
         <fieldset>
           <legend>Business Information</legend>
-          <label>
+          <label class="middle">
             Business Name/Title* <input type="text" name="bname" required
           /></label>
-          <label>
+          <label class="middle">
             Business Description <input type="text" name="description"
           /></label>
         </fieldset>
         <fieldset>
           <legend>Membership Level</legend>
-          <p>
-            (NP Membership is for non profit organizations and there is no fee)
-          </p>
-          <label>
+          <label class="bottom">
             <input type="radio" name="option" value="nonProfit" /> NP Membership
           </label>
-          <label>
+          <label class="bottom">
             <input type="radio" name="option" value="bronze" /> Bronze
             Membership
           </label>
-          <label>
+          <label class="bottom">
             <input type="radio" name="option" value="bronze" /> Silver
             Membership
           </label>
-          <label>
+          <label class="bottom">
             <input type="radio" name="option" value="bronze" /> Gold Membership
           </label>
         </fieldset>
@@ -132,7 +131,7 @@
         <input type="hidden" id="timenow" name="timenow" value="CurrentDate" />
 
         <!-- A form submission button using input of type submit that is properly labeled. -->
-        <input type="submit" value="Purchase My Membership" />
+        <input class="submitBtn" type="submit" value="Purchase My Membership" />
       </form>
     </main>
 

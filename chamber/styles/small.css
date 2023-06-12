@@ -405,6 +405,9 @@ form label.top input, form label.top select, form label.middle input, form label
     padding: 10px;
 }
 
+form label.bottom select, form label.bottom input {
+    margin: 10px;
+}
 input[type="radio"] {
     transform: scale(1.5);
 }

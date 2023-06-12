@@ -123,4 +123,8 @@ table, th, td {
 	border:5px solid black;
 	width:auto;
 	margin: 10px;
-  }
+	text-align: left;
+}
+.title {
+	text-align: center;
+}

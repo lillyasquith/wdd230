@@ -445,17 +445,21 @@ form label.top input:required:valid {
     box-shadow: none;
 }
 
-.hidden-NP, .hidden-bronze, .hidden-silver, .hidden-gold {
+.hidden-np, .hidden-bronze, .hidden-silver, .hidden-gold {
     border: 1px solid #100E39;
     color: #4B496F;
     box-shadow: none;
     padding: 2rem;
   }
 
-.hidden-NP ul, .hidden-bronze ul, .hidden-silver ul, .hidden-gold ul {
+.hidden-np ul, .hidden-bronze ul, .hidden-silver ul, .hidden-gold ul {
     padding-left: 2rem;
     padding-top: 1rem;
 }
 .is-hidden{
     display: block;
+    border: 1px solid #4B496F ;
+    border-radius: 5px;
+    background-color: rgb(223, 222, 233);
+    color: #100E39;
 }

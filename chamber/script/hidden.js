@@ -10,7 +10,7 @@ var seconds = d.getSeconds();
 document.getElementById("timenow").value = hours + ":" + mins + ":" + seconds;
 
 //A hidden Membership Level Benefits
-const npB = document.querySelector(".hidden-NP");
+const npB = document.querySelector(".hidden-np");
 const bronzeB = document.querySelector(".hidden-bronze");
 const silverB = document.querySelector(".hidden-silver");
 const goldB = document.querySelector(".hidden-gold");
@@ -22,7 +22,7 @@ const mediaQuery = window.matchMedia("(min-width: 768px)");
 function displayMembershipBenefits(e) {
   if (mediaQuery.matches) {
     let clicked = e.target.value;
-    if (clicked === "nonProfit") {
+    if (clicked === "nonprofit") {
       npB.classList.remove("is-hidden");
     } else {
       npB.classList.add("is-hidden");

@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-header, footer, main, #banner{
+header, footer, main, #banner, #formFied{
     text-align: center;
     margin: 0 auto;
   
@@ -302,7 +302,7 @@ main div{
     font-size:small;
 }
 
-/* DISCOVER */
+/* DISCOVER PAGE */
 #discover {
     display: block;
 }
@@ -346,7 +346,8 @@ main div{
     text-align: center;
 }
 
-/* Form field */
+/* FORM FIELD */
+
 .thanks{
     padding: 50px;
     background-color: aliceblue;
@@ -360,36 +361,36 @@ main div{
 #formFied {
     display: block;
     font-family: var(--paragrap-font);
-    font-size: 30px;
-    width: fit-content;
+    font-size: 20px;
+    width: 100%;    
 }
 
 .formTitle {
     text-align: center;
-    padding: 50px;
     color: #4B496F;
-
+    padding: 20px;
 }
 
 form fieldset {
     text-align: left;
-    margin: 2rem;
     border: 1px solid #100E39;
-    border-radius: 10px;
-    padding: 20px;
-    width:auto;
+    border-radius: 10px; 
+    margin-bottom: 50px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    padding: 10px;
 }
 
 form legend {
     text-align: center;
     font-weight: 600;
     color: #4B496F;
-    padding: 10px;
+    font-size: 20px;
 }
 
-form label.top, form label.middle,form label.bottom {
+form label.top, form label.middle, form label.bottom {
     display: block;
-    padding-top: 2rem;
+    padding-top: 1rem;
     color: #4B496F;
 }
 
@@ -397,12 +398,11 @@ form label.top input, form label.top select, form label.middle input, form label
     display: block;
     border: 1px solid #4B496F ;
     border-radius: 5px;
-    padding: 10px;
-    font-size: 30px;
-    width: 100%;
+    width: 90%;
     max-width: 20rem;
     background-color: rgb(223, 222, 233);
     color: #100E39;
+    padding: 10px;
 }
 
 input[type="radio"] {
@@ -432,5 +432,25 @@ form input.submitBtn:hover {
 form label.top input:required:valid {
     border-left:  6px solid green;
 } */
+#userChoice{
+    box-shadow: none;
+}
+.level {
+    display: flex;
+    justify-content: space-between;
+}
 
+.hidden-NP, .hidden-bronze, .hidden-silver, .hidden-gold {
+    border: 1px solid #100E39;
+    color: #4B496F;
+    box-shadow: none;
+    padding: 2rem;
+  }
 
+.hidden-NP ul, .hidden-bronze ul, .hidden-silver ul, .hidden-gold ul {
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.is-hidden{
+    display: none;
+}

@@ -136,5 +136,13 @@
     .thanksTitle{
     padding: 20px;
     }
+    .formTitle {
+        padding: 30px;
+        font-size: 40px;
+    }
+    form legend {
+        font-size: 30px;
+    }
+    
    
 }

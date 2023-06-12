@@ -388,7 +388,7 @@ form legend {
     font-size: 20px;
 }
 
-form label.top, form label.middle, form label.bottom {
+form label.top, form label.middle,form label.text, form label.bottom {
     display: block;
     padding-top: 1rem;
     color: #4B496F;
@@ -408,7 +408,16 @@ form label.top input, form label.top select, form label.middle input, form label
 input[type="radio"] {
     transform: scale(1.5);
 }
-  
+form label.text select, form label.text textarea {
+    display: block;
+    border: 1px solid #4B496F ;
+    border-radius: 5px;
+    background-color: rgb(223, 222, 233);
+    color: #100E39;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
 form input.submitBtn {
     border: none;
     background-color: #4B496F;
@@ -435,10 +444,6 @@ form label.top input:required:valid {
 #userChoice{
     box-shadow: none;
 }
-.level {
-    display: flex;
-    justify-content: space-between;
-}
 
 .hidden-NP, .hidden-bronze, .hidden-silver, .hidden-gold {
     border: 1px solid #100E39;
@@ -452,5 +457,5 @@ form label.top input:required:valid {
     padding-top: 1rem;
 }
 .is-hidden{
-    display: none;
+    display: block;
 }

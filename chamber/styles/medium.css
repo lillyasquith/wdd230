@@ -144,5 +144,12 @@
         font-size: 30px;
     }
     
-   
+    .is-hidden{
+        display: none;
+    }
+    .level {
+    display: flex;
+    justify-content: space-between;
+    } 
+    
 }

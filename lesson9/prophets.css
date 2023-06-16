@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: darkslateblue;
+    font-size: 70px;
+}
+header,
+main,
+footer {
+  position: relative;
+  padding: 1rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1em;
+}
+.cards h2, p {
+    margin: 0.5rem;
+}
+.cards h2{
+    padding: 1rem;
+}
+section {
+    background-color:rgba(182, 165, 200, 0.722);
+    border: 1px solid darkslateblue ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 50px #333;
+    height: 200px; 
+    margin: 20px;
+}
+  
+footer {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding: 50px;
+    font-weight: 900;
+    color: darkslateblue;
+    font-size: 30px;
+}
+  

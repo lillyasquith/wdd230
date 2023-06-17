@@ -1,3 +1,8 @@
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    font-size: .85rem;
+}
 table {
     border-collapse: collapse;
     width: 100%;

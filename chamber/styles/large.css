@@ -154,5 +154,7 @@
         padding: 50px;
         font-size: 30px;
     }
-    
+    form label.top input, form label.top select, form label.middle input, form label.middle select, form label.text textarea, form label.text select {
+        min-width: 50rem;
+    }   
 }

@@ -1,0 +1,67 @@
+{
+    "companies" : [ 
+        {
+            "name": "Energy Solutions",
+            "logo": "logos/energy.JPG",
+            "address": "299 South Main Street, Ste. 1700. Salt Lake City, UT 84111",
+            "phone": "(801) 649-2000",
+            "website": "https://www.energysolutions.com/"
+        },
+        {
+            "name": "Peterson Industrial Depot",
+            "logo": "logos/peterson.JPG",
+            "address": "545 N Lodestone Way, Tooele, UT 84074",
+            "phone": "(435) 849-8400",
+            "website": "http://www.petersondepot.com/"
+        },
+        {
+            "name": "Staker Parson",
+            "logo": "logos/staker.JPG",
+            "address": "2350 S. 1900 W. Ogden, UT 84401",
+            "phone": "(801) 731-1111",
+            "website": "https://stakerparson.com/"
+        },
+        {
+            "name": "Espada Immigration Law",
+            "logo": "logos/espada.JPG",
+            "address": "2326 N 400 E #205, Tooele, UT 84074",
+            "phone": "(385) 487-3682",
+            "website": "https://espadaimmigrationlaw.com/"
+        },
+        {
+            "name": "Zions Bank",
+            "logo": "logos/zions.JPG",
+            "address": "998 N Main St, Tooele, UT 84074",
+            "phone": "(435) 882-6344",
+            "website": "https://www.zionsbank.com/"
+        },
+        {
+            "name": "Mountain West Medical Center",
+            "logo": "logos/mountain.JPG",
+            "address": "2055 N Main St, Tooele, UT 84074",
+            "phone": "(435) 843-3600",
+            "website": "https://mountainwestmc.com/"
+        },
+        {
+            "name": "Chartway Credit Union",
+            "logo": "logos/chartway.JPG",
+            "address": "562 N Main St, Tooele, UT 84074",
+            "phone": "(800) 678-8765",
+            "website": "https://www.chartway.com/"
+        },
+        {
+            "name": "Rocky Mountain Power",
+            "logo": "logos/power.JPG",
+            "address": "555 N Main St, Tooele, UT 84074",
+            "phone": "(877) 508-5088",
+            "website": "https://www.rockymountainpower.net/"
+        },
+        {
+            "name": "Rocky Mountain Care",
+            "logo": "logos/rocky.JPG",
+            "address": "85 E 2000 N, Tooele, UT 84074",
+            "phone": "(435) 843-2000",
+            "website": "https://rockymountaincare.com/"
+        }    
+    ]
+}

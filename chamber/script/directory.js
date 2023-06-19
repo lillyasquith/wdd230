@@ -27,7 +27,7 @@ const displayDirectory = (companies) => {
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "200");
     logo.setAttribute("height", "100");
-    logo.style.objectFit = "cover";
+
     // Append the section(card) with the created elements//the order from 1st to last of these Element in html start with name and end with site od each card.
     card.appendChild(name);
     card.appendChild(logo);
@@ -40,3 +40,21 @@ const displayDirectory = (companies) => {
 }; // end of function expression
 
 getDirectoryData();
+
+//Displayed as cards or as a list
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards");
+
+gridbutton.addEventListener("click", () => {
+  // example using arrow function
+  display.classList.add("grid");
+  display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList);
+// example using defined function
+function showList() {
+  display.classList.add("list");
+  display.classList.remove("grid");
+}

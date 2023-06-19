@@ -11,7 +11,7 @@ const displayDirectory = (companies) => {
   companies.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
-    let picture = document.createElement("img");
+    let logo = document.createElement("img");
     let name = document.createElement("h3");
     let location = document.createElement("p");
     let contact = document.createElement("p");
@@ -23,14 +23,14 @@ const displayDirectory = (companies) => {
     site.textContent = business.website;
     site.setAttribute("href", business.website);
 
-    picture.setAttribute("src", business.logo);
-    picture.setAttribute("loading", "lazy");
-    picture.setAttribute("width", "200");
-    picture.setAttribute("height", "100");
-    picture.style.objectFit = "cover";
+    logo.setAttribute("src", business.logo);
+    logo.setAttribute("loading", "lazy");
+    logo.setAttribute("width", "200");
+    logo.setAttribute("height", "100");
+    logo.style.objectFit = "cover";
     // Append the section(card) with the created elements//the order from 1st to last of these Element in html start with name and end with site od each card.
     card.appendChild(name);
-    card.appendChild(picture);
+    card.appendChild(logo);
     card.appendChild(location);
     card.appendChild(contact);
     card.appendChild(site);

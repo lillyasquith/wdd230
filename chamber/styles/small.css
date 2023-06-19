@@ -477,3 +477,41 @@ form label.top input:required:valid {
 }
 
 /* DIRECTORY PAGE */
+#directory{
+    color: #100E39;
+    margin: 0 auto;
+	padding: 0.5rem;
+}
+.menu {
+    box-shadow: none;
+    text-align: center;    
+}
+
+.menu button {
+	padding: 10px;
+	font-weight: 900;
+    width: 5em;
+    margin: 10px;
+    background-color: #100E39;
+    color: aliceblue;
+    border: none;
+}
+.menu button:hover {
+    background-color: #FCD135;
+    color: #100E39;
+    transform: scale(1.3);
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+    padding: 1rem;
+}
+
+.cards section {
+	text-align: center;
+    color:#100E39 ;
+    padding: 20px;
+}
+

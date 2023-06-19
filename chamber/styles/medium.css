@@ -180,14 +180,15 @@
     #directory{
         display: block;
         margin-bottom: 50px;
+        
     }
 
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, (1fr));
-        grid-gap: 30px;
+        grid-gap: 50px;
         box-shadow: none; 
-       
+        margin-top: 50px;
     }
    
     .cards section {

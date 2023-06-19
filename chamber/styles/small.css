@@ -495,6 +495,7 @@ form label.top input:required:valid {
     background-color: #100E39;
     color: aliceblue;
     border: none;
+    border-radius: 10px;
 }
 .menu button:hover {
     background-color: #FCD135;

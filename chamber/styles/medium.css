@@ -184,12 +184,13 @@
         display: block;
         margin-bottom: 50px;
     }
-   
+
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, (1fr));
-        grid-gap: 100px;
+        grid-gap: 30px;
         box-shadow: none; 
+       
     }
    
     .cards section {
@@ -199,7 +200,7 @@
         width: 100%;
     }
     .cards a {
-        font-size: 15px;
+        font-size: 12px;
     }
     .cards section > * {
         margin: 0 1rem;
@@ -207,8 +208,7 @@
     
     .list {
         display: flex;
-        flex-direction: column;
-       
+        flex-direction: column; 
     }
 
     .list section > * {
@@ -217,14 +217,8 @@
     .list section {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        margin: 0;
-        padding: 0.1rem;
         box-shadow: none;
-        width: 100%;
-        text-align: left; 
-        height: 50%;
-        width: 100%;
-        
+        text-align: left;  
     }
     
 }

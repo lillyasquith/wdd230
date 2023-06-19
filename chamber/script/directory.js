@@ -12,7 +12,7 @@ const displayDirectory = (companies) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     let logo = document.createElement("img");
-    let name = document.createElement("h3");
+    let name = document.createElement("h4");
     let location = document.createElement("p");
     let contact = document.createElement("p");
     let site = document.createElement("a");

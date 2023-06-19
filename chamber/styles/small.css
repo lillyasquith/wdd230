@@ -476,11 +476,11 @@ form label.top input:required:valid {
 #directory{
     color: #100E39;
     margin: 0 auto;
-	padding: 0.5rem;
 }
 .menu {
     box-shadow: none;
-    text-align: center;    
+    text-align: center;
+    margin-bottom: 20px;    
 }
 
 .menu button {
@@ -492,7 +492,6 @@ form label.top input:required:valid {
     color: aliceblue;
     border: none;
     border-radius: 10px;
-    margin-bottom: 30px;
 }
 .menu button:hover {
     background-color: #FCD135;
@@ -502,7 +501,7 @@ form label.top input:required:valid {
 .cards {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 30px;
+	grid-gap: 20px;
 	align-items: center; 
     box-shadow: none;
 }
@@ -522,7 +521,6 @@ form label.top input:required:valid {
 .list section img {
 	display: none; /* smaller viewports only */
 }
-
 .list section:nth-child(even) {
 	background-color:aliceblue;
 }

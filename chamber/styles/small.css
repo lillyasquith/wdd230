@@ -8,7 +8,10 @@
 	--accent1-color: aliceblue;
 	--accent2-color:#FCD135;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 header, footer, main, #banner, #formFied{
     text-align: center;

@@ -183,45 +183,41 @@
     #directory{
         display: block;
         width: 100%;
-        margin: auto;
-        font-size: 1.2rem;
-        padding: 10px;
+        margin-bottom: 50px;
     }
    
     .cards {
         display: grid;
         grid-template-columns: repeat(auto-fit, (1fr));
-        grid-gap: 5px;
-        align-items: center;
-        margin: 50px;
+        grid-gap: 20px;
+        box-shadow: none;
     }
-    
+   
     .cards section {
-        text-align: center;
+        text-align: left;
+        border: none;
+        box-shadow: 0px 0px 20px #4B496F;
     }
-    
+    .cards a {
+        font-size: 10px;
+    }
     .cards section > * {
-        margin: 0.1rem;
+        margin: 0 1rem;
     }
     
     .list {
         display: flex;
         flex-direction: column;
-        margin: auto;
     }
-    
-    .list section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0;
-        padding: 0.25rem;
-    }
-    
     .list section > * {
         margin: 0 1rem;
     }
-    
-    .list section:nth-child(even) {
-        background-color:#FCD135;
+    .list section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0;
+        padding: 0.1rem;
+        box-shadow: none;
     }
+    
 }

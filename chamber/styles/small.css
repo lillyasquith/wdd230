@@ -477,6 +477,7 @@ form label.top input:required:valid {
 }
 
 /* DIRECTORY PAGE */
+
 #directory{
     color: #100E39;
     margin: 0 auto;
@@ -496,23 +497,34 @@ form label.top input:required:valid {
     color: aliceblue;
     border: none;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 .menu button:hover {
     background-color: #FCD135;
     color: #100E39;
     transform: scale(1.3);
 }
-
 .cards {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
 	align-items: center;
-    padding: 1rem;
 }
 
 .cards section {
 	text-align: center;
     color:#100E39 ;
-    padding: 20px;
+    padding: 30px;
+}
+.cards img {
+    max-width:fit-content;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section:nth-child(even) {
+	background-color: #FCD135;
 }
 

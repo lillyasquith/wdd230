@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    font-size: 20px;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    text-shadow: 0 0 50px darkslateblue;
+    padding: 20px;
+}
+#current-temp {
+    font-weight: 900;
+}

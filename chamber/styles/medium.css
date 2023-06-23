@@ -147,13 +147,17 @@
     form legend {
         font-size: 30px;
     }
-    .is-hidden{
+    /* it's required to display the membership benefits in the medium and large views */
+    /* .is-hidden{
         display: none;
-    }
-    .level {
+    } */
+    /* .level {
     display: flex;
     justify-content: space-between;
-    } 
+    }  */
+    .is-hidden{
+        margin: 30px;
+    }
     form fieldset {
         margin: 50px; 
     }

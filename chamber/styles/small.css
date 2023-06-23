@@ -156,7 +156,10 @@ main div{
 .sp3, #join {
     display: none;
 }
-
+.joinBtn:hover {
+    transform: scale(1.1);
+    background-color: orange;
+}
 
 /* W05 Assignment: Chamber Home Page Continued */
 /* header {

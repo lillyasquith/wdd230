@@ -72,13 +72,7 @@
         padding: 10px;
         border-radius: 15px;
     }
-    .descr2{
-        text-align: left;
-    }
-    .result{
-        text-align: right;
-    }
-      
+  
     /* FOOTER */
     footer {
         display: grid;

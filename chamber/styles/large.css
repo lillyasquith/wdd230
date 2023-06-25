@@ -126,19 +126,15 @@
         width:300px;
     }
     .sp, .sp3{
+        display: block;
+        border: 1px solid #4b496f;
         width: auto;
         height: auto;
-        padding-top: 10px;
         color: #F5F5F5;
         text-align: center;
         background-color:#090556;
         box-shadow: 1px 1px 10px #FCD135;
-}
-    .sp3{
-        display: block;
-        border: 1px solid #4b496f;
     }
-    
     .logoBottom{
         width: 60%;
     }

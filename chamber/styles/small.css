@@ -255,16 +255,20 @@ main div{
 #weather hr {
     margin: 10px;
 }
-#temp{
-    margin-left: 50%;
-    margin-top: -50px;
-    padding-bottom: 50px;
-}
-.weather-img {
+
+/* .weather-img {
     width: 30%;
     margin-top: 20px;
     margin-right: 200px;
+} */
+#weather-icon {
+    width: 30%;
 }
+figcaption {
+    text-transform: capitalize;
+    padding: 10px;
+}
+
 .cel {
     text-align: right;
     margin-right: 50px;
@@ -289,11 +293,12 @@ main div{
 }
 .sp {
     height: auto;
-    padding-top: 10px;
+    padding: 20px;
     color: aliceblue;
     text-align: center;
     background-color:#090556;
     box-shadow: 1px 1px 10px #FCD135;
+    margin: 10px;
 }
 .sp-text {
     font-style: italic;

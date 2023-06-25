@@ -58,8 +58,12 @@ async function apiFetch() {
   }
 }
 function displayResults(weatherData) {
-  currentTemp.innerHTML = weatherData.main.temp.toFixed(0);
-  currentSpeed.innerHTML = `${weatherData.wind.speed.toFixed(1)} mph`;
+  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
+    0
+  )}</strong>`;
+  currentSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(
+    0
+  )}</strong> mph`;
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const desc = weatherData.weather[0].description;

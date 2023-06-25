@@ -189,7 +189,7 @@
 
     .cards {
         display: grid;
-        grid-template-columns: repeat(auto-fit, (1fr));
+        grid-template-columns: repeat(auto-fit, 1fr);
         grid-gap: 50px;
         box-shadow: none; 
         margin-top: 50px;

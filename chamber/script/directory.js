@@ -12,18 +12,21 @@ const displayDirectory = (companies) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     let logo = document.createElement("img");
-    let name = document.createElement("h4");
+    let name = document.createElement("h1");
     let location = document.createElement("p");
     let contact = document.createElement("p");
     let site = document.createElement("a");
+    let level = document.createElement("p");
 
     name.textContent = business.name;
     location.textContent = business.address;
     contact.textContent = business.phone;
+    level.textContent = business.memberlevel;
     site.textContent = business.website;
     site.setAttribute("href", business.website);
 
     logo.setAttribute("src", business.logo);
+    logo.setAttribute("alt", "logopic");
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "200");
     logo.setAttribute("height", "100");
@@ -34,6 +37,7 @@ const displayDirectory = (companies) => {
     card.appendChild(location);
     card.appendChild(contact);
     card.appendChild(site);
+    card.appendChild(level);
 
     cards.appendChild(card);
   }); // end of forEach loop

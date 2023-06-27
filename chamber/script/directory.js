@@ -22,11 +22,12 @@ const displayDirectory = (companies) => {
     location.textContent = business.address;
     contact.textContent = business.phone;
     level.textContent = business.memberlevel;
+
     site.textContent = business.website;
     site.setAttribute("href", business.website);
 
     logo.setAttribute("src", business.logo);
-    logo.setAttribute("alt", "logopic");
+    logo.setAttribute("alt", business.name);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "200");
     logo.setAttribute("height", "100");

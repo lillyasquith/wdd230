@@ -156,7 +156,9 @@
     
     .cards {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
- 
+        font-size: 30px;
     }
-
+    .cards a {
+        font-size: 20px;
+    }
 }

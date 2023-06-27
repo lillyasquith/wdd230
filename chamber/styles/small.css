@@ -530,6 +530,9 @@ form label.top input:required:valid {
 .cards h1, .cards p {
     padding: 10px;
 }
+.cards h1 {
+   font-size: 40px; 
+}
 
 .list section{
     box-shadow: none;

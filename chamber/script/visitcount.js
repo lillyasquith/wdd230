@@ -1,3 +1,4 @@
+//get the stored value in localStorage
 const lastVisit = localStorage.getItem("lastvisit");
 // console.log(lastVisit);
 

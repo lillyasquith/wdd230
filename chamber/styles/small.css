@@ -333,10 +333,10 @@ figcaption {
     margin: 20px;
 }
 
-#discover img:hover {
+/* #discover img:hover {
     transform: scale(1.1);
     border: 1px solid #4B496F;
-}
+} */
 /* #discover img[data-src] {
     filter: blur(0.1em);
 } */

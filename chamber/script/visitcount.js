@@ -1,18 +1,13 @@
-// initialize display elements
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+const lastVisit = localStorage.getItem("lastvisit");
+// console.log(lastVisit);
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
+const currentDate = new Date();
+const previousVisit = new Date(lastVisit);
+const timeDiff = Math.abs(currentDate.getTime() - previousVisit.getTime());
+// console.log(timeDiff);
+const daysSinceVisit = Math.floor(timeDiff / (60 * 60 * 24 * 1000));
+console.log(daysSinceVisit);
 
-// determine if this is the first visit or display the number of visits.
-if (numVisits !== 0) {
-  visitsDisplay.textContent = numVisits;
-} else {
-  visitsDisplay.textContent = `This is your first visit!`;
-}
+document.querySelector("#dayspass").innerHTML = daysSinceVisit;
 
-// increment the number of visits.
-numVisits++;
-// store the new number of visits value
-localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem("lastvisit", currentDate);

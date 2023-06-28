@@ -291,6 +291,7 @@ figcaption {
 }
 .sp-img {
     width: 30%;
+    padding: 10px;
 }
 .sp {
     height: auto;

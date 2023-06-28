@@ -1,5 +1,5 @@
 //get the stored value in localStorage
-const lastVisit = Number(window.localStorage.getItem("lastvisit"));
+const lastVisit = localStorage.getItem("lastvisit");
 // console.log(lastVisit);
 
 const currentDate = new Date();

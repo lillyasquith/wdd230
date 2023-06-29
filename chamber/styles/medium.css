@@ -62,6 +62,16 @@
         grid-column: 2/3;
         grid-row: 5/6;
     }
+    #weather-icon {
+        margin-left: 10%;
+    }
+    .number {
+        padding: 10px;
+    }
+    figcaption {
+        text-transform: capitalize;
+        padding: 10px;
+    }
     .overlay{
         font-size: 2rem;
     }

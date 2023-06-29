@@ -257,11 +257,6 @@ main div{
     margin: 10px;
 }
 
-/* .weather-img {
-    width: 30%;
-    margin-top: 20px;
-    margin-right: 200px;
-} */
 #weather-icon {
     width: 20%;
     float: left;
@@ -534,4 +529,6 @@ form label.top input:required:valid {
 .list section:nth-child(even) {
 	background-color:aliceblue;
 }
+
+/* CONTACT PAGE */
 

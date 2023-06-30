@@ -166,6 +166,7 @@
     }  */
     .is-hidden{
         margin: 30px;
+        
     }
     form fieldset {
         margin: 50px; 
@@ -175,6 +176,7 @@
     }
     form label.top, form label.middle,form label.text, form label.bottom {
         padding-top: 3rem;  
+       
     }
     form label.top input, form label.top select, form label.middle input, form label.middle select, form label.text textarea, form label.text select {
         min-width: 30rem;
@@ -232,5 +234,8 @@
         /* box-shadow: none; */
         text-align: left;  
     }
-    
+    /* CONTACT PAGE */
+    .contactTitle {
+        font-size: 2rem;
+    }
 }

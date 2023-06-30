@@ -164,4 +164,9 @@
     .cards a {
         font-size: 20px;
     }
+    /* CONTACT PAGE */
+    .contactTitle {
+        font-size: 3rem;
+    }
+
 }

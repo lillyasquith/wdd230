@@ -527,8 +527,22 @@ form label.top input:required:valid {
 	display: none; /* smaller viewports only */
 }
 .list section:nth-child(even) {
-	background-color:aliceblue;
+	background-color:#d2d1e9;
 }
 
 /* CONTACT PAGE */
-
+#contactField {
+    display: block;
+    font-family: var(--paragrap-font);
+    font-size: 20px;
+    width: 80%; 
+}
+.contactTitle {
+    text-align: center;
+    color: #4B496F;
+}
+.contact-box {
+    text-align: left; 
+    /* background-color:#4B496F;  */
+    
+}

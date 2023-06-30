@@ -22,6 +22,7 @@ const displayDirectory = (companies) => {
     location.textContent = business.address;
     contact.textContent = business.phone;
     level.textContent = business.memberlevel;
+    level.setAttribute("class", "memberlevel");
 
     site.textContent = business.website;
     site.setAttribute("href", business.website);

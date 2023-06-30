@@ -507,8 +507,8 @@ form label.top input:required:valid {
 .cards section {
 	text-align: center;
     color:#100E39 ;
-    padding: 10px;
     box-shadow: 0px 0px 20px #4B496F;
+    padding: 10px;
 }
 .cards img {
     max-width:min-content;
@@ -529,7 +529,10 @@ form label.top input:required:valid {
 .list section:nth-child(even) {
 	background-color:#d2d1e9;
 }
-
+.memberlevel {
+    color: #4B496F;
+    font-weight: 900;
+}
 /* CONTACT PAGE */
 #contactField {
     display: block;

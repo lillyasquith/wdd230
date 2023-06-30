@@ -535,7 +535,7 @@ form label.top input:required:valid {
     display: block;
     font-family: var(--paragrap-font);
     font-size: 20px;
-    width: 80%; 
+    width: 100%; 
 }
 .contactTitle {
     text-align: center;

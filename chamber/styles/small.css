@@ -371,7 +371,7 @@ form fieldset {
     margin-left: 20px; 
     margin-right: 20px;
     padding: 10px;
-    background-color: #edecf8;
+    background-color: rgb(223, 222, 233);
 }
 
 form legend {
@@ -393,7 +393,7 @@ form label.top input, form label.top select, form label.middle input, form label
     border-radius: 5px;
     width: 100%;
     max-width: 17rem;
-    background-color: rgb(223, 222, 233);
+    background-color: #edecf8;
     color: #100E39;
     padding: 10px;
 }
@@ -403,7 +403,7 @@ form label.text textarea, form label.text select {
     border-radius: 5px;
     width: 100%;
     max-width: 17rem;
-    background-color: rgb(223, 222, 233);
+    background-color: #edecf8;
     color: #100E39;
     padding: 10px;
 }
@@ -417,7 +417,7 @@ form label.text select, form label.text textarea {
     display: block;
     border: 1px solid #4B496F ;
     border-radius: 5px;
-    background-color: rgb(223, 222, 233);
+    background-color: #edecf8;
     color: #100E39;
     width: 100%;
     padding-bottom: 100px;
@@ -566,8 +566,8 @@ form label.top input:required:valid {
 
 .contact-info {
     color: aliceblue;
-    background-color: #4B496F;
-    font-size: 30px;
+    background-color: #100E39;
+    font-size: 20px;
     text-align: center;
  
 }
@@ -580,4 +580,5 @@ form label.top input:required:valid {
 }
 .bold {
     text-align: center;
+    font-weight: 800;
 }

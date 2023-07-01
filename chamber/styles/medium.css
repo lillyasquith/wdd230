@@ -238,4 +238,7 @@
     .contactTitle {
         font-size: 2rem;
     }
+    .contact-info {
+        font-size: 30px;
+    }
 }

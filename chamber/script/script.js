@@ -34,7 +34,15 @@ function toggleMenu() {
 }
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+/* Open the sidenav */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
 
+/* Close/hide the sidenav */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 //Banner displays only on Mondays or Tuesdays
 let weekDay = now.getDay();
 let message;

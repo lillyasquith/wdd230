@@ -237,6 +237,7 @@
     /* CONTACT PAGE */
     .contactTitle {
         font-size: 2rem;
+        padding-top: 30px;
     }
     .contact-info {
         font-size: 30px;

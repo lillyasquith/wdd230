@@ -125,10 +125,12 @@
     }
 
     /* DISCOVER PAGE */
-    /* #discover img:hover {
+    /* There should be a hover effect on each image in the large and medium views, 
+    just not the small view. */
+    #discover img:hover {
         transform: scale(1.1);
         border: 1px solid #4B496F;
-    } */
+    }
 
     #discover {
         width: 70%;

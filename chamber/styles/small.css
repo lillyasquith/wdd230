@@ -13,60 +13,10 @@
     padding: 0;
 }
 
-/* header, footer, main, #banner, #formFied{
-    text-align: center;
-    margin: 0 auto;
-} */
-
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.social {
-    display: flex;
-}
-.social a {
-    margin-right: 10%;
-    width: 40px;
-}
-#hamburgerBtn {
-    background-color: tan;
-    font-size: 2rem;
-    margin-top: -2%;
-    color: black;
-}
-#primaryNav ul {
-    list-style-type: none;
-    margin: .2rem 2vw;
-    padding: 0;
-    font-weight: 800;
-}
-header nav {
-    display: none;
-}
-header nav.open {
-    display: block;
-    grid-column: 1/4;
-    margin-bottom: 2%;
-}
-header a {
-    color: white;
-}
-#primaryNav a {
-    display: block;
-    padding: .8rem 2vw;
-    text-decoration: none;
-}
-#primaryNav a:hover {
-    background-color: #ff8d0a;
-}
-/* --------------------- */
 header {
     display: grid;
     padding: 10px;
-	grid-template-columns: 3fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
+	grid-template-columns: 2fr 1fr 1fr;
     background-color: #FCD135; 
     font-family: var(--heading-font);
     align-items: center;
@@ -75,19 +25,17 @@ header a{
     text-decoration: none;
 }
 .logo {
-    grid-column: 1/2;
-    grid-row: 1/2;
     display: flex;
 	align-items: center;
 }
 .logo img {
     width:80px;
 	height: auto;
+    
 }
 .social {
+    display: flex;
     width: 80px;
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
 .social img {
     width: 30px;
@@ -96,15 +44,13 @@ header a{
     text-decoration: none;
 }
 .headings {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    text-align: left;
     color: #100E39;
 }
-
-nav button {
-    grid-column: 3/4;
-    grid-row: 1/3;
+nav {
+    grid-column: 1/4;
+    text-align: center;
+}
+#hamburgerBtn {
     color: #100E39;
     background-color: transparent;
     font-size: 2rem;
@@ -117,10 +63,10 @@ nav ul {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: aliceblue;
-    padding: .5rem 1vw;
-    box-shadow: 1px 1px 5px #6f7364;
-    background-color: #100E39;
+    color: #100E39;
+    padding: 10px;
+    /* padding: .5rem 1vw; */
+    /* box-shadow: 0px 1px 0px #100E39; */
 }
 nav a:hover {
 	background-color: #4B496F;
@@ -128,10 +74,11 @@ nav a:hover {
 }
 nav ul {
     display: none;
-    color: #100E39;
+    /* color: #100E39; */
 }
 nav ul.open {
     display: block;
+    
 }
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -145,6 +92,7 @@ nav ul.open {
     background-color:#100E39;
     color:aliceblue;
     padding: 10px;
+    text-align: center;
 }
 
 /* FOOTER */

@@ -13,11 +13,55 @@
     padding: 0;
 }
 
-header, footer, main, #banner, #formFied{
+/* header, footer, main, #banner, #formFied{
     text-align: center;
     margin: 0 auto;
-}
+} */
 
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social {
+    display: flex;
+}
+.social a {
+    margin-right: 10%;
+    width: 40px;
+}
+#hamburgerBtn {
+    background-color: tan;
+    font-size: 2rem;
+    margin-top: -2%;
+    color: black;
+}
+#primaryNav ul {
+    list-style-type: none;
+    margin: .2rem 2vw;
+    padding: 0;
+    font-weight: 800;
+}
+header nav {
+    display: none;
+}
+header nav.open {
+    display: block;
+    grid-column: 1/4;
+    margin-bottom: 2%;
+}
+header a {
+    color: white;
+}
+#primaryNav a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+}
+#primaryNav a:hover {
+    background-color: #ff8d0a;
+}
+/* --------------------- */
 header {
     display: grid;
     padding: 10px;
@@ -297,6 +341,7 @@ figcaption {
 /* DISCOVER PAGE */
 #discover {
     display: block;
+    margin: auto;
 }
 #discover h2{
     color: #100E39;
@@ -330,7 +375,7 @@ figcaption {
     width: 100%;
   }
 
-#timecount{
+.label {
     text-align: center;
 }
 
@@ -351,6 +396,7 @@ figcaption {
     font-family: var(--paragrap-font);
     font-size: 20px;
     width: 100%;  
+    text-align: center;
 }
 
 .formTitle {
@@ -368,6 +414,7 @@ form fieldset {
     margin-right: 20px;
     padding: 10px;
     background-color: rgb(223, 222, 233);
+    
 }
 
 form legend {
@@ -428,6 +475,7 @@ form input.submitBtn {
     margin-bottom: 50px;
     width: 90%;
     max-width: 20rem;
+   
 }
 
 form input.submitBtn:hover {
@@ -538,14 +586,9 @@ form label.top input:required:valid {
     font-size: 20px;
     width: 100%; 
     position: relative;
-}
-.contactTitle {
     text-align: center;
-    color: #4B496F;
 }
-.contact-box {
-    text-align: left; 
-}
+
 .contactImg {
     width: 100%;
     height: auto;
@@ -561,6 +604,7 @@ form label.top input:required:valid {
 }
 .details {
     margin: 20px;
+    align-items: center;
 }
 .contact-info {
     color: #100E39;

@@ -397,7 +397,7 @@ form label.top input, form label.top select, form label.middle input, form label
     color: #100E39;
     padding: 10px;
 }
-form label.text textarea, form label.text select {
+form label.text textarea, form label.text select, form label.text input {
     display: block;
     border: 1px solid #4B496F ;
     border-radius: 5px;
@@ -570,7 +570,7 @@ form label.top input:required:valid {
     color: #100E39;
     background-color: #d2d1e9;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     box-shadow: none;
 }
 .contact-map {

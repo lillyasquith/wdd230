@@ -12,12 +12,17 @@
     margin: 0;
     padding: 0;
 }
-
+#banner {
+    background-color:#4B496F;
+    text-align: center;
+    padding: 20px;
+    color: #FCD135;
+    text-decoration:overline;
+ }
 header {
     display: grid;
     padding: 10px;
 	grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     background-color: #FCD135; 
     font-family: var(--heading-font);
     align-items: center;
@@ -60,19 +65,23 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
+    width: 100%;
 }
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: #100E39;
-    padding: 10px;
-    /* padding: .5rem 1vw; */
-    /* box-shadow: 0px 1px 0px #100E39; */
+    color: aliceblue;
+    background-color: #100E39;
+    margin-left: -20px;
+    padding: 1rem 1vw;
+    box-shadow: 1px 1px 10px #FCD135;
+    
 }
 nav a:hover {
-	background-color: #4B496F;
-    color: #FCD135;
+	background-color: #FCD135;  
+    color: #100E39;
+    transition: 0.5s; 
 }
 nav ul {
     display: none;
@@ -80,7 +89,6 @@ nav ul {
 }
 nav ul.open {
     display: block;
-    
 }
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -89,8 +97,7 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 #date {
-    grid-column: 1/5;
-    grid-row: 2/3;
+    grid-column: 1/4;
     background-color:#100E39;
     color:aliceblue;
     padding: 10px;
@@ -156,34 +163,6 @@ main div{
     background-color: orange;
 }
 
-/* W05 Assignment: Chamber Home Page Continued */
-/* header {
-    display: grid;
-	grid-template-columns: 1fr 4fr 1fr;
-} */
-/* nav button {
-    grid-column: 1/2;
-} */
-.logo {
-    grid-column: 2/3;
-    margin-left: -50px;
-    width: 100%;
-    margin-left: auto;
-    margin-top: -10px;
-}
-.headings {
-    grid-column: 3/4;
-}
-/* .social {
-    grid-column: 4/5;
-} */
-#banner {
-   background-color:#4B496F;
-   text-align: center;
-   padding: 20px;
-   color: #FCD135;
-   text-decoration:overline;
-}
 .hero-img {
     width: 100%;
     height: auto;

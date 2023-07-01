@@ -46,10 +46,13 @@
         background-color: #100E39;
         color: aliceblue;
     }
+    nav ul li a{
+        margin-left: 2vw;    
+    }
     .social{
         grid-column: 4/5;
         width: auto;
-        margin-right: 100px;
+        margin-right: 50px;
     }
     .social img{
         width:40px;    

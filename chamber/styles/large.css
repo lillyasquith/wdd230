@@ -167,6 +167,17 @@
     /* CONTACT PAGE */
     .contactTitle {
         font-size: 3rem;
+    }   
+    .contact-map {
+        width: 50%;
+    }
+    .details {
+        display: flex;
+        box-shadow: none;
+    }
+    .contact-info {
+        padding: 30px;
+       
     }
 
 }

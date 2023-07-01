@@ -376,7 +376,7 @@ form fieldset {
 
 form legend {
     text-align: center;
-    font-weight: 600;
+    font-weight: 900;
     color: #100E39;
     font-size: 20px;
 }
@@ -563,13 +563,15 @@ form label.top input:required:valid {
 	font-size: 1.5rem;
     color: #100E39;
 }
-
+.details {
+    margin: 20px;
+}
 .contact-info {
-    color: aliceblue;
-    background-color: #100E39;
-    font-size: 20px;
+    color: #100E39;
+    background-color: #d2d1e9;
     text-align: center;
- 
+    padding: 20px;
+    box-shadow: none;
 }
 .contact-map {
     width: 100%;

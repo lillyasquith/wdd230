@@ -554,3 +554,6 @@ form label.top input:required:valid {
     text-align: center;
     font-weight: 800;
 }
+.contact-box {
+    border-radius: 0;
+}

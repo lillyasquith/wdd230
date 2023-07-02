@@ -446,8 +446,10 @@ form label.top input:required:valid {
 
 #directory{
     color: #100E39;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    text-align: center;
 }
+
 .menu {
     box-shadow: none;
     text-align: center;

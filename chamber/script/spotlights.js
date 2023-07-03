@@ -30,6 +30,7 @@ const displayDirectory = (companies) => {
     let level = document.createElement("p");
 
     unit.setAttribute("class", "sp");
+    line.setAttribute("class", "sp-line");
 
     name.textContent = business.name;
     name.setAttribute("class", "title1");
@@ -51,8 +52,8 @@ const displayDirectory = (companies) => {
     logo.setAttribute("alt", business.name);
     logo.setAttribute("class", "sp-img");
     logo.setAttribute("loading", "lazy");
-    logo.setAttribute("width", "200");
-    logo.setAttribute("height", "50");
+    logo.setAttribute("width", "50%");
+    logo.setAttribute("height", "100");
 
     // Append the section(unit) with the created elements//the order from 1st to last of these Element in html start with name and end with site od each unit.
     unit.appendChild(name);

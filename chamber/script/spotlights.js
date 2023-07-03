@@ -2,15 +2,26 @@ const spUrl = "https://lillyasquith.github.io/wdd230/chamber/data.json";
 async function getDirectoryData() {
   const response = await fetch(spUrl);
   const data = await response.json();
-  //   console.table(data.companies);
+  //   console.table(jsondata.companies);
   displayDirectory(data.companies);
 }
+getDirectoryData();
+
 const displayDirectory = (companies) => {
   const units = document.querySelector("#spotlight"); // select the output container element
-  companies.forEach((business) => {
+
+  let filteredComp = companies.filter(
+    (business) =>
+      business.memberlevel === "Gold Membership" ||
+      business.memberlevel === "Silver Membership"
+  );
+
+  filteredComp = filteredComp.slice(0, 3);
+
+  filteredComp.forEach((business) => {
     // Create elements to add to the div.units element
-    let line = document.createElement("hr");
     let unit = document.createElement("section");
+    let line = document.createElement("hr");
     let logo = document.createElement("img");
     let name = document.createElement("h3");
     let location = document.createElement("p");
@@ -41,7 +52,7 @@ const displayDirectory = (companies) => {
     logo.setAttribute("class", "sp-img");
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "200");
-    logo.setAttribute("height", "100");
+    logo.setAttribute("height", "50");
 
     // Append the section(unit) with the created elements//the order from 1st to last of these Element in html start with name and end with site od each unit.
     unit.appendChild(name);
@@ -55,5 +66,3 @@ const displayDirectory = (companies) => {
     units.appendChild(unit);
   }); // end of forEach loop
 }; // end of function expression
-
-getDirectoryData();

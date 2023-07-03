@@ -247,13 +247,10 @@ figcaption {
 #news p {
     padding-top: 10px;
 }
-.sp-img {
-    width: 30%;
-    padding: 10px;
-}
+
 .sp {
-    height: auto;
-    padding: 20px;
+    width:auto;
+    padding: 10px;
     color: aliceblue;
     text-align: center;
     background-color:#090556;
@@ -265,9 +262,21 @@ figcaption {
     padding-bottom: 10px;
 }
 .sp-contact {
-    font-size:small;
+    font-size:15px;
+    color: aliceblue;
 }
-
+.sp-img {
+    margin: 10px;
+}
+.sp-line {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    padding: 1px;
+}
+.sp:last-child {
+    display: none;
+}
 /* DISCOVER PAGE */
 #discover {
     display: block;

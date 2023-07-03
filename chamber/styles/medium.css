@@ -25,9 +25,7 @@
         display: flex;
         gap: 10px;
     }
-    .sp{
-        width: 50%;
-    }
+
     /* need to "display" it so that it will appear to the screen */
     #join{
         display: block;
@@ -63,9 +61,7 @@
         width: 30%;
         margin-left: 10%;
     }
-    .number {
-        padding: 10px;
-    }
+
     figcaption {
         text-transform: capitalize;
         padding: 10px;

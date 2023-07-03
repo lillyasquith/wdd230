@@ -64,7 +64,7 @@
     /* MAIN */
     main{
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
     #hero{
@@ -116,9 +116,7 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .number {
-        padding: 20px;
-    }
+   
     #join{
         grid-column: 1/2;
         grid-row: 3/4;
@@ -129,28 +127,21 @@
     }
 
     #spotlight{
+        width: 300px;
+        display: block;
         grid-column: 4/5;
         grid-row: 1/4;
-        display: grid;
-        width:300px;
     }
-    .sp, .sp3{
+    .sp:last-child {
         display: block;
-        border: 1px solid #4b496f;
-        width: auto;
-        height: auto;
-        color: #F5F5F5;
-        text-align: center;
-        background-color:#090556;
-        box-shadow: 1px 1px 10px #FCD135;
     }
     .logoBottom{
         width: 60%;
     }
-    .address, .contact{
-        margin-left: -150px;
+    /* .address, .contact{
+        margin-left: -100px;
         padding-top: 50px;
-    }
+    } */
 
     #discover picture {
         margin: 100px;

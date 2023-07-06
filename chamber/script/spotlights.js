@@ -21,7 +21,6 @@ const displayDirectory = (companies) => {
   filteredComp.forEach((business) => {
     // Create elements to add to the div.units element
     let unit = document.createElement("section");
-    let line = document.createElement("hr");
     let logo = document.createElement("img");
     let name = document.createElement("h3");
     let location = document.createElement("p");
@@ -30,7 +29,6 @@ const displayDirectory = (companies) => {
     let level = document.createElement("p");
 
     unit.setAttribute("class", "sp");
-    line.setAttribute("class", "sp-line");
 
     name.textContent = business.name;
     name.setAttribute("class", "title1");
@@ -42,11 +40,11 @@ const displayDirectory = (companies) => {
     contact.setAttribute("class", "sp-contact");
 
     level.textContent = business.memberlevel;
-    level.setAttribute("class", "sp-text");
+    level.setAttribute("class", "sp-level");
 
     site.textContent = business.website;
     site.setAttribute("href", business.website);
-    site.setAttribute("class", "sp-contact");
+    site.setAttribute("class", "sp-site");
 
     logo.setAttribute("src", business.logo);
     logo.setAttribute("alt", business.name);
@@ -61,7 +59,6 @@ const displayDirectory = (companies) => {
     unit.appendChild(location);
     unit.appendChild(contact);
     unit.appendChild(site);
-    unit.appendChild(line);
     unit.appendChild(level);
 
     units.appendChild(unit);

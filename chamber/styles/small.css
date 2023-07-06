@@ -261,18 +261,21 @@ figcaption {
     font-style: italic;
     padding-bottom: 10px;
 }
+.sp-level {
+    font-style: italic;
+    padding-top: 20px;
+    color: #FCD135;
+}
 .sp-contact {
-    font-size:15px;
     color: aliceblue;
 }
 .sp-img {
     margin: 10px;
 }
-.sp-line {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    background-color: aliceblue;
-    padding: 1px;
+.sp-site {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: aliceblue;
 }
 .sp:last-child {
     display: none;

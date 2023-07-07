@@ -264,7 +264,7 @@ figcaption {
 .sp-level {
     font-style: italic;
     padding-top: 20px;
-    color: #FCD135;
+    color: yellow;
 }
 .sp-contact {
     color: aliceblue;
@@ -517,7 +517,7 @@ form label.top input:required:valid {
 	display: none; /* smaller viewports only */
 }
 .list section:nth-child(even) {
-	background-color:#d2d1e9;
+	background-color:#fcfae4;
 }
 .memberlevel {
     color: #4B496F;

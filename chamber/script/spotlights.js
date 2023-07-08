@@ -7,6 +7,26 @@ async function getDirectoryData() {
 }
 getDirectoryData();
 
+//Randomly select which companies are displayed from those members, src:https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+function shuffleArray(array) {
+  let currentIndex = array.length,
+    randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+  return array;
+}
+
 const displayDirectory = (companies) => {
   const units = document.querySelector("#spotlight"); // select the output container element
 
@@ -16,6 +36,7 @@ const displayDirectory = (companies) => {
       business.memberlevel === "Silver Membership"
   );
 
+  filteredComp = shuffleArray(filteredComp);
   filteredComp = filteredComp.slice(0, 3);
 
   filteredComp.forEach((business) => {

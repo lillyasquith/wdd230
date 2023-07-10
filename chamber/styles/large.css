@@ -127,7 +127,6 @@
     }
 
     #spotlight{
-        /* width: 400px; */
         display: block;
         grid-column: 4/5;
         grid-row: 1/4;
@@ -139,8 +138,7 @@
         width: 60%;
     }
     .address, .contact{
-        margin-left: -100px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     #discover picture {

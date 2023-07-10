@@ -88,18 +88,15 @@
     .logoBottom{
         grid-column: 1/2;
         grid-row: 1/2;
-        width: 90%;
+        width: 80%;
         display: block;
     }
     .address{
         grid-column: 2/3;
         grid-row: 1/2;
         text-align: left;
-        margin-top: 20px;
-        margin-left: -50px;
     }
     .contact{
-        margin-top: 10px;
         grid-column: 3/4;
         grid-row: 1/2;
     }

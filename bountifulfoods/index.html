@@ -46,7 +46,70 @@
         </a>
       </div>
     </header>
-    <main></main>
+    <main>
+        <picture id="hero">
+          <source
+            media="(min-width:300px) and (max-width:700px)"
+            srcset="images/hero-461.jpg"
+          />
+          <source
+            media="(min-width:701px) and (max-width:1000px)"
+            srcset="images/hero-829.jpg"
+          />
+          <source media="(min-width:1001px)" srcset="images/hero-1152.jpg" />
+          <img class="hero-img" src="images/hero-1152.jpg" alt="hero-image" />
+        </picture> 
+      <div class="service">
+        <h1>Our Service</h1>
+        <p>
+          We want to introduce our business "Bountiful Foods" to our local community. We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and more. We are especially offering “fruit drink mix” where you can mix and match your own fruit flavors. We take online orders, and sell our products at the local ABC farmer market from 9:00 A.M to noon as well. Our mission is to provide and support healthy eating.
+        </p>
+      </div>
+      <div class="drinkmix">
+        <h1>Fruit Drink Mix</h1>
+        <img src="images/fruits-1084.jpg" alt="fruit-img">
+        <button class="orderBtn" onclick="document.location='fresh.html'">
+          Order Now
+        </button>
+      </div>
+      <div id="contact">
+        <section class="location">
+          <h1>Our location</h1>
+          <p>
+            Brentwood is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. The community has a long and storied history in agriculture and farming production. That tradition continues today even with the residential growth the City has experienced over the last several years. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
+            <a href="https://www.brentwoodca.gov/government/about">City of Brentwood</a>
+          </p>
+          <img class="maps-img" src="images/maps.png">
+        </section>
+        <section class="contact-info">
+          <h1 class="bold">Contact Us</h1>
+          <hr />
+          <p>Phone:<span class="regular"> +1 (123) 2345-2345</span></p>
+          <p>Email: <span>info@boutifulfoods.com</span></p>
+          <p>Address: <span>600 Payne Ave, Brentwood, CA 94513</span></p>
+          <p>Hours: Monday – Friday: 9:30 AM to 5:00 PM <span></span></p>
+          <a
+            class="maps"
+            href="https://goo.gl/maps/hdEZ4txikc8d1Q3L9"
+            target="blank"
+          >
+            <img class="pin" src="images/map-pin.png" alt="location" />
+            Location</a
+          >
+        </section>
+      </div>
+      <div id="weather">
+        <h1 class="title">Weather</h1>
+        <figure>
+          <img src="#" alt="desc" id="weather-icon" />
+          <h2 class="number"><span id="temp"></span> &deg;F</h2>
+          <figcaption></figcaption>
+        </figure>
+      </div>
+      <div>
+        Last Modified Date: <span id="currentdate"></span>
+      </div>
+    </main>
     <footer>
       <section>
         <h1 class="title">Bountiful Foods</h1>

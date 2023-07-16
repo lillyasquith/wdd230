@@ -28,7 +28,7 @@ header a{
 	grid-column: 2/3;
 } 
 .logo-top img {
-    width:130px; 
+    width:120px; 
 }
 #top-icons {
 	grid-column: 3/4;
@@ -92,11 +92,11 @@ footer {
 .logo-bottom img {
 	width: 20px;
 }
-.title {
+.brand {
 	font-family: var(--heading-font);
 	color: #226f54;
 	padding-top: 5px;
-	margin-left: -20px;
+	margin-left: -30px;
 	font-size: 20px;
 }
 .social{
@@ -104,7 +104,7 @@ footer {
 	background-color: #f4f0bb;
 	display: flex;
 	justify-content: center;
-	gap: 20px;
+	gap: 30px;
 }
 .social a {
 	text-decoration: none;
@@ -113,7 +113,7 @@ footer {
 .social img {
 	width: 30px;
 }
-.author{
+.author {
 	background-color: #226f54;
 	color: #f4f0bb;
 	padding: 30px;
@@ -121,6 +121,54 @@ footer {
 }
 
 /* MAIN */
-.drinkmix img {
+
+body{
+	font-family: var(--paragrap-font);
+	text-align: center;
+	font-size: 18px;
+}
+#hero img {
 	width: 100%;
+}
+main div {
+	padding: 20px;
+}
+.service p{
+	text-align: left;
+}
+.drinkmix img, .maps-img {
+	max-width: 100%;
+}
+.title {
+	font-family: var(--heading-font);
+	color: #226f54;
+	
+}
+.orderBtn {
+	margin-top: 20px;
+	background-color: orangered;
+	padding: 20px;
+	color: #f4f0bb;
+	border: none;
+	border-radius: 15px;
+
+}
+.orderBtn:hover {
+	background-color: #da2c38;
+    transform: scale(1.1);
+}
+.pin {
+	width: 30px;
+}
+.maps {
+	color: #226f54;
+	font-weight: 900;
+}
+.contact p {
+	background-color: #cbf0d0;
+	padding: 10px;
+	text-align: left;
+}
+.contact h1 {
+	padding-top: 30px;
 }

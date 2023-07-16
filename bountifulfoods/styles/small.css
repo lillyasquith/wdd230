@@ -27,13 +27,14 @@ header a{
 #my-logo {
 	grid-column: 2/3;
 } 
-.logo img {
-    width:80px; 
+.logo-top img {
+    width:130px; 
 }
 #top-icons {
 	grid-column: 3/4;
 	display: flex;
     justify-content: flex-end;
+	gap: 10px;
 }
 #top-icons img {
 	width:30px;
@@ -48,7 +49,7 @@ header a{
     border: none;
     display: flex;
     justify-content: flex-start;
-	margin-top: -60px;
+	margin-top: -70px;
 
 }
 nav ul {
@@ -86,32 +87,40 @@ nav ul.open {
 footer {
     text-align: center;
 	border: 1px solid #226f54;
+	font-family: var(--paragrap-font);
+}
+.logo-bottom img {
+	width: 20px;
 }
 .title {
-	color: #f4f0bb;
-	font-size: 20px;
+	font-family: var(--heading-font);
+	color: #226f54;
 	padding-top: 5px;
+	margin-left: -20px;
+	font-size: 20px;
 }
 .social{
 	padding: 10px;
-	background-color: #226f54;
+	background-color: #f4f0bb;
 	display: flex;
 	justify-content: center;
-	gap: 50px;
+	gap: 20px;
 }
 .social a {
 	text-decoration: none;
 }
-.social a:hover {
-	background-color: #f4f0bb;
-}
+
 .social img {
 	width: 30px;
 }
 .author{
-	background-color: #f4f0bb;
-	color: #226f54;
-	padding: 20px;
+	background-color: #226f54;
+	color: #f4f0bb;
+	padding: 30px;
+	font-size: 13px;
 }
 
 /* MAIN */
+.drinkmix img {
+	width: 100%;
+}

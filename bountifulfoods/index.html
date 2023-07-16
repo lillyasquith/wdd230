@@ -20,24 +20,15 @@
   <body>
     <header>
       <!-- LOGO -->
+      <div id="my-logo">
       <a href="index.html">
         <picture class="logo">
           <img src="images/my-logo.webp" alt="logo-img" />
         </picture>
       </a>
-
-      <!-- NAVIGATION -->
-      <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-      <nav>
-        <ul id="primaryNav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="fresh.html">Fresh</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
-        </ul>
-      </nav>
-
+      </div>
       <!-- ICONS -->
-      <div class="top-icons">
+      <div id="top-icons">
         <a href="#" target="_blank">
           <img src="images/login-icon64.png" alt="login-icon" />
         </a>
@@ -45,6 +36,18 @@
           <img src="images/shopping-cart-black64.png" alt="cart-icon" />
         </a>
       </div>
+      <!-- NAVIGATION -->
+      <div class="navigation">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <nav>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      
     </header>
     <!-- MAIN HERE-->
     <main>
@@ -73,7 +76,7 @@
           Order Now
         </button>
       </div>
-      <div id="contact">
+      <div class="contact">
         <section class="location">
           <h1>Our location</h1>
           <p>
@@ -81,14 +84,6 @@
             <a href="https://www.brentwoodca.gov/government/about">City of Brentwood</a>
           </p>
           <img class="maps-img" src="images/maps.png">
-        </section>
-        <section class="contact-info">
-          <h1 class="bold">Contact Us</h1>
-          <hr />
-          <p>Phone:<span class="regular"> +1 (123) 2345-2345</span></p>
-          <p>Email: <span>info@boutifulfoods.com</span></p>
-          <p>Address: <span>600 Payne Ave, Brentwood, CA 94513</span></p>
-          <p>Hours: Monday – Friday: 9:30 AM to 5:00 PM <span></span></p>
           <a
             class="maps"
             href="https://goo.gl/maps/hdEZ4txikc8d1Q3L9"
@@ -98,9 +93,17 @@
             Location</a
           >
         </section>
+        <section class="contact-info">
+          <h1 class="bold">Contact Us</h1>
+          <hr />
+          <p>Phone:<span class="regular"> +1 (123) 2345-2345</span></p>
+          <p>Email: <span>info@boutifulfoods.com</span></p>
+          <p>Address: <span>600 Payne Ave, Brentwood, CA 94513</span></p>
+          <p>Hours: Monday – Friday: 9:30 AM to 5:00 PM <span></span></p>
+        </section>
       </div>
-      <div id="my-weather">
-        <h1 class="title">Weather</h1>
+      <div class="my-weather">
+        <h1 class="weather-title">Weather</h1>
         <figure>
           <img src="#" alt="description" id="weather-img" />
           <h2 class="number"><span id="temperture"></span> &deg;F</h2>
@@ -114,9 +117,9 @@
     </main>
     <!-- FOOTER HERE-->
     <footer>
-      <section>
-        <h1 class="title">Bountiful Foods</h1>
-        <div class="social">
+      <section class="social">
+        <h3 class="title">Bountiful Foods</h3>
+        <div>
           <a href="https://facebook.com" target="_blank">
             <img src="images/facebook.png" alt="fb-icon" />
           </a>
@@ -128,7 +131,7 @@
           </a>
         </div>
       </section>
-      <section class="author">&copy; Ly Dang | 🏛 BYU-Idaho | WDD 230 | Last Modified Date: <span id="year"> </span> <span id="currentdate"></span></section>
+      <section class="author">&copy;<span id="year"></span> Ly Dang | 🏛 BYU-Idaho | WDD 230 Final Project | Last Modified Date: <span id="currentdate"></span></section>
     </footer>
     <script src="scripts/home.js"></script>
     <script src="scripts/weather.js"></script>

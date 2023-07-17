@@ -20,6 +20,7 @@ header{
 	grid-template-columns: 1fr 1fr 1fr;
 	background-color: #f4f0bb;
 	font-family: var(--paragrap-font);
+	
 }
 header a{
     text-decoration: none;
@@ -41,6 +42,7 @@ header a{
 }
 .navigation {
     grid-column: 1/4;
+
 }
 #hamburgerBtn {
     color: black;

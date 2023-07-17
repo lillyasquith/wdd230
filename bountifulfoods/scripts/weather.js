@@ -1,13 +1,13 @@
 //WEATHER API
 // select HTML elements in the document
-const currentTemp = document.querySelector("#temperture");
-const weatherIcon = document.querySelector("#weather-img");
+const currentTemp = document.querySelector("#temp");
+const weatherIcon = document.querySelector("#img");
 const weatherDesc = document.querySelector("figcaption");
-const humidity = document.querySelector("#humidity");
+const humidity = document.querySelector("#humid");
 
 //create an "url" variable using const that stores the API call
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?lat=37.91024&lon=-121.70265&units=imperial&appid=c997a331d2044e07373c41f6ea65c0c4";
+  "https://api.openweathermap.org/data/2.5/weather?lat=37.93836&lon=-121.71035&units=imperial&appid=c997a331d2044e07373c41f6ea65c0c4";
 
 //write a defined asynchronous function that will use fetch() to request the given weather api url and then try to convert the response using a JSON parser that is built-in
 async function apiFetch() {

@@ -97,7 +97,7 @@ footer {
 	color: #226f54;
 	padding-top: 5px;
 	margin-left: -30px;
-	font-size: 20px;
+	font-size: 25px;
 }
 .social{
 	padding: 10px;
@@ -171,4 +171,10 @@ main div {
 }
 .contact h1 {
 	padding-top: 30px;
+}
+.weather-card {
+	background-color: #87c38f;
+}
+figcaption {
+    text-transform: capitalize;
 }

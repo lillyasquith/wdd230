@@ -6,7 +6,7 @@
 	--primary-color:#226f54;
 	--secondary-color: #f4f0bb ;
 	--accent1-color: #da2c38;
-	--accent2-color: #87c38f;
+	--accent2-color: ;
 }
 * {
     margin: 0;
@@ -15,7 +15,6 @@
 header{
 	padding: 10px;
 	align-items: center;
-	text-align: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	background-color: #f4f0bb;
@@ -30,6 +29,9 @@ header a{
 } 
 .logo-top img {
     width:120px; 
+}
+.search {
+	display: none;
 }
 #top-icons {
 	grid-column: 3/4;
@@ -63,10 +65,10 @@ nav ul li a {
     text-decoration: none;
     color: #f4f0bb;
 	font-size: 20px;
-    background-color: #226f54;
+    background-color: #226f54 ;
     padding: 1rem 1vw;
-    box-shadow: 1px 1px 10px #da2c38;
 	text-align: center; 
+	box-shadow: 1px 1px 10px #da2c38;
 }
 nav a:hover {
 	background-color:#87c38f;  
@@ -132,6 +134,9 @@ body{
 #hero img {
 	width: 100%;
 }
+.overlay, .orderBtn-large {
+	display: none;
+}
 main div {
 	padding: 20px;
 }
@@ -146,7 +151,7 @@ main div {
 	color: #226f54;
 	
 }
-.orderBtn {
+.orderBtn-small-medium {
 	margin-top: 20px;
 	background-color: orangered;
 	padding: 20px;
@@ -155,7 +160,7 @@ main div {
 	border-radius: 15px;
 
 }
-.orderBtn:hover {
+.orderBtn-small-medium:hover {
 	background-color: #da2c38;
     transform: scale(1.1);
 }
@@ -175,7 +180,7 @@ main div {
 	padding-top: 30px;
 }
 .weather-card {
-	background-color: #87c38f;
+	background-color: aliceblue;
 }
 figcaption {
     text-transform: capitalize;

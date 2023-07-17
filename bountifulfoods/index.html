@@ -27,6 +27,13 @@
         </picture>
       </a>
       </div>
+      <!-- Search Bar is only on large view -->
+      <div class="search">
+        <form action="#">
+          <input class="search-box" type="text" placeholder="🔍︎Search" name="search">
+          <button class="submitBtn" type="submit">🔍︎</button>
+        </form>
+      </div>
       <!-- ICONS -->
       <div id="top-icons">
         <a href="#" target="_blank">
@@ -51,7 +58,13 @@
     </header>
     <!-- MAIN HERE-->
     <main>
-        <picture id="hero">
+      <section id="hero">
+        <!-- Welcome message and orderBtn on large view -->
+        <h3 class="overlay">Welcome to Bountiful Foods</h3>
+        <button class="orderBtn-large" onclick="document.location='fresh.html'">
+          Order Now
+        </button>
+                <picture >
           <source
             media="(min-width:300px) and (max-width:700px)"
             srcset="images/hero-461.jpg"
@@ -63,6 +76,7 @@
           <source media="(min-width:1001px)" srcset="images/hero1382.jpg" />
           <img class="hero-img" src="images/hero1382.jpg" alt="hero-image" />
         </picture> 
+      </section>
       <div class="service">
         <h1 class="title">Our Service</h1>
         <p>
@@ -72,7 +86,8 @@
       <div class="drinkmix">
         <h1 class="title">Fruit Drink Mix</h1>
         <img src="images/drinkmix864.jpg" alt="fruit-img">
-        <button class="orderBtn" onclick="document.location='fresh.html'">
+        <!-- This orderBtn is only on small-medium view -->
+        <button class="orderBtn-small-medium" onclick="document.location='fresh.html'">
           Order Now
         </button>
       </div>

@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1000px){
+    header {
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #my-logo {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .logo-top img {
+        width: 150px; 
+        display: flex;
+    }
+    .navigation {
+        grid-column: 1/4;
+        grid-row: 2/3;  
+    }
+    .navigation a:hover {
+        background-color: #da2c38;
+        color: #f4f0bb ;
+        transform: scale(1.2);
+    }
+    #hamburgerBtn {
+		display: none;
+	}
+    nav ul#primaryNav{
+		display: flex;
+        justify-content: center;
+        background-color: #226f54;
+        padding: 20px 20px;
+    }
+    nav ul li a{
+        border-radius: 10px;
+        box-shadow: none;
+        margin-left: 3vw;  
+        background-color: black;
+        color: aliceblue;
+    }   
+    .search {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .search-box {
+        padding: 20px;
+        border: none;
+      }
+    .submitBtn {
+        color: whitesmoke;
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        font-weight: 900;
+    }
+
+    /* MAIN */
+
+    .orderBtn-small-medium {
+        display: none;
+    }
+    .overlay, .orderBtn-large {
+        display:grid
+    }
+    .hero-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    #hero {
+        position: relative;
+    }
+    .overlay {
+        width: 100%;
+        padding: 50px;
+        position: absolute;
+        text-align: center;
+        font-size: 4rem;
+        color: #f4f0bb;
+    }
+    .orderBtn-large {
+        position: absolute;
+        background-color: #f4f0bb;
+        color: #226f54;
+        top:85%;
+        left: 35%;
+        right:35%;
+        padding: 30px;
+        border-radius: 15px;
+        border: none;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+    .orderBtn-large:hover {
+        background-color: #da2c38;
+        color: #f4f0bb;
+        transform: scale(1.2);
+    }
+}

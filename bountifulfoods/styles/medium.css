@@ -12,6 +12,7 @@
         font-size: 3.5rem;
         margin-top: -80px;
     }
+    /* FOOTER */
     .brand {
         font-size: 40px;
         padding-top: 0;
@@ -25,6 +26,8 @@
     .author{
         font-size: 20px;
     }
+
+    /* MAIN */
     .location {
         display:grid;
         grid-template-columns: 1fr 1fr;

@@ -1,7 +1,7 @@
 //WEATHER API
 // select HTML elements in the document
 const currentTemp = document.querySelector("#temp");
-const weatherIcon = document.querySelector("#img");
+const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("figcaption");
 const humidity = document.querySelector("#humid");
 
@@ -36,7 +36,7 @@ function displayResults(weatherData) {
   const description = weatherData.weather[0].description;
 
   weatherIcon.setAttribute("src", iconsrc);
-  weatherIcon.setAttribute("alt", "description");
+  weatherIcon.setAttribute("alt", "desc");
   weatherDesc.textContent = description;
 }
 apiFetch();

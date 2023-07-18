@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project: Bountiful Foods</title>
+    <meta
+      name="description"
+      content="Bountiful Foods Project Build for Ly Dang in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles/normalize.css" rel="stylesheet" />
+    <link href="styles/small.css" rel="stylesheet" />
+    <link href="styles/medium.css" rel="stylesheet" />
+    <link href="styles/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <!-- LOGO -->
+      <div id="my-logo">
+      <a href="index.html">
+        <picture class="logo-top">
+          <img src="images/my-logo.webp" alt="logo1" />
+        </picture>
+      </a>
+      </div>
+      <!-- Search Bar is only on large view -->
+      <div class="search">
+        <form action="#">
+          <input class="search-box" type="text" placeholder="🔍︎Search" name="search">
+          <button class="submitBtn" type="submit">🔍︎</button>
+        </form>
+      </div>
+      <!-- ICONS -->
+      <div id="top-icons">
+        <a href="#" target="_blank">
+          <img src="images/login-icon64.png" alt="login-icon" />
+        </a>
+        <a href="#" target="_blank">
+          <img src="images/shopping-cart-black64.png" alt="cart-icon" />
+        </a>
+      </div>
+      <!-- NAVIGATION -->
+      <div class="navigation">
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <nav>
+          <ul id="primaryNav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="fresh.html">FRESH</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
+    <!-- MAIN HERE-->
+    <main></main>
+      
+    <!-- FOOTER HERE-->
+    <footer>
+      <section class="social">
+        <picture class="logo-bottom">
+          <img src="images/my-logo.webp" alt="logo2" />
+        </picture>
+        <h3 class="brand">Bountiful Foods</h3>
+        <div>
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb-icon" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter-icon" />
+          </a>
+          <a href="https://instagram.com/" target="_blank">
+            <img src="images/instagram.png" alt="instagram-icon" />
+          </a>
+        </div>
+      </section>
+      <div class="author">&copy;<span id="year"></span> Ly Dang | 🏛 BYU-Idaho | WDD 230 Final Project | Last Modified Date: <span id="currentdate"></span></div>
+    </footer>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/weather.js"></script>
+  </body>
+</html>

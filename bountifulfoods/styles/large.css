@@ -15,11 +15,6 @@
         grid-column: 1/4;
         grid-row: 2/3;  
     }
-    .navigation a:hover {
-        background-color: #da2c38;
-        color: #f4f0bb ;
-        transform: scale(1.2);
-    }
     #hamburgerBtn {
 		display: none;
 	}
@@ -33,7 +28,6 @@
         border-radius: 10px;
         box-shadow: none;
         margin-left: 3vw;  
-        background-color: black;
         color: #f4f0bb;
     }   
     .search {
@@ -54,7 +48,9 @@
     }
 
     /* MAIN */
-
+    main div {
+        padding: 10%;
+    }
     .orderBtn-small-medium {
         display: none;
     }
@@ -74,7 +70,7 @@
         padding: 50px;
         position: absolute;
         text-align: center;
-        font-size: 2rem;
+        font-size: 3.5rem;
         color: #f4f0bb;
     }
     .orderBtn-large {

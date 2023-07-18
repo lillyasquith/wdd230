@@ -48,9 +48,9 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <nav>
           <ul id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="fresh.html">Fresh</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="fresh.html">FRESH</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
           </ul>
         </nav>
       </div>
@@ -78,13 +78,13 @@
         </picture> 
       </section>
       <div class="service">
-        <h1 class="title">Our Service</h1>
+        <h2 class="title">Our Service</h2>
         <p>
           We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and more. We are especially offering “fruit drink mix” where you can mix and match your own fruit flavors.
         </p>
       </div>
       <div class="drinkmix">
-        <h1 class="title">Fruit Drink Mix</h1>
+        <h2 class="title">Fruit Drink Mix</h2>
         <img src="images/drinkmix864.jpg" alt="fruit-img">
         <!-- This orderBtn is only on small-medium view -->
         <button class="orderBtn-small-medium" onclick="document.location='fresh.html'">
@@ -93,7 +93,7 @@
       </div>
       <div class="contact">
         <section class="contact-info">
-          <h1 class="title">Contact Us</h1>
+          <h2 class="title">Contact Us</h2>
           <hr /> <strong></strong>
           <p><strong>Phone: </strong>+1 (123) 2345-2345</p>
           <p><strong>Email: </strong>info@boutifulfoods.com</p>
@@ -101,13 +101,13 @@
           <p><strong>Hours: </strong>Monday – Friday: 9:30 AM to 5:00 PM</p>
         </section>
         <section class="location">
-          <h1 class="title">Our location</h1>
+          <h2 class="title">Our location</h2>
           <p>
             <strong>Brentwood</strong> is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
             <a href="https://www.brentwoodca.gov/government/about">City of Brentwood, CA.</a>
           </p>
           <div>
-            <img class="maps-img" src="images/maps.png">
+            <img class="maps-img" src="images/maps.png" alt="maps">
             <a
             class="maps"
             href="https://goo.gl/maps/hdEZ4txikc8d1Q3L9"
@@ -118,18 +118,21 @@
           
         </section>
       </div>
-      <div class="weather">
-        <h1 class="title">Weather</h1>
-        <div class="weather-card">
-        <figure>
-          <p id="day1"></p>
-          <img src="#" alt="description1" id="img" />
-          <h2 class="number"><span id="temp"></span> &deg;F</h2>
-          <figcaption></figcaption>
-          <p>Humidity: <span id="humid"></span>%</p>
-        </figure>
+      <section class="weather-section">
+        <h2 class="title">Weather</h2>
+        <div class="weather-container">
+          <h3 class="today"></h3>
+          <figure>
+            <img src="#" alt="desc" id="weather-icon" />
+            <h2><span id="temp"></span> &deg;F</h2>
+            <h2><span id="humid"></span> %</h2>
+            <figcaption></figcaption>
+          </figure>
         </div>
-      </div>
+          <div class="forecast">
+            <p><span id="forecast"></span></p>
+          </div> 
+      </section>
     </main>
     <!-- FOOTER HERE-->
     <footer>
@@ -150,7 +153,7 @@
           </a>
         </div>
       </section>
-      <section class="author">&copy;<span id="year"></span> Ly Dang | 🏛 BYU-Idaho | WDD 230 Final Project | Last Modified Date: <span id="currentdate"></span></section>
+      <div class="author">&copy;<span id="year"></span> Ly Dang | 🏛 BYU-Idaho | WDD 230 Final Project | Last Modified Date: <span id="currentdate"></span></div>
     </footer>
     <script src="scripts/home.js"></script>
     <script src="scripts/weather.js"></script>

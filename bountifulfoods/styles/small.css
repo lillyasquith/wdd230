@@ -1,4 +1,4 @@
-:root {
+:root{
 	/*Fonts*/
 	--heading-font: 'Acme', sans-serif;
     --paragrap-font: 'Libre Baskerville', serif;
@@ -6,7 +6,7 @@
 	--primary-color:#226f54;
 	--secondary-color: #f4f0bb ;
 	--accent1-color: #da2c38;
-	--accent2-color: ;
+	--accent2-color: #87c38f;
 }
 * {
     margin: 0;
@@ -71,8 +71,7 @@ nav ul li a {
 	box-shadow: 1px 1px 10px #da2c38;
 }
 nav a:hover {
-	background-color:#87c38f;  
-	color: #da2c38;
+	color: orange;
     transition: 0.5s; 
 }
 nav ul {

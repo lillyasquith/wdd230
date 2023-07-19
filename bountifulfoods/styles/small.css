@@ -137,7 +137,7 @@ body{
 	display: none;
 }
 main div {
-	padding: 20px;
+	padding: 10%;
 }
 .service p{
 	text-align: left;
@@ -169,6 +169,7 @@ main div {
 .maps {
 	color: #226f54;
 	font-weight: 900;
+	
 }
 .contact p {
 	background-color: #cbf0d0;
@@ -184,3 +185,78 @@ main div {
 figcaption {
     text-transform: capitalize;
 }
+
+/* FRESH PAGE */
+#formField {
+	font-size: 18px;
+}
+.formTitle {
+	padding: 20px;
+	color: #226f54;
+	font-family: var(--heading-font);
+}
+.drinks img {
+	width: 100%;
+}
+.drinks-form {
+	padding-top: 30px;
+	color: #012c1d;
+}
+form fieldset {
+    text-align: left;
+    border: 1px solid #87c38f;
+    border-radius: 10px; 
+    margin-bottom: 50px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(221, 251, 210, 0.389);
+}
+form label.top {
+    display: block;
+    padding-top: 10px;
+  	margin-bottom: 20px;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    border: 1px solid #87c38f ;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 17rem;
+    background-color: rgba(152, 149, 149, 0.099);
+    padding: 10px;
+}
+form label.top select {
+    max-width: 18.5rem;
+	color: #012c1d;
+	padding-top: 10px;
+  	margin-bottom: 20px;
+}
+form label.top textarea {
+    padding-bottom: 100px;
+}
+form input.submit-Btn {
+    border: none;
+    background-color: #226f54;
+    color: #f4f0bb;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    max-width: 20rem;
+   
+}
+/* OUTPUTCARD */
+.output-card {
+	border: 1px solid #87c38f;
+	padding: 1rem;
+	margin: 1rem;
+	background-color: rgba(248, 251, 210, 0.389);
+  }
+.inner-grid {
+	display: block;
+  }  
+.is-hidden {
+	display: none;
+  }

@@ -91,4 +91,16 @@
         color: #f4f0bb;
         transform: scale(1.2);
     }
+
+    /* FRESH PAGE */
+    form label.top input, form label.top select, form label.top textarea {
+        min-width: 50rem;
+    }  
+    form label.top select {
+        min-width: 52.5rem;
+    }
+    form input.submit-Btn {
+        padding: 30px;
+        max-width: 30rem;
+    }
 }

@@ -52,4 +52,32 @@
         padding-top: 50px;
 
     }
+    /* FRESH PAGE */
+    #formField {
+        font-size: 30px;
+    }
+    .is-hidden{
+        margin: 30px;    
+    }
+    form fieldset {
+        margin: 50px; 
+    }
+    .formTitle {
+        padding: 30px;  
+    }
+    form label.top {
+        padding-top: 3rem;  
+       
+    }
+    form label.top input, form label.top select, form label.top textarea  {
+        min-width: 30rem;
+        padding: 20px;
+    }
+    form label.top select {
+        min-width: 32.5rem;
+    }
+    form label.top textarea {
+        padding-bottom: 200px;
+    }
+   
 }

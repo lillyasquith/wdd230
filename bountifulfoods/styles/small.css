@@ -12,6 +12,9 @@
     margin: 0;
     padding: 0;
 }
+main {
+	margin: 0 auto;
+}
 header{
 	padding: 10px;
 	align-items: center;
@@ -130,6 +133,15 @@ body{
 	text-align: center;
 	font-size: 18px;
 }
+main {
+	padding: 20px;
+}
+
+main div {
+	box-shadow: 1px 1px 10px #226f54;
+	margin-bottom: 50px;
+}
+
 #hero img {
 	width: 100%;
 }
@@ -144,7 +156,8 @@ body{
 }
 .title {
 	font-family: var(--heading-font);
-	color: #226f54;	
+	color: #226f54;
+	padding: 20px;
 }
 .location h2 {
 	grid-column: 1/3;
@@ -161,22 +174,6 @@ body{
 .orderBtn-small-medium:hover {
 	background-color: #da2c38;
     transform: scale(1.1);
-}
-.pin {
-	width: 30px;
-}
-.maps {
-	color: #226f54;
-	font-weight: 900;
-	
-}
-.contact p {
-	background-color: #cbf0d0;
-	padding: 10px;
-	text-align: left;
-}
-.contact h1 {
-	padding-top: 30px;
 }
 .weather-card {
 	background-color: aliceblue;
@@ -206,8 +203,6 @@ form fieldset {
     border: 1px solid #87c38f;
     border-radius: 10px; 
     margin-bottom: 50px; 
-    margin-left: 20px; 
-    margin-right: 20px;
     padding: 10px;
     background-color: rgba(221, 251, 210, 0.389);
 }
@@ -222,12 +217,12 @@ form label.top input, form label.top select, form label.top textarea {
     border: 1px solid #87c38f ;
     border-radius: 5px;
     width: 100%;
-    max-width: 17rem;
+    max-width: 15rem;
     background-color: rgba(152, 149, 149, 0.099);
     padding: 10px;
 }
 form label.top select {
-    max-width: 18.5rem;
+    max-width: 16.5rem;
 	color: #012c1d;
 	padding-top: 10px;
   	margin-bottom: 20px;
@@ -249,11 +244,13 @@ input[type=number]:hover::-webkit-inner-spin-button {
     height: 50px;
 }
 /* OUTPUTCARD */
+
 .output-card {
 	border: 1px solid #87c38f;
 	padding: 1rem;
 	margin: 1rem;
 	background-color: rgba(248, 251, 210, 0.389);
+	box-shadow: none;
   }
 .inner-grid {
 	display: block;
@@ -274,6 +271,31 @@ input[type=number]:hover::-webkit-inner-spin-button {
     padding: 20px;
     color: #100E39;
 }
-.old-market {
-	width: 80%;
+.background {
+	padding: 10px;
+}
+.background p{
+	padding: 20px;
+}
+.contact-info {
+	background-color: #cbf0d0;
+	text-align: left;
+	margin: 0 10px 20px;
+	padding: 10px;
+}
+.contact-info p{
+	padding-top: 20px;
+}
+.old-market{
+	width:100%;
+}
+.pin {
+	width: 30px;
+}
+.maps {
+	color: #226f54;
+	font-weight: 900;
+}
+.contact-form {
+	padding: 10px;
 }

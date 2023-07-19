@@ -1,5 +1,8 @@
 @media only screen and (min-width: 1000px){
-
+    main {
+        margin: 0 auto;
+        max-width: 2000px;
+    }
     header {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -100,5 +103,13 @@
     form input.submit-Btn {
         padding: 30px;
         max-width: 30rem;
+    }
+    /* ABOUT US  */
+    .contact-info {
+        padding-top: 50px;
+    }
+    .contact-info p {
+        padding: 20px;
+        align-items: center;
     }
 }

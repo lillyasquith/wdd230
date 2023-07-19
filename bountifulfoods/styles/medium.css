@@ -28,7 +28,7 @@
     }
 
     /* MAIN */
-    .location {
+    /* .location {
         display:grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 3fr;
@@ -46,12 +46,6 @@
         grid-column: 2/3;
         grid-row: 2/3;
         /* width: auto; */
-    }
-    .maps-img {
-        width: 100%;
-        padding-top: 50px;
-
-    }
     /* FRESH PAGE */
     #formField {
         font-size: 30px;
@@ -79,6 +73,35 @@
     form label.top textarea {
         padding-bottom: 200px;
     }
-    /* CONTACT PAGE */
-   
+
+    /* ABOUT US */
+    .old-market {
+        width: 50%;
+    }
+    .background p{
+        text-align: left;
+    }
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+    .contact h2 {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .contact-info {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .location {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .findUs {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+        
+
 }

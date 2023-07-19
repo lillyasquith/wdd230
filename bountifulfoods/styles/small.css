@@ -136,9 +136,6 @@ body{
 .overlay, .orderBtn-large {
 	display: none;
 }
-main div {
-	padding: 10%;
-}
 .service p{
 	text-align: left;
 }
@@ -147,8 +144,10 @@ main div {
 }
 .title {
 	font-family: var(--heading-font);
-	color: #226f54;
-	
+	color: #226f54;	
+}
+.location h2 {
+	grid-column: 1/3;
 }
 .orderBtn-small-medium {
 	margin-top: 20px;
@@ -245,7 +244,9 @@ form input.submit-Btn {
     margin-bottom: 50px;
     width: 100%;
     max-width: 20rem;
-   
+}
+input[type=number]:hover::-webkit-inner-spin-button {  
+    height: 50px;
 }
 /* OUTPUTCARD */
 .output-card {
@@ -257,6 +258,22 @@ form input.submit-Btn {
 .inner-grid {
 	display: block;
   }  
-.is-hidden {
+/* .is-hidden {
 	display: none;
-  }
+  } */
+
+/* ABOUT US  */
+.thanks{
+    padding: 30px;
+    background-color: #cbf0d0;
+    text-align: center;
+	height: 100%;
+}
+.thanksTitle
+{
+    padding: 20px;
+    color: #100E39;
+}
+.old-market {
+	width: 80%;
+}

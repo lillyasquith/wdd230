@@ -133,12 +133,8 @@ body{
 	text-align: center;
 	font-size: 18px;
 }
-main {
-	padding: 20px;
-}
 
 main div {
-	box-shadow: 1px 1px 10px #226f54;
 	margin-bottom: 50px;
 }
 
@@ -260,6 +256,9 @@ input[type=number]:hover::-webkit-inner-spin-button {
   } */
 
 /* ABOUT US  */
+#aboutus div {
+	box-shadow: 1px 1px 10px #226f54;
+}
 #thanks{
     padding: 30px;
     background-color: #cbf0d0;

@@ -263,7 +263,7 @@ input[type=number]:hover::-webkit-inner-spin-button {
   } */
 
 /* ABOUT US  */
-.thanks{
+#thanks{
     padding: 30px;
     background-color: #cbf0d0;
     text-align: center;

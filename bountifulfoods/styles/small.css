@@ -170,7 +170,7 @@ body{
 	box-shadow: 1px 1px 10px #226f54;
 	padding: 10px;
 }
-.orderBtn-small-medium, .submit-Btn {
+.orderBtn, .submit-Btn {
 	margin-top: 20px;
 	background-color: #226f54;
 	padding: 20px;

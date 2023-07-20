@@ -22,7 +22,7 @@ document.querySelector("#year2").textContent = currentYear2.getFullYear();
 const datefield = document.querySelector("time");
 // derive the current date using a date object
 const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-UK", {
+const today = new Intl.DateTimeFormat("en-UK", {
   dateStyle: "full",
 }).format(now);
 datefield.textContent = fulldate;

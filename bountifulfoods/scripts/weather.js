@@ -3,6 +3,7 @@
 const currentTemp = document.querySelector("#temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const weatherDesc = document.querySelector("figcaption");
+const currentSpeed = document.querySelector("#speed");
 const humidity = document.querySelector("#humid");
 
 //create an "url" variable using const that stores the API call
@@ -24,10 +25,15 @@ async function apiFetch() {
     console.log(error);
   }
 }
+apiFetch();
+
 function displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
     0
   )}</strong>`;
+  currentSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(
+    0
+  )}</strong> mph`;
   humidity.innerHTML = weatherData.main.humidity.toFixed(
     0
   )
@@ -39,4 +45,11 @@ function displayResults(weatherData) {
   weatherIcon.setAttribute("alt", "desc");
   weatherDesc.textContent = description;
 }
-apiFetch();
+
+// Select the DOM elements to manipulate
+const datefield = document.querySelector("#today");
+// derive the current date using a date object
+const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+let d = new Date();
+let now = d.getDay();
+datefield.textContent = days[now];

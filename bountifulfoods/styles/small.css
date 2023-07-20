@@ -317,3 +317,9 @@ input[type=number]:hover::-webkit-inner-spin-button {
 .findUs {
 	padding-bottom: 10px;
 }
+.bf-title {
+	text-align: center;
+	font-family: var(--heading-font);
+	color: #226f54;
+	padding-top: 30px;
+}

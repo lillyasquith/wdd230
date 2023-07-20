@@ -46,12 +46,12 @@ function displayResults(weatherData) {
 }
 
 // Select the DOM elements to manipulate
-const datefield = document.querySelector("#today");
+const datefield = document.getElementById("today");
 // derive the current date using a date object
-const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-let d = new Date();
-let now = d.getDay();
-datefield.textContent = days[now];
+let date = new Date();
+const currentDate = new Date();
+let day = date.toLocaleString('en-us', {weekday: 'long'});
+datefield.textContent = day;
 
 
 // (3) day temperature forecast

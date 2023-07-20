@@ -78,11 +78,17 @@
     }
 
     /* ABOUT US  */
-    .contact-info {
-        padding-top: 50px;
-    }
     .contact-info p {
         padding: 20px;
         align-items: center;
     }
+    .old-market {
+        width: 300px;
+    }
+    .background {
+        display: flex;
+        padding: 50px;
+    }
+        
+
 }

@@ -135,9 +135,9 @@ body{
 	color: #013321;
 }
 
-welcome-message
-.reach-out {
+.reach-out p{
 	background-color: #f4f0bb;
+	padding-top: 10px;
 }
 .reach-out h2{
 	padding: 10px;

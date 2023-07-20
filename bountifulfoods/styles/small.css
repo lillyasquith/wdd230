@@ -158,17 +158,17 @@ main div {
 .location h2 {
 	grid-column: 1/3;
 }
-.orderBtn-small-medium {
+.orderBtn-small-medium, .submit-Btn {
 	margin-top: 20px;
-	background-color: orangered;
+	background-color: #226f54;
 	padding: 20px;
 	color: #f4f0bb;
 	border: none;
 	border-radius: 15px;
 
 }
-.orderBtn-small-medium:hover {
-	background-color: #da2c38;
+.orderBtn-small-medium:hover, .submit-Btn:hover {
+	background-color: orangered;
     transform: scale(1.1);
 }
 .weather-card {
@@ -190,7 +190,7 @@ figcaption {
 .drinks img {
 	width: 100%;
 }
-.drinks-form {
+#drinks-form {
 	padding-top: 30px;
 	color: #012c1d;
 }

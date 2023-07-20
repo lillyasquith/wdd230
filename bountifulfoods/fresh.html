@@ -71,61 +71,66 @@
         <source media="(min-width:1001px)" srcset="images/fresh1152.png" />
         <img class="hero-img" src="images/fresh1152.png" alt="drinks-image" />
       </picture> 
-      <form class="drinks-form" method="get">
-        <fieldset>
-          <label class="top"
-            >First Name*
-            <input type="text" name="fname" placeholder="Joe" required
-          /></label>
-          <label class="top"
-            >Last Name*
-            <input type="text" name="lname" placeholder="Smith" required
-          /></label>
-          <label class="top"
-            >Phone*
-            <input type="tel" name="phone" placeholder="0123456789" required
-          /></label>
-          <label class="top"
-            >Email*
+      <div class="input-form grid--1-cols">
+        <form id="drinks-form" method="get" onsubmit="submitForm">
+          <fieldset>
+            <label class="top"
+              >First Name*
+              <input id="cxnamef" type="text" name="fname" placeholder="Joe" required
+            /></label>
+            <label class="top"
+              >Last Name*
+              <input id="cxnamel" type="text" name="lname" placeholder="Smith" required
+            /></label>
+            <label class="top"
+              >Phone*
+              <input id="cxnamep" type="tel" name="phone" placeholder="0123456789" required
+            /></label>
+            <label class="top"
+              >Email*
+              <input id="cxnamee"
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top"> Fruit 1
+              <select name="fruit-1" id="option-1">
+                <option value="">Please select</option>
+              </select>
+            <label class="top"
+            > Fruit 2 
+              <select name="fruit-2" id="option-2">
+                <option value="">Please select</option>
+              </select>
+            <label class="top"
+            > Fruit 3 
+              <select name="fruit-3" id="option-3">
+                <option value="">Please select</option>
+              </select>
+            </label>
+            <label class="top">Quantity: <input id="quantity" type="number" name="total-of-drinks" min="0" required></label>
+            <label class="top">Special Instructions: <textarea id="message" name="cx-instructions"></textarea></label>
             <input
-              type="email"
-              name="email"
-              placeholder="someone@gmail.com"
-              required
-          /></label>
-          <label class="top"> Fruit 1
-            <select name="fruit-1" id="option-1">
-              <option value="">Please select</option>
-            </select>
-          <label class="top"
-          > Fruit 2 
-            <select name="fruit-2" id="option-2">
-              <option value="">Please select</option>
-            </select>
-          <label class="top"
-          > Fruit 3 
-            <select name="fruit-3" id="option-3">
-              <option value="">Please select</option>
-            </select>
-          </label>
-          <label class="top">Quantity: <input type="number" name="total-of-drinks" min="0" required></label>
-          <label class="top">Special Instructions: <textarea name="instructions"></textarea></label>
-          <input
-            type="hidden"
-            name="date-time"
-            id="date-time"
-            value="currentDateTime"/>
-        </fieldset>
-        <input type="submit" value="Submit My Order" class="submit-Btn" />
-      </form>
-
+              type="hidden"
+              name="date-time"
+              id="date-time"
+              value="currentDateTime"/>
+          </fieldset>
+          <input type="submit" value="Submit My Order" class="submit-Btn" />
+        </form>
+      </div>
       <!-- OUTPUT AREA -->
-      <div class="output-card is-hidden">
+      <div class="output-card">
         <h3 class="output-title">Order Details</h3>
         <div class="card-info">
           <div class="user-name info">
             <p>Name:</p>
-            <p class="yourName"></p>
+            <p id="name-output" class="yourFname"></p>
+          </div>
+          <div class="user-name info">
+            <p>Name:</p>
+            <p class="yourLname"></p>
           </div>
           <div class="user-tel info">
             <p>Phone:</p>

@@ -269,11 +269,9 @@ input[type=number]:hover::-webkit-inner-spin-button {
   } */
 
 /* ABOUT US  */
-#aboutus section {
-	box-shadow: 1px 1px 10px #226f54;
-}
 .background, .contact {
-	margin: 50px 10px;
+	box-shadow: 1px 1px 10px #226f54;
+	margin: 30px 20px;
 }
 #thanks{
     padding: 30px;
@@ -292,6 +290,7 @@ input[type=number]:hover::-webkit-inner-spin-button {
 .background p{
 	padding: 20px;
 }
+
 .contact-info {
 	background-color: #cbf0d0;
 	text-align: left;

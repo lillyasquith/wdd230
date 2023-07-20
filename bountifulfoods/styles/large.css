@@ -55,10 +55,7 @@
     .orderBtn-small-medium {
         display: none;
     }
-    .overlay, .orderBtn-large {
-        display:grid
-    }
-    .hero-img {
+    /* .hero-img {
         width: 100%;
         height: auto;
         object-fit: cover;
@@ -91,7 +88,7 @@
         background-color: #da2c38;
         color: #f4f0bb;
         transform: scale(1.2);
-    }
+    } */
 
     /* FRESH PAGE */
     form label.top input, form label.top select, form label.top textarea {

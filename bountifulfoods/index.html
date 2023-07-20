@@ -57,34 +57,31 @@
       
     </header>
     <!-- MAIN HERE-->
-    <main>
+    <main id="home">
       <section id="hero">
-        <!-- Welcome message and orderBtn on large view -->
-        <h1 class="overlay">Welcome to Bountiful Foods</h1>
-        <button class="orderBtn-large" onclick="document.location='fresh.html'">
-          Order Now
-        </button>
-        <picture >
-          <source
-            media="(min-width:300px) and (max-width:700px)"
-            srcset="images/hero-461.jpg"
-          />
-          <source
-            media="(min-width:701px) and (max-width:1000px)"
-            srcset="images/hero-829.jpg"
-          />
-          <source media="(min-width:1001px)" srcset="images/hero1382.jpg" />
-          <img class="hero-img" src="images/hero1382.jpg" alt="hero-image" />
-        </picture> 
+        <div>
+          <h1 class="welcome-message">Welcome to Bountiful Foods!</h1>
+          <p>We offer certified fresh organic produce to individuals who seek to intake healthy 
+            products with more nutritious and lower levels of pesticide residue. Our mission is to provide and support healthy eating.</p>
+        </div>
+        <img id="hero-img" src="images/home756.jpg" alt="home-img">
+        <div class="reach-out">
+          <h2>Contact Us</h2>
+          <hr /> <strong></strong>
+          <p><strong>Phone: </strong>+1 (123) 2345-2345</p>
+          <p><strong>Email: </strong>info@boutifulfoods.com</p>
+          <p><strong>Address: </strong>600 Payne Ave, Brentwood, CA 94513</p>
+          <p><strong>Hours: </strong>Monday – Friday: 9:30 AM to 5:00 PM</p>
+        </div>
       </section>
+      
       <div class="service">
         <h2 class="title">Our Service</h2>
         <p>
-        Welcome to Bountiful Foods. We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and 
+        We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and 
         more. We are especially offering “fruit drink mix” where you can mix and match your own fruit flavors. 
         We take online orders, and sell our products at the local ABC farmer market from 9:00 A.M to noon as 
-        well. We offer certified fresh organic produce to individuals who seek to intake healthy 
-        products with more nutritious and lower levels of pesticide residue. Our mission is to provide and support healthy eating.
+        well. 
         </p>
       </div>
       <div class="drinkmix">
@@ -95,22 +92,13 @@
           Order Now
         </button>
       </div>
-      <div class="contact">
-        <section class="contact-info">
-          <h2 class="title">Contact Us</h2>
-          <hr /> <strong></strong>
-          <p><strong>Phone: </strong>+1 (123) 2345-2345</p>
-          <p><strong>Email: </strong>info@boutifulfoods.com</p>
-          <p><strong>Address: </strong>600 Payne Ave, Brentwood, CA 94513</p>
-          <p><strong>Hours: </strong>Monday – Friday: 9:30 AM to 5:00 PM</p>
-        </section>
-        <section class="location">
-          <h2 class="title">Our location</h2>
-          <p>
-            <strong>Brentwood</strong> is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
-            <a href="https://www.brentwoodca.gov/government/about">City of Brentwood, CA.</a>
-          </p> 
-        </section>
+      <div class="location-info">
+        <h2 class="title">Brentwood Area</h2>
+        <img id="brentwood-img" src="images/brentwood893.jpg" alt="bw">
+        <p>
+          <strong>Brentwood</strong> is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
+          <a href="https://www.brentwoodca.gov/government/about">City of Brentwood, CA.</a>
+        </p> 
       </div>
       <section class="weather-section">
         <h2 class="title">Weather</h2>
@@ -119,7 +107,7 @@
           <figure>
             <img src="#" alt="desc" id="weather-icon" />
             <h2><span id="temp"></span> &deg;F</h2>
-            <h2><span id="humid"></span> %</h2>
+            <p>Humidity: <span id="humid"></span> %</p>
             <figcaption></figcaption>
           </figure>
         </div>
@@ -127,6 +115,7 @@
             <p><span id="forecast"></span></p>
           </div> 
       </section>
+      
     </main>
     <!-- FOOTER -->
     <footer>

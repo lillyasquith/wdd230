@@ -188,9 +188,9 @@ welcome-message
 	border-radius: 15px;
 
 }
-.orderBtn-small-medium:hover, .submit-Btn:hover {
+.orderBtn:hover, .submit-Btn:hover {
 	background-color: orangered;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .about-location p {
 	padding: 10px;

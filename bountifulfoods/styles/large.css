@@ -86,6 +86,9 @@
         justify-items: center;
         gap: 20px;
     }
+    .orderBtn {
+        padding: 30px;
+    }
     #location-info {
         display: flex;
         align-items: center;

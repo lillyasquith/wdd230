@@ -168,7 +168,6 @@ welcome-message
 }
 .service, .drinkmix, .location-info, .weather-section {
 	box-shadow: 1px 1px 10px #226f54;
-	padding: 20px;
 	margin: 20px;
 }
 .orderBtn, .submit-Btn {

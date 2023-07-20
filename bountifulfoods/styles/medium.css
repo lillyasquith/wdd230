@@ -75,6 +75,9 @@
     }
 
     /* ABOUT US */
+    .background, .contact {
+        margin: 100px 50px;
+    }
     .old-market {
         width: 50%;
     }

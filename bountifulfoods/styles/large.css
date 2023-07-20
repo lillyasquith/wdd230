@@ -73,10 +73,24 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .location-info {
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .drinkmix {
+        display: grid;
+        justify-items: center;
+        gap: 20px;
+    }
+    #location-info {
         display: flex;
         align-items: center;
+        gap: 30px;
+        padding: 20px;
+        text-align: left;
     }
+    
     /* FRESH PAGE */
     form label.top input, form label.top select, form label.top textarea {
         min-width: 50rem;
@@ -89,8 +103,8 @@
         max-width: 30rem;
     }
 
-    .drinkmix img, #brentwood-img {
-        width: 30%;
+    #brentwood-img  {
+        width: 50%;
     }
 
     /* ABOUT US  */

@@ -154,10 +154,14 @@ welcome-message
 	width: 80%;
 	box-shadow: 1px 1px 20px grey;
 }
-.service p{
-	text-align: left;
-}
+
 .drinkmix img, .maps-img, #brentwood-img  {
+	max-width: 100%;
+}
+.products {
+	padding: 10px;
+}
+.products img {
 	max-width: 100%;
 }
 .title {
@@ -165,10 +169,15 @@ welcome-message
 	font-family: var(--heading-font);
 	color: #226f54;
 	padding: 10px;
+	font-size: 30px;
 }
-.service, .drinkmix, .location-info, .weather-section {
+.service, .drinkmix, .about-location, .weather-section {
 	box-shadow: 1px 1px 10px #226f54;
-	margin: 20px;
+	margin: 50px 20px;
+	padding: 20px;
+}
+.drinkmix p{
+	padding: 20px;
 }
 .orderBtn, .submit-Btn {
 	margin-top: 20px;
@@ -183,13 +192,16 @@ welcome-message
 	background-color: orangered;
     transform: scale(1.1);
 }
-.weather-card {
-	background-color: aliceblue;
+.about-location p {
+	padding: 10px;
 }
 figcaption {
     text-transform: capitalize;
+	padding: 20px;
 }
-
+.weather-container p, .weather-container figure {
+	padding: 10px;
+}
 /* FRESH PAGE */
 #formField {
 	font-size: 18px;

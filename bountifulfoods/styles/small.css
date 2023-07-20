@@ -256,8 +256,9 @@ input[type=number]:hover::-webkit-inner-spin-button {
   } */
 
 /* ABOUT US  */
-#aboutus div {
+#aboutus section {
 	box-shadow: 1px 1px 10px #226f54;
+	gap: 20px;
 }
 #thanks{
     padding: 30px;

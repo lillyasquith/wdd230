@@ -52,14 +52,21 @@
 
     /* MAIN */
     #hero {
-        display: flex;
-        padding: 20px;
+        display: grid;
+        padding: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .welcome-message {
+        grid-column: 2/3;
+        grid-row: 1/2;
+   }
+    .reach-out {
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
     #hero-img {
-        width: 30%;
-    }
-    .reach-out {
-        text-align: left;
+        grid-row: 1/3;
     }
     /* FRESH PAGE */
     form label.top input, form label.top select, form label.top textarea {

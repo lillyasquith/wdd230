@@ -58,8 +58,8 @@
     </header>
     <!-- MAIN HERE-->
     <main id="home">
-      <section id="hero">
-        <img id="hero-img" src="images/home756.jpg" alt="home-img">
+      <div id="hero">
+        <img id="hero-img" src="images/home.jpg" alt="home-img">
         <div>
           <h1 class="welcome-message">Welcome to Bountiful Foods!</h1>
           <p>We offer certified fresh organic produce to individuals who seek to intake healthy 
@@ -73,49 +73,49 @@
           <p><strong>Address: </strong>600 Payne Ave, Brentwood, CA 94513</p>
           <p><strong>Hours: </strong>Monday – Friday: 9:30 AM to 5:00 PM</p>
         </div>
-      </section>
-      
-      <div class="service">
-        <h2 class="title">Our Service</h2>
-        <p>
-        We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and 
-        more. We are especially offering “fruit drink mix” where you can mix and match your own fruit flavors. 
-        We take online orders, and sell our products at the local ABC farmer market from 9:00 A.M to noon as 
-        well. 
-        </p>
       </div>
-      <div class="drinkmix">
-        <h2 class="title">Fruit Drink Mix</h2>
-        <img src="images/drinkmix864.jpg" alt="fruit-img">
-      </div>
-      <button class="orderBtn" onclick="document.location='fresh.html'">
-        Order Now
-      </button>
-      <div class="location-info">
-        <h2 class="title">Brentwood Area</h2>
-        <img id="brentwood-img" src="images/brentwood893.jpg" alt="bw">
-        <p>
-          <strong>Brentwood</strong> is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
-          <a href="https://www.brentwoodca.gov/government/about">City of Brentwood, CA.</a>
-        </p> 
-      </div>
-      <section class="weather-section">
-        <h2 class="title">Weather</h2>
-        <div class="weather-container">
-          <h3 id="today">Weekday</h3>
-          <figure>
-            <img src="#" alt="desc" id="weather-icon" />
-            <h2><span id="temp"></span> &deg;F</h2>
-            <figcaption></figcaption>
-          </figure>
-          <hr>
-          <p>Wind Speed: <span id="speed"></span></p>
-          <p>Humidity: <span id="humid"></span> %</p>
+      <div id="section-cards">
+        <div class="service">
+          <h2 class="title">Our Service</h2>
+          <p>
+          We produce fresh, organic, locally grown goods including juice, fresh and dried fruits, vegetables, herbs, and 
+          more. We are especially offering “fruit drink mix” where you can mix and match your own fruit flavors. 
+          We take online orders, and sell our products at the local ABC farmer market from 9:00 A.M to noon as 
+          well. 
+          </p>
         </div>
-        <div id="cards">
-        </div> 
-      </section>
-      
+        <div class="drinkmix">
+          <h2 class="title">Fruit Drink Mix</h2>
+          <img src="images/drinkmix864.jpg" alt="fruit-img">
+        </div>
+        <button class="orderBtn" onclick="document.location='fresh.html'">
+          Order Now
+        </button>
+        <div class="location-info">
+          <h2 class="title">Brentwood Area</h2>
+          <img id="brentwood-img" src="images/brentwood893.jpg" alt="bw">
+          <p>
+            <strong>Brentwood</strong> is a charming and desirable community for residents and businesses alike. Incorporated in 1948, Brentwood is located in the far Eastern Contra Costa County region of the San Francisco Bay Area. In the late spring and summer months, area farms are brimming with agri-tourists seeking out the latest stone fruits, corn and cherries. Source by:
+            <a href="https://www.brentwoodca.gov/government/about">City of Brentwood, CA.</a>
+          </p> 
+        </div>
+        <section class="weather-section">
+          <h2 class="title">Weather</h2>
+          <div class="weather-container">
+            <h3 id="today">Weekday</h3>
+            <figure>
+              <img src="#" alt="desc" id="weather-icon" />
+              <h2><span id="temp"></span> &deg;F</h2>
+              <figcaption></figcaption>
+            </figure>
+            <hr>
+            <p>Wind Speed: <span id="speed"></span></p>
+            <p>Humidity: <span id="humid"></span> %</p>
+          </div>
+          <div id="cards">
+          </div> 
+        </section>
+      </div>
     </main>
     <!-- FOOTER -->
     <footer>

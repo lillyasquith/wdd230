@@ -65,7 +65,7 @@
         grid-row: 1/2;
    }
    .welcome-message p {
-    padding: 20px;
+    padding: 50px 0 10px 10px;
    }
     .reach-out {
         grid-column: 2/3;

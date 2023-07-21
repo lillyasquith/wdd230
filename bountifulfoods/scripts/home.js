@@ -27,6 +27,6 @@ if (displayDrinks !== null) {
   if (numberOfDrinks !== 0) {
     displayDrinks.innerHTML = numberOfDrinks;
   } else {
-    displayDrinks.innerHTML = "You have not made any orders yet.";
+    displayDrinks.innerHTML = 0;
   }
 }

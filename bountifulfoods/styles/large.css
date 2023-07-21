@@ -56,9 +56,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        gap: 30px;
+        gap: 50px;
         align-items: center;
         padding: 20px;
+        text-align: left;
     }
     .welcome-message {
         grid-column: 2/3;
@@ -83,10 +84,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+       
     }
     .service p{
         margin: 20px;
         padding: 20px;
+        text-align: left;
     }
     .drinkmix {
         display: grid;

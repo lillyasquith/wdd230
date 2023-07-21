@@ -92,10 +92,9 @@
         display: grid;
         gap: 20px;
         justify-content: center;
+        justify-items: center;
     }
-    .orderBtn {
-        padding: 30px;
-    }
+
     #location-info {
         display: flex;
         align-items: center;

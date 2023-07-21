@@ -191,6 +191,10 @@ body{
 	background-color: orangered;
     transform: scale(1.2);
 }
+#total-drinks {
+	text-decoration: underline;
+	color: #226f54;
+}
 .about-location p {
 	padding: 10px;
 }

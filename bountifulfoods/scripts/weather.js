@@ -27,15 +27,9 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(weatherData) {
-  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(
-    0
-  )}</strong>`;
-  currentSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(
-    0
-  )}</strong> mph`;
-  humidity.innerHTML = weatherData.main.humidity.toFixed(
-    0
-  )
+  currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
+  currentSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong> mph`;
+  humidity.innerHTML = weatherData.main.humidity.toFixed(0);
 
   const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
   const description = weatherData.weather[0].description;
@@ -62,8 +56,7 @@ async function fetchForecastData() {
     const response = await fetch(forecastUrl);
     if (response.ok) {
       const data = await response.json();
-      console.log(data)
-      //showWeatherdata(data.forecastData);
+      showWeatherdata(data.forecastData);
     } else {
       throw Error(await response.text());
     }
@@ -74,6 +67,7 @@ async function fetchForecastData() {
 fetchForecastData();
 
 const forecastcards = document.getElementById("cards");
+
 function showWeatherdata(forecastData) {
   forecastcards.innerHTML = "";
 

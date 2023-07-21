@@ -71,57 +71,25 @@
         <source media="(min-width:1001px)" srcset="images/fresh1152.png" />
         <img class="hero-image" src="images/fresh1152.png" alt="drinks-image" />
       </picture> 
-      <div class="input-form">
-        <form id="drinks-form" method="get" onsubmit="submitForm">
+      <div class="input">
+        <form id="drinks-form" method="get" onsubmit="submitForm(event)">
           <fieldset>
-            <label class="top"
-              >First Name*
-              <input id="cxnamef" type="text" name="fname" placeholder="Joe" required
-            /></label>
-            <label class="top"
-              >Last Name*
-              <input id="cxnamel" type="text" name="lname" placeholder="Smith" required
-            /></label>
-            <label class="top"
-              >Phone*
-              <input id="cxnamep" type="tel" name="phone" placeholder="0123456789" required
-            /></label>
-            <label class="top"
-              >Email*
-              <input id="cxnamee"
-                type="email"
-                name="email"
-                placeholder="someone@gmail.com"
-                required
-            /></label>
-            <label class="top"> Fruit 1
-              <select name="fruit-1" id="option-1">
-                <option value="">Please select</option>
-              </select>
-            </label>
-            <label class="top"> Fruit 2 
-              <select name="fruit-2" id="option-2">
-                <option value="">Please select</option>
-              </select>
-            </label>
-            <label class="top"> Fruit 3 
-              <select name="fruit-3" id="option-3">
-                <option value="">Please select</option>
-              </select>
-            </label>
-            <label class="top">Quantity: <input id="quantity" type="number" name="total-of-drinks" min="0" required></label>
-            <label class="top">Special Instructions: <textarea id="message" name="cx-instructions"></textarea></label>
-            <input
-              type="hidden"
-              name="date-time"
-              id="date-time"
-              value="currentDateTime"/>
+            <label class="top">First Name*<input id="f-name" type="text" name="fname" placeholder="Joe" required/></label>
+            <label class="top">Last Name*<input id="l-name" type="text" name="lname" placeholder="Smith" required/></label>
+            <label class="top">Phone*<input id="p-num" type="tel" name="phone" placeholder="0123456789" required/></label>
+            <label class="top">Email*<input id="e-mail" type="email" name="email" placeholder="someone@gmail.com" required/></label>
+            <label class="top">Fruit 1<select id="option-1" name="fruit-1"><option value="">Please select</option></select></label>
+            <label class="top">Fruit 2<select id="option-2" name="fruit-2"><option value="">Please select</option></select></label>
+            <label class="top">Fruit 3<select id="option-3" name="fruit-3"><option value="">Please select</option></select></label>
+            <label class="top">Quantity<input id="quantity" type="number" name="total-of-drinks" min="0" required></label>
+            <label class="top">Special Instructions<textarea id="message" name="instructions"></textarea></label>
+            <input type="hidden" name="date-time" id="date-time" value="currentDateTime"/>
           </fieldset>
           <input type="submit" value="Submit My Order" class="submit-Btn" />
         </form>
       </div>
       <!-- OUTPUT AREA -->
-      <div class="output-card"></div>
+      <div class="output"></div>
     </main>
       
     <!-- FOOTER HERE-->
@@ -147,5 +115,6 @@
     </footer>
     <script src="scripts/home.js"></script>
     <script src="scripts/fresh.js"></script>
+    <script src="outputcard.js"></script>
   </body>
 </html>

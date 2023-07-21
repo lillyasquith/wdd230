@@ -33,17 +33,3 @@ const displayFruits = (fruits) => {
   });
 };
 
-const copyInputToOutput = () => {
-  const nameInput = document.querySelector("#cxnamef"); 
-  const nameOutput = document.querySelector("#name-output");
-  nameInput.addEventListener('change', () => {
-    nameOutput.innerHtml = nameInput.getAttribute("value");
-  })
-}
-
-copyInputToOutput();
-
-const submitForm = (e) => {
-  e.preventDefault();
-  debugger;
-}

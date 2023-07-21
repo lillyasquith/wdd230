@@ -136,22 +136,21 @@ body{
 }
 
 .reach-out p{
-	background-color: #f4f0bb;
 	padding-top: 10px;
 }
 .reach-out h2{
-	padding: 10px;
+	padding-top: 50px;
 	color: #226f54;
 }
 #hero{
 	background-color: #f4f0bb;
 	padding: 10px;
 }
-.welcome-message {
+.welcome-message h2 {
 	color: #226f54;
 }
 #hero-img{
-	width: 80%;
+	width: 100%;
 	box-shadow: 1px 1px 20px grey;
 }
 

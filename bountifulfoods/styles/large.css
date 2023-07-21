@@ -54,22 +54,22 @@
     /* MAIN */
     #hero {
         display: grid;
-        padding: 50px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        gap: 30px;
         align-items: center;
-        justify-items: center;
+        padding: 20px;
     }
     .welcome-message {
         grid-column: 2/3;
         grid-row: 1/2;
    }
+   .welcome-message p {
+    padding: 20px;
+   }
     .reach-out {
         grid-column: 2/3;
         grid-row: 2/3;
-    }
-    .reach-out p{
-        padding-top: 20px;
     }
     #hero-img {
         grid-row: 1/3;
@@ -84,10 +84,14 @@
         flex-direction: column;
         justify-content: center;
     }
+    .service p{
+        margin: 20px;
+        padding: 20px;
+    }
     .drinkmix {
         display: grid;
-        justify-items: center;
         gap: 20px;
+        justify-content: center;
     }
     .orderBtn {
         padding: 30px;

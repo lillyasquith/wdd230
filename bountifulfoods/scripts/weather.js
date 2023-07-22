@@ -91,7 +91,7 @@ function showWeatherdata(weatherData) {
 
     const iconsrc = `https://openweathermap.org/img/wn/${
       dayData.weather[0].icon
-    }@4x.png`;
+    }@2x.png`;
 
     document.querySelector(`#day${i}-temp`).textContent = temp + "°F";
 

@@ -105,7 +105,7 @@
         </div>
       </section>
       <section class="weather-section">
-        <h2 class="title">Weather</h2>
+        <!-- <h2 class="title">Weather</h2>
         <div class="weather-container">
           <h3 id="today">Weekday</h3>
           <figure>
@@ -117,7 +117,33 @@
           <p>Wind Speed: <span id="speed"></span></p>
           <p>Humidity: <strong><span id="humid"></span></strong> %</p>
         </div>
-        <div id="cards"></div> 
+        <div id="cards"></div>  -->
+        <!-- Forecast for 3 days -->
+        <div title="weather" id="weather">
+          <h2 class="title">Weather</h2>
+          <div id="forecast">
+            <div id="day1">
+              <h3 class="today">Weekday</h3>
+              <img id="day1-icon" src="#" alt="weather icon">
+              <span id="day1-temp"></span>
+              <p id="day1-figcaption"></p>
+            </div>
+    
+            <div id="day2">
+              <h3 class="tmr">Weekday</h3>
+              <img id="day2-icon" src="#" alt="weather icon">
+              <span id="day2-temp"></span>
+              <p id="day2-figcaption"></p>
+            </div>
+    
+            <div id="day3">
+              <h3 class="tfd">Weekday</h3>
+              <img id="day3-icon" src="#" alt="weather icon">
+              <span id="day3-temp"></span>
+              <p id="day3-figcaption"></p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <!-- FOOTER -->

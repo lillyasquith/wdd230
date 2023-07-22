@@ -109,7 +109,9 @@
         padding: 20px;
         text-align: left;
     }
-    
+    #forecast {
+        gap: 50px;
+    }
     /* FRESH PAGE */
     form label.top input, form label.top select, form label.top textarea {
         min-width: 50rem;

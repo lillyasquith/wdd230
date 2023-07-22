@@ -203,10 +203,10 @@ body{
 	padding: 20px;
 }
 #weather {
-	font-display: block;
+	display: block;
 }
 #weather div {
-	padding: 10px;
+	padding: 20px;
 }
 #day1, #day2, #day3 {
 	margin-top: 20px;
@@ -218,6 +218,7 @@ body{
 .date1, .date2, .date3 {
 	color: #226f54;
 	font-weight: 900;
+	padding: 20px;
 }
 /* FRESH PAGE */
 #formField {

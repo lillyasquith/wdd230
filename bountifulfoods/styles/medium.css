@@ -31,11 +31,14 @@
     .title {
         font-size: 50px;
     }
-    #weather div {
-        padding: 50px;
+    #forecast {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
     }
-    #day1, #day2, #day3 {
-        margin-top: 50px;
+    #forecast div {
+        width: 100%;
     }
     /* FRESH PAGE */
     #formField {

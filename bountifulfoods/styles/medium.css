@@ -34,6 +34,9 @@
     #weather div {
         padding: 50px;
     }
+    #day1, #day2, #day3 {
+        margin-top: 50px;
+    }
     /* FRESH PAGE */
     #formField {
         font-size: 30px;

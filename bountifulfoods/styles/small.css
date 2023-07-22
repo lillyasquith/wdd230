@@ -209,8 +209,9 @@ body{
 	padding: 10px;
 }
 #day1, #day2, #day3 {
-	box-shadow: 1px 1px 20px gainsboro;
 	margin-top: 20px;
+	background-color: #eef5f0;
+	border: 1px solid #226f54;
 }
 #weather span {
 	font-weight: 900;

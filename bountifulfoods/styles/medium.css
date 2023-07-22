@@ -31,7 +31,9 @@
     .title {
         font-size: 50px;
     }
-    
+    #weather div {
+        padding: 50px;
+    }
     /* FRESH PAGE */
     #formField {
         font-size: 30px;

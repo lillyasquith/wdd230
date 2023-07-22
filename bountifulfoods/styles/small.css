@@ -198,12 +198,22 @@ body{
 .about-location p {
 	padding: 10px;
 }
-figcaption {
+#day1-figcaption {
     text-transform: capitalize;
 	padding: 20px;
 }
-.weather-container p, .weather-container figure {
+#weather {
+	font-display: block;
+}
+#weather div {
 	padding: 10px;
+}
+#day1, #day2, #day3 {
+	box-shadow: 1px 1px 20px gainsboro;
+	margin-top: 20px;
+}
+#weather span {
+	font-weight: 900;
 }
 /* FRESH PAGE */
 #formField {

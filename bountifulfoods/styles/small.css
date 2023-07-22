@@ -210,7 +210,6 @@ body{
 }
 #day1, #day2, #day3 {
 	margin-top: 20px;
-	background-color: #eef5f0;
 	border: 1px solid #226f54;
 }
 #weather span {
@@ -219,6 +218,7 @@ body{
 /* FRESH PAGE */
 #formField {
 	font-size: 18px;
+	background-color: #fdfdf6;
 }
 .formTitle {
 	padding: 20px;

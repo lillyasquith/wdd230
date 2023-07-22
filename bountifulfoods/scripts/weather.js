@@ -74,6 +74,8 @@ function showWeatherdata(weatherData) {
 
     const desc = dayData.weather[0].description;
 
+    const humid = dayData.main.humidity.toFixed(0);
+
     const iconsrc = `https://openweathermap.org/img/w/${dayData.weather[0].icon}.png`;
 
     document.querySelector(`#day${i}-temp`).textContent = temp + "°F";
@@ -84,6 +86,7 @@ function showWeatherdata(weatherData) {
 
     document.querySelector(`#day${i}-icon`).setAttribute("alt", desc);
 
+    document.querySelector(`#day${i}-humid`).textContent = humid;
   }
 
 }

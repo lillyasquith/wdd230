@@ -39,13 +39,26 @@
 //   weatherDesc.textContent = description;
 // }
 
-const datefield = document.querySelector(".today");
-let date = new Date();
-let day = date.toLocaleString('en-us', {weekday: 'long'});
-datefield.textContent = day;
-
 
 // (3) day temperature forecast
+
+const today = document.querySelector(".date1");
+let d = new Date();
+let day1 = d.toLocaleString('en-us', {weekday: 'long'});
+today.textContent = day1;
+
+const tmr = document.querySelector(".date2");
+let tomorrow = new Date(d)
+tomorrow.setDate(tomorrow.getDate()+ 1)
+let day2 = tomorrow.toLocaleString('en-us', {weekday: 'long'});
+tmr.textContent = day2;
+
+const tfd = document.querySelector(".date3");
+let thefollowingDay = new Date(d)
+thefollowingDay.setDate(thefollowingDay.getDate()+ 2)
+let day3 = thefollowingDay.toLocaleString('en-us', {weekday: 'long'});
+tfd.textContent = day3;
+
 const forecastUrl = 
   "https://api.openweathermap.org/data/2.5/forecast?lat=37.93836&lon=-121.71035&units=imperial&appid=c997a331d2044e07373c41f6ea65c0c4"
 async function fetchForecastData() {
@@ -76,7 +89,9 @@ function showWeatherdata(weatherData) {
 
     const humid = dayData.main.humidity.toFixed(0);
 
-    const iconsrc = `https://openweathermap.org/img/w/${dayData.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${
+      dayData.weather[0].icon
+    }@4x.png`;
 
     document.querySelector(`#day${i}-temp`).textContent = temp + "°F";
 

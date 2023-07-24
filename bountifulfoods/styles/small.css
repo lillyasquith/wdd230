@@ -355,7 +355,7 @@ input[type=number]:hover::-webkit-inner-spin-button {
 .order-title {
 	font-family: var(--heading-font);
 	color: #226f54;
-	padding: 10px;
+	padding: 30px;
 }
 .output p{
 	padding: 20px;

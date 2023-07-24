@@ -352,3 +352,14 @@ input[type=number]:hover::-webkit-inner-spin-button {
 	color: #226f54;
 	padding-top: 30px;
 }
+.order-title {
+	font-family: var(--heading-font);
+	color: #226f54;
+	padding: 10px;
+}
+.output p{
+	padding: 20px;
+}
+.output {
+	box-shadow: 1px 1px 10px #226f54;
+}

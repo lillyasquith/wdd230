@@ -72,7 +72,7 @@
         <img class="hero-image" src="images/fresh1152.png" alt="drinks-image" />
       </picture> 
       <div class="input">
-        <form id="drinks-form" method="get" onsubmit="submitForm(event)">
+        <form id="drinks-form" method="get">
           <fieldset>
             <label class="top">First Name*<input id="f-name" type="text" name="fname" placeholder="Joe" required/></label>
             <label class="top">Last Name*<input id="l-name" type="text" name="lname" placeholder="Smith" required/></label>
@@ -85,11 +85,27 @@
             <label class="top">Special Instructions<textarea id="message" name="instructions"></textarea></label>
             <input type="hidden" name="date-time" id="date-time" value="currentDateTime"/>
           </fieldset>
-          <input type="submit" value="Submit My Order" class="submit-Btn" />
+          <input type="button" value="Submit My Order" class="submit-Btn" />
         </form>
       </div>
       <!-- OUTPUT AREA -->
-      <div class="output"></div>
+     
+      <div class="output">
+        <h2 class="order-title">Order Details</h2>
+        <p><strong>First Name:</strong> <span id="nameF"></span></p>
+        <p><strong>Last Name:</strong> <span id="nameL"></span></p>
+        <p><strong>Phone:</strong> <span id="phone-number"></span></p>
+        <p><strong>Email:</strong> <span id="my-email"></span></p>
+        <p><strong>Fruit Mix:</strong></p>
+          <p>
+            <span id="fruit1"></span> -
+            <span id="fruit2"></span> -
+            <span id="fruit3"></span>
+          </p>
+        <p><strong>Quantity:</strong> <span id="total-drinks"></span></p>
+        <p><strong>Instructions:</strong> <span id="text-output"></span></p>
+        <p><strong>Ordered Date:</strong> <span id="time-output"></span></p>
+      </div>
     </main>
       
     <!-- FOOTER HERE-->

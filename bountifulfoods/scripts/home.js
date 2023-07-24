@@ -27,6 +27,6 @@ if (displayDrinks !== null) {
   if (numberOfDrinks !== 0) {
     displayDrinks.innerHTML = numberOfDrinks;
   } else {
-    displayDrinks.innerHTML = 0;
+    displayDrinks.innerHTML = "0";
   }
 }
